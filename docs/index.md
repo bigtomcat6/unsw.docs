@@ -4,12 +4,12 @@ layout: home
 
 hero:
   name: "How's UNSW Docs"
-  text: "By ❤️"
-  tagline: My great project tagline
+  # text: "By ❤️"
+  tagline: By ❤️
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: DESN2000
+      link: /DESN2000
     - theme: alt
       text: API Examples
       link: /api-examples
