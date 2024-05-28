@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: brand
+      text: MATH2099
+      link: /MATH2099/Statistics/mobius/index
 
 features:
   - title: Feature A

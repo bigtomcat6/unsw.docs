@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-task-lists": "^2.1.1",
     "vitepress": "^1.2.2"
   }
 }
