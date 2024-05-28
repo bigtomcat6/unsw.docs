@@ -13,11 +13,7 @@ export default defineConfig({
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
-<<<<<<< Updated upstream
-    sidebar: [
-=======
     sidebar: {
->>>>>>> Stashed changes
       // {
       //   text: 'Examples',
       //   items: [
@@ -25,9 +21,6 @@ export default defineConfig({
       //     { text: 'Runtime API Examples', link: '/api-examples' }
       //   ]
       // }
-<<<<<<< Updated upstream
-    ],
-=======
       '/MATH2099/': [
         {
           text: 'MATH2099 - Statistics',
@@ -37,26 +30,20 @@ export default defineConfig({
         }
       ]
     },
->>>>>>> Stashed changes
 
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
-<<<<<<< Updated upstream
-    
+    // ] 
   },
   markdown: {
     image: {
       // 默认禁用图片懒加载
       lazyLoading: true
-=======
-  },
-  markdown: {
+    },
     math: true,
     config: (md) => {
       md.use(markdownItTaskLists, {label: true})
       // md.use(markdownItCheckbox)
->>>>>>> Stashed changes
     }
   }
 })
