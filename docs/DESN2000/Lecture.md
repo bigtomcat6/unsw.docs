@@ -1,8 +1,13 @@
-# Lecture Notes
-
+---
+title: Lecture Notes
+author:
+createTime: 2024/05/28 19:51:17
+permalink: /DESN2000/Lecture
+---
 
 ## Week 1 Monday
 
+> [!NOTE]
 > IDE: `STM32CubeIDE` - 1.15.1
 
 ### Getting Started with cubeIDE
@@ -20,7 +25,7 @@
 
 ::: details 如何创建项目
 
-> [!TIP] 提示
+> [!TIP]
 > 按照图示顺序操作
 
 * `File` → `New` → `STM32 Project`
@@ -81,4 +86,76 @@ MacOS: `⌥` + `/` 开启代码补全
 :::
 
 
+在 `while(1)` 中加入
 
+```c
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, 1);		// LED ON
+	  HAL_Delay(500);								// Sleep 5000ms
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, 0);		// LED OFF
+	  HAL_Delay(500);								// Sleep 5000ms
+  }
+  /* USER CODE END 3 */
+```
+
+或者使用`HAL_GPIO_TogglePin`函数。
+
+```c
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_5);
+      HAL_Delay(500);
+  }
+  /* USER CODE END 3 */
+```
+
+#### 点亮外部板的LED
+
+###### 1. 在`main.h` 的 `Private defines` 中 define LED的引脚
+
+```c
+/* USER CODE BEGIN Private defines */
+#define D1_GPIO_Port GPIOB
+#define D1_Pin GPIO_PIN_10
+/* USER CODE END Private defines */
+```
+
+###### 2. 将`main.c` 的 `while(1)` 中的代码替换
+
+```c
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);		// LED ON
+//	  HAL_Delay(500);								// Sleep 5000ms
+//	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);		// LED OFF
+//	  HAL_Delay(500);								// Sleep 5000ms
+
+	  // OR
+	  HAL_GPIO_TogglePin(D1_GPIO_Port, D1_Pin);		// Switch Status // [!code focus]
+	  HAL_Delay(500); // [!code focus]
+  }
+  /* USER CODE END 3 */
+```
+
+
+然后初始化端口
+
+---

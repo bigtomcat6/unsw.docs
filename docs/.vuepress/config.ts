@@ -5,11 +5,11 @@ import { viteBundler } from '@vuepress/bundler-vite'
 /** Theme **/
 
 // VuePress default theme
-// import { defaultTheme } from '@vuepress/theme-default' 
+import { defaultTheme } from '@vuepress/theme-default' 
 
 // Plume theme
 // https://plume.pengzhanbo.cn/
-import { plumeTheme } from 'vuepress-theme-plume'
+import { definePlumeNotesConfig, plumeTheme } from 'vuepress-theme-plume'
 
 /**********/
 
@@ -25,12 +25,44 @@ export default defineUserConfig({
 
     navbar: [
       { text: 'Home', link: '/'},
-      { text: 'Get Started', link: '/get-started'},
+      // { text: 'Get Started', link: '/get-started' },
       { text: 'DESN2000', link: '/DESN2000/index' }
     ],
-    footer: false,
-  }),
 
+    notes: {
+      dir: '/',
+      link: '/',
+      notes: [
+        {
+          dir: 'DESN2000',
+          link: '/DESN2000/',
+          sidebar: [
+            {
+              text: 'DESN2000',
+              collapsed: true,
+              items: ['Lecture']
+            }
+          ]
+        }
+
+      ]
+    },
+
+    footer: false,
+    plugins: {
+      search: false,
+    },
+    
+  }),
+  markdown: {
+    frontmatter: {
+      
+    }
+  },
+
+  head: [
+    ['link', { rel: 'stylesheet', href: '/style.scss' }],
+  ],
 
   bundler: viteBundler(),
 })
