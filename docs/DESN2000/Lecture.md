@@ -52,7 +52,7 @@ permalink: /DESN2000/Lecture
 
  在左侧`Project Explorer`中可以看到项目的结构
 
-![image-20240527164335373](img/image-20240527164335373.png)
+![image-20240527164335373](./img/image-20240527164335373.png)
 
 * `Core/Inc`：头文件
 
@@ -63,7 +63,7 @@ permalink: /DESN2000/Lecture
 
 #### `main.c`文件
 
-![image-20240527165638360](img/image-20240527165638360.png)
+![image-20240527165638360](./img/image-20240527165638360.png)
 
 在`main.c`文件中，我们可以看到`main`函数，这是程序的入口。
 
@@ -75,9 +75,9 @@ permalink: /DESN2000/Lecture
 
 ::: details 如何找到LED引脚
 
-![image-20240527204130910](img/image-20240527204130910.png)
+![image-20240527204130910](./img/image-20240527204130910.png)
 
-![image-20240527204659561](img/image-20240527204659561.png)
+![image-20240527204659561](./img/image-20240527204659561.png)
 
 :::
 
