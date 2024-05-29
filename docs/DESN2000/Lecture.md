@@ -3,9 +3,7 @@
 
 ## Week 1 Monday
 
-::: info
- IDE: `STM32CubeIDE` - 1.15.1
-:::
+> IDE: `STM32CubeIDE` - 1.15.1
 
 ### Getting Started with cubeIDE
 

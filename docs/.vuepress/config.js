@@ -5,13 +5,18 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'UNSW Notes by How',
+  description: '123',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    // logo: 'https://vuejs.press/images/hero.png',
 
-    navbar: ['/', '/get-started'],
+    navbar: ['/', '/get-started', 
+      {
+        text: 'DESN2000',
+        link: '/DESN2000/index'
+      }
+    ],
   }),
 
   bundler: viteBundler(),
