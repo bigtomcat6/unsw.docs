@@ -30,19 +30,19 @@ permalink: /DESN2000/Lecture
 
 * `File` → `New` → `STM32 Project`
 
-![image-20240527160444703](img/image-20240527160444703.png)
+![image-20240527160444703](./img/image-20240527160444703.png)
 
 * 在打开的窗口中选择`Board Selector`，选择`NUCLEO-F303RE`，点击`Next`
 
-![image-20240527160951356](img/image-20240527160951356.png)
+![image-20240527160951356](./img/image-20240527160951356.png)
 
 * 在`Project Name`中输入项目名称，点击`Finish`
 
-![image-20240527161100525](img/image-20240527161100525.png)
+![image-20240527161100525](./img/image-20240527161100525.png)
 
 * 在`Project` → `Generate Code`生成代码
 
-![image-20240527161951134](img/image-20240527161951134.png)
+![image-20240527161951134](./img/image-20240527161951134.png)
 
 自此，项目初始化完成
 
