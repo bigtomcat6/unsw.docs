@@ -40,7 +40,24 @@ export default defineUserConfig({
             {
               text: 'DESN2000',
               collapsed: true,
-              items: ['Lecture']
+              items: ['Lecture', 'Lab']
+            }
+          ]
+        },
+        {
+          dir: 'MATH2099',
+          link: '/MATH2099/',
+          sidebar: [
+            {
+              text: 'MATH2099',
+              collapsed: true,
+              items: [
+                {
+                  dir: 'Statistics',
+                  link: '/Statistics/',
+                  items: ['index', 'Lecture']
+                }
+              ]
             }
           ]
         }

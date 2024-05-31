@@ -8,16 +8,13 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: UNSW Notes
-      tagline: null
-      text: by How ❤️
       actions:
         -
           theme: brand
-          text: DESN2000
-          link: /DESN2000/Lecture
+          text: Statistics Lecture
+          link: /MATH2099/Statistics/Lecture
         -
           theme: brand
-          text: MATH2099
+          text: Linear Algbra Lecture
           link: /MATH2099/
 ---
