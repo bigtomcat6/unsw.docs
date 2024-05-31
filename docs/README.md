@@ -9,7 +9,7 @@ config:
     background: tint-plate
     hero:
       name: UNSW Notes
-      tagline: 
+      tagline: null
       text: by How ❤️
       actions:
         -
