@@ -9,8 +9,8 @@ config:
     background: tint-plate
     hero:
       name: UNSW Notes
-      tagline: by How
-      text: ❤️
+      tagline: 
+      text: by How ❤️
       actions:
         -
           theme: brand
