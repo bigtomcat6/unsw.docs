@@ -9,9 +9,11 @@ import { defaultTheme } from '@vuepress/theme-default'
 
 // Plume theme
 // https://plume.pengzhanbo.cn/
-import { definePlumeNotesConfig, plumeTheme } from 'vuepress-theme-plume'
+import { plumeTheme } from 'vuepress-theme-plume'
 
 /**********/
+
+import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension'
 
 
 export default defineUserConfig({
@@ -85,6 +87,10 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'stylesheet', href: '/style.scss' }],
+  ],
+
+  plugins: [
+    removeHtmlExtensionPlugin(),
   ],
 
   bundler: viteBundler(),
