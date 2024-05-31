@@ -14,6 +14,6 @@ config:
       actions:
         -
           theme: brand
-          text: DESN2000 Lecture
+          text: DESN2000
           link: /DESN2000/Lecture
 ---
