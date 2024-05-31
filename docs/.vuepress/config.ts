@@ -58,6 +58,7 @@ export default defineUserConfig({
                 {
                   dir: 'Algebra',
                   link: '/MATH2099/Algebra/',
+                  
                   items: ['index', 'Lecture', 'Tutorial']
                 },
                 {
