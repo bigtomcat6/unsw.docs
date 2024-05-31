@@ -26,7 +26,8 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/'},
       // { text: 'Get Started', link: '/get-started' },
-      { text: 'DESN2000', link: '/DESN2000/index' }
+      { text: 'DESN2000', link: '/DESN2000/' },
+      { text: 'MATH2099', link: '/MATH2099/'},
     ],
 
     notes: {
@@ -39,7 +40,7 @@ export default defineUserConfig({
           sidebar: [
             {
               text: 'DESN2000',
-              collapsed: true,
+              collapsed: false,
               items: ['Lecture', 'Lab']
             }
           ]
@@ -50,13 +51,18 @@ export default defineUserConfig({
           sidebar: [
             {
               text: 'MATH2099',
-              collapsed: true,
+              collapsed: false,
               items: [
                 {
+                  dir: 'Algebra',
+                  link: '/MATH2099/Algebra/',
+                  items: ['index', 'Lecture', 'Tutorial']
+                },
+                {
                   dir: 'Statistics',
-                  link: '/Statistics/',
-                  items: ['index', 'Lecture']
-                }
+                  link: '/MATH2099/Statistics/',
+                  items: ['index', 'Lecture', 'mobius/index']
+                },
               ]
             }
           ]
@@ -73,7 +79,7 @@ export default defineUserConfig({
   }),
   markdown: {
     frontmatter: {
-      
+
     }
   },
 

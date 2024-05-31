@@ -1,20 +1,19 @@
 ---
 home: true
-title: Home
+title: MATH2099
 externalLink: false
 config:
   -
-    type: hero
+    type: features
     full: true
-    background: tint-plate
-    hero:
-      actions:
-        -
-          theme: brand
-          text: Statistics Lecture
-          link: /MATH2099/Statistics/Lecture
-        -
-          theme: brand
-          text: Linear Algbra Lecture
-          link: /MATH2099/
+    title: Mathematics 2B
+    features:
+      -
+        title: Statistics
+        details: 统计学
+        link: /MATH2099/Statistics/
+      -
+        title: Linear Algebra
+        details: 线性代数
+        link: /MATH2099/Algebra/
 ---
