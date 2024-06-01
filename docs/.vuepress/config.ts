@@ -17,7 +17,7 @@ import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension
 
 
 export default defineUserConfig({
-  lang: 'zh-CN',
+  lang: 'en-US',
 
   title: 'UNSW Notes by How',
   description: '123',
