@@ -277,7 +277,7 @@ $= -BC^{-1} B^{-1} = -B(BC)^{-1}$
 
 Find the value of $c$ such that the system of linear equations
 
-$$\begin{align*} x_1 \, &- \quad x_2 \, &=& \, 3 \\ x_1 \, & \quad \quad \quad \quad \quad \;\; - \, cx_3 \, &=& \, 1 \\  -2x_1 \, &+ \, (c+2)x_2 \;** - \, 4x_3 \, &=& \, -c - 8 \end{align*}$$
+$$\begin{align*} x_1 \, &- \quad x_2 \, &=& \, 3 \\ x_1 \, & \quad \quad \quad \quad \quad \;\; - \, cx_3 \, &=& \, 1 \\  -2x_1 \, &+ \, (c+2)x_2 \; - \, 4x_3 \, &=& \, -c - 8 \end{align*}$$
 
 has infinitely many solutions. Solve the system for this value of $c$.
 
