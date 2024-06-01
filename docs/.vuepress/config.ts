@@ -29,7 +29,8 @@ export default defineUserConfig({
       { text: 'Home', link: '/'},
       // { text: 'Get Started', link: '/get-started' },
       { text: 'DESN2000', link: '/DESN2000/' },
-      { text: 'MATH2099', link: '/MATH2099/'},
+      { text: 'MATH2099', link: '/MATH2099/' },
+      { text: 'COMP2511', link: '/COMP2511/' },
     ],
 
     notes: {
@@ -77,6 +78,9 @@ export default defineUserConfig({
     footer: false,
     plugins: {
       search: false,
+      markdownEnhance: {
+        mermaid: true,
+      },
     },
     
   }),
