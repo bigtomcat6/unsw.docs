@@ -87,7 +87,7 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'stylesheet', href: '/style.scss' }],
+    ['link', { rel: 'stylesheet', href: '/style.css' }],
   ],
 
   plugins: [
