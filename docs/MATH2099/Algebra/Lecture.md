@@ -343,8 +343,6 @@ If all columns on the left of the result are leading (at this stage the augmente
 
 If $A$ is invertible, we continue to reduce the matrix to reduced row-echelon form $(I | B)$, and then $A^{-1} = B$.
 
----
-
 ::: details Example
 
 Is the matrix
