@@ -70,6 +70,17 @@ export default defineUserConfig({
               ]
             }
           ]
+        },
+        {
+          dir: 'COMP2511',
+          link: '/COMP2511/',
+          sidebar: [
+            {
+              text: 'COMP2511',
+              collapsed: false,
+              items: ['Lecture']
+            }
+          ]
         }
 
       ]
