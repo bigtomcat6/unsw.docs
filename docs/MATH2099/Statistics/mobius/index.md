@@ -2,6 +2,10 @@
 title: Möbius
 ---
 
+<script setup>
+  import VPCard from '@VCard';
+</script>
+
 ## Engineering Statistics - MATH2099/2859
 
 ::: details 课程详细信息
@@ -38,3 +42,5 @@ Eka
 ## Getting Started
 
  * [Declaration - Must be completed first](Getting_started)
+
+<VPCard data="12345"/>

@@ -5,7 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 /** Theme **/
 
 // VuePress default theme
-import { defaultTheme } from '@vuepress/theme-default' 
+// import { defaultTheme } from '@vuepress/theme-default' 
 
 // Plume theme
 // https://plume.pengzhanbo.cn/
@@ -14,7 +14,11 @@ import { plumeTheme } from 'vuepress-theme-plume'
 /**********/
 
 import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension'
+// import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
+import { getDirname, path } from "vuepress/utils";
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -108,6 +112,12 @@ export default defineUserConfig({
   plugins: [
     removeHtmlExtensionPlugin(),
   ],
+
+  alias: {
+    '@VCard': path.resolve(__dirname, 'components/VCard.vue')
+  },
+
+  // 全局注册：https://theme-hope.vuejs.press/zh/guide/component/global.html#%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C-vue-%E7%BB%84%E4%BB%B6
 
   bundler: viteBundler(),
 })
