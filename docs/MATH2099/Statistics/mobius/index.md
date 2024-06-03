@@ -37,4 +37,4 @@ Eka
 
 ## Getting Started
 
- * [Declaration - Must be completed first](Getting_started)
+ * [Getting started](Getting_started)
