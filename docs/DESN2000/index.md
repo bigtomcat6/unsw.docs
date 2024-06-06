@@ -2,4 +2,4 @@
 
 [Lecture](Lecture)
 
-* [Lab](Lab)
+* [Lab](Lab/)
