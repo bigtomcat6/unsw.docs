@@ -13,67 +13,67 @@ permalink: /DESN2000/Lecture
 ### Getting Started with cubeIDE
 
 ::: warning
-`STM32CubeIDE` 使用前必须先注册并登录，否则无法创建项目
+`STM32CubeIDE` must be registered and logged in before use, otherwise you cannot create a project
 :::
 
 ::: tip
-* 下载地址：[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html#get-software)
+* Download link: [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html#get-software)
 
 * UNSW WebCMS3: [Getting Started](https://webcms3.cse.unsw.edu.au/files/12a63b255ed3a3ea67875e4b90eeedc6484d05e47d52f8735f78d4313c9761aa)
 
 :::
 
-::: details 如何创建项目
+::: details How to create a project
 
 > [!TIP]
-> 按照图示顺序操作
+> Follow the instructions in the order shown in the figure
 
 * `File` → `New` → `STM32 Project`
 
 ![image-20240527160444703](./img/image-20240527160444703.png)
 
-* 在打开的窗口中选择`Board Selector`，选择`NUCLEO-F303RE`，点击`Next`
+* In the window that opens, select `Board Selector`, select `NUCLEO-F303RE`, and click `Next`
 
 ![image-20240527160951356](./img/image-20240527160951356.png)
 
-* 在`Project Name`中输入项目名称，点击`Finish`
+* Enter the project name in `Project Name` and click `Finish`
 
 ![image-20240527161100525](./img/image-20240527161100525.png)
 
-* 在`Project` → `Generate Code`生成代码
+* Generate code in `Project` → `Generate Code`
 
 ![image-20240527161951134](./img/image-20240527161951134.png)
 
-自此，项目初始化完成
+Since then, the project initialization has been completed
 
 :::
 
 ### Project Structure
 
- 在左侧`Project Explorer`中可以看到项目的结构
+ In the `Project Explorer` on the left, you can see the structure of the project.
 
 ![image-20240527164335373](./img/image-20240527164335373.png)
 
-* `Core/Inc`：头文件
+* `Core/Inc`: header File
 
-* `Core/Src`：源文件
- 这里`main.c`和一些储存生成的驱动程序和库，我们称之为`HAL`库。(硬件抽象层)
+* `Core/Src`: Source File
+ Here `main.c` and some stored generated drivers and libraries, we call it `HAL` library. (Hardware Abstraction Layer)
 
-* `Core/Startup`：启动文件
+* `Core/Startup`: Startup file
 
-#### `main.c`文件
+#### `main.c` File
 
 ![image-20240527165638360](./img/image-20240527165638360.png)
 
-在`main.c`文件中，我们可以看到`main`函数，这是程序的入口。
+In the `main.c` file, we can see the `main` function, which is the entry point of the program.
 
-通常编写代码时，确保在`main`函数中的`while(1)`的循环中编写代码。
+Usually when writing code, make sure to write the code in the `while(1)` loop in the `main` function.
 
-原因是，如果你在项目设置中更改了某些内容，其他位置的代码可能会被覆盖。或者你可以创建一个新文件，并在这里调用它。
+The reason is that if you change something in the project settings, the code in other places may be overwritten. Or you can create a new file and call it here.
 
 #### 实现一个简单的LED闪烁
 
-::: details 如何找到LED引脚
+::: details How to find LED pinouts
 
 ![image-20240527204130910](./img/image-20240527204130910.png)
 
@@ -81,12 +81,12 @@ permalink: /DESN2000/Lecture
 
 :::
 
-::: tip 提示
-MacOS: `⌥` + `/` 开启代码补全
+::: tip
+MacOS: `⌥` + `/` to open code completion
 :::
 
 
-在 `while(1)` 中加入
+Add the following to `while(1)`:
 
 ```c
   /* Infinite loop */
@@ -105,7 +105,7 @@ MacOS: `⌥` + `/` 开启代码补全
   /* USER CODE END 3 */
 ```
 
-或者使用`HAL_GPIO_TogglePin`函数。
+Or use the `HAL_GPIO_TogglePin` function.
 
 ```c
   /* Infinite loop */
@@ -121,9 +121,9 @@ MacOS: `⌥` + `/` 开启代码补全
   /* USER CODE END 3 */
 ```
 
-#### 点亮外部板的LED
+#### Turn on the LED of the external board
 
-###### 1. 在`main.h` 的 `Private defines` 中 define LED的引脚
+###### 1. Define the LED pin in `Private defines` in `main.h`
 
 ```c
 /* USER CODE BEGIN Private defines */
@@ -132,7 +132,7 @@ MacOS: `⌥` + `/` 开启代码补全
 /* USER CODE END Private defines */
 ```
 
-###### 2. 将`main.c` 的 `while(1)` 中的代码替换
+###### 2. Replace the code in `while(1)` of `main.c`
 
 ```c
   /* Infinite loop */
@@ -155,7 +155,6 @@ MacOS: `⌥` + `/` 开启代码补全
   /* USER CODE END 3 */
 ```
 
-
-然后初始化端口
+Then initialize the port
 
 ---
