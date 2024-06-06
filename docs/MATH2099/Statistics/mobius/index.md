@@ -4,6 +4,7 @@ title: Möbius
 
 <script setup>
   import VPCard from '@VCard';
+  import MobiusTitle from '@MobiusTitleCard';
 </script>
 
 ## Engineering Statistics - MATH2099/2859
@@ -38,9 +39,13 @@ Eka
 
 :::
 
+---
 
-## Getting Started
+### Getting started
 
- * [Declaration - Must be completed first](Getting_started)
+ <MobiusTitle title="Declaration - Must be completed first" src="Getting started/Declaration"/>
 
-<VPCard data="12345"/>
+---
+### Revision Lecture
+
+ <MobiusTitle title="R.1 Definitions and notation" src="Revision Lecture/R.1 Definitions and notation" />
