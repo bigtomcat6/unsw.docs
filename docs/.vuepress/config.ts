@@ -106,7 +106,7 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'stylesheet', href: '/style.css' }],
+    ['link', { rel: 'stylesheet', href: path.resolve(__dirname, 'style/index.css') }],
   ],
 
   plugins: [
