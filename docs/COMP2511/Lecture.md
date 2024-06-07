@@ -5,6 +5,14 @@ createTime: 2024/06/01 16:31:34
 permalink: /COMP2511/Lecture
 ---
 
+<script setup>
+import HButton from '@HButton'
+</script>
+
+<HButton type='Menu' />
+
+---
+
 ## Week 1 Tuesday
 
 # Course Introduction
