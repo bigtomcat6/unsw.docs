@@ -1102,10 +1102,10 @@ In this case, we are comparing two objects of the same class `Circle`. So we are
 If we want to `@Override` the method, we must use the same arguments as the superclass.
 
 ```java:no-line-numbers
- @Override                              // [!code error]
+    @Override                              // [!code error]
     public boolean equals(Circle obj) {  ❌ // [!code error]
 
- @Override                              
+    @Override                              
     public boolean equals(Object obj) {  ✅
 ```
 
@@ -1458,6 +1458,7 @@ graph TD
     DrawableRectangle --> DrawableScalableRectangle
     Scalable --> DrawableScalableRectangle
     Movable --> DrawableScalableRectangle
+    
 ```
 
 #### Extending Interfaces
