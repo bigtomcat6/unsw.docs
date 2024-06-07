@@ -3,7 +3,7 @@
 }
 
 .how_qb {
-    background-color: rgba(243, 247, 249, 0.5);
+    background-color: var(--vp-badge-tip-bg); /* rgba(243, 247, 249, 0.5); */
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;

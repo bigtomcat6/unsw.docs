@@ -1,5 +1,5 @@
 <template>
-  <a :href="autoSrc">{{ title }}</a>
+  <a :class="theme" :href="autoSrc">{{ title }}</a>
 </template>
 
 
@@ -14,6 +14,14 @@ export default {
     type: {
       type: String,
       default: 'Menu'
+    },
+
+    /**
+     *  @type {'brand' | 'alt'}
+     */
+    theme: {
+      type: String,
+      default: 'brand'
     },
     title: {
       type: String,
@@ -60,5 +68,10 @@ a {
   text-decoration: none;
 
   margin: 5px;
+}
+.alt {
+  color: var(--vp-button-alt-text);
+  background-color: var(--vp-code-bg);
+  border-color: var(--vp-button-alt-border);
 }
 </style>
