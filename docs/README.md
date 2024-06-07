@@ -15,7 +15,7 @@ config:
         -
           theme: brand
           text: COMP2511
-          link: /COMP2511/Lecture
+          link: /COMP2511/Lecture/
         -
           theme: brand
           text: DESN2000

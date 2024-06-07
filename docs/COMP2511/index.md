@@ -1,1 +1,1 @@
- * [Lecture](Lecture)
+ * [Lecture](Lecture/)

@@ -63,7 +63,6 @@ export default defineUserConfig({
                 {
                   dir: 'Algebra',
                   link: '/MATH2099/Algebra/',
-                  
                   items: ['index', 'Lecture', 'Tutorial']
                 },
                 {
@@ -82,7 +81,13 @@ export default defineUserConfig({
             {
               text: 'COMP2511',
               collapsed: false,
-              items: ['Lecture']
+              items: [
+                {
+                  dir: 'Lecture',
+                  link: '/COMP2511/Lecture/',
+                  items: []
+                }
+              ]
             }
           ]
         }
