@@ -83,6 +83,11 @@ export default defineUserConfig({
               collapsed: false,
               items: [
                 {
+                  dir: 'Note',
+                  link: '/COMP2511/',
+                  items: []
+                },
+                {
                   dir: 'Lecture',
                   link: '/COMP2511/Lecture/',
                   items: []

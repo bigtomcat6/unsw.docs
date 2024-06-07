@@ -2,10 +2,6 @@
 title: Lecture
 ---
 
-<script setup>
-import HButton from '@HButton'
-</script>
-
 **There are 8 core types of lectures in this course:**
 
  - 🎩 Admin (Course Overviews, Exams, Introduction of Assessments)
