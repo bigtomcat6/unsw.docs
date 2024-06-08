@@ -1,7 +1,14 @@
 <template>
-  <a :class="theme" :href="autoSrc">{{ title }}</a>
+  <a :class="theme" :href="autoSrc">
+    <img v-if="img" :src="img" style="margin-right: 7px;">
+    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
+    {{ title }}
+  </a>
 </template>
 
+<script setup>
+import { Icon } from '@iconify/vue';
+</script>
 
 <script>
 
@@ -28,6 +35,14 @@ export default {
       default: 'First'
     },
     src: {
+      type: String,
+      default: undefined
+    },
+    img: {
+      type: String,
+      default: undefined
+    },
+    icon: {
       type: String,
       default: undefined
     }
@@ -68,6 +83,10 @@ a {
   text-decoration: none;
 
   margin: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .alt {
   color: var(--vp-button-alt-text);

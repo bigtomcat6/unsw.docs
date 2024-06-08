@@ -13,6 +13,8 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
+    "@iconify/json": "^2.2.217",
+    "@iconify/vue": "^4.1.2",
     "@vuepress/bundler-vite": "2.0.0-rc.12",
     "@vuepress/theme-default": "2.0.0-rc.32",
     "vue": "^3.4.27",
@@ -22,6 +24,7 @@
   },
   "dependencies": {
     "mermaid": "^10.9.1",
+    "vuepress-plugin-md-power": "1.0.0-rc.64",
     "vuepress-plugin-remove-html-extension": "^1.10.0"
   }
 }
