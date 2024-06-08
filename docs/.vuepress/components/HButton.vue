@@ -1,9 +1,16 @@
 <template>
-  <a :class="theme" :href="autoSrc">
+  <!--外链-->
+  <a v-if="autoTarget" :class="theme" :href="autoSrc" :target="autoTarget">
     <img v-if="img" :src="img" style="margin-right: 7px;">
     <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
   </a>
+  <!--内链-->
+  <RouteLink v-else :to="src" :class="theme">
+    <img v-if="img" :src="img" style="margin-right: 7px;">
+    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
+    {{ title }}
+  </RouteLink>
 </template>
 
 <script setup>
@@ -55,6 +62,13 @@ export default {
         return (this.$route.path + '#' + this.title.toLowerCase().replaceAll(' ', '-'))
       } else {
         return './'
+      }
+    },
+    autoTarget() {
+      if (this.src && this.src.startsWith('http')) {
+        return '_blank'
+      } else {
+        return ''
       }
     }
   }
