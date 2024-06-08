@@ -1,16 +1,17 @@
 <template>
-  <!--外链-->
-  <a v-if="autoTarget" :class="theme" :href="autoSrc" :target="autoTarget">
-    <img v-if="img" :src="img" style="margin-right: 7px;">
-    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
-    {{ title }}
-  </a>
   <!--内链-->
-  <RouteLink v-else :to="src" :class="theme">
+  <RouteLink v-if="isRouter" :to="autoSrc" :class="theme">
     <img v-if="img" :src="img" style="margin-right: 7px;">
     <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
   </RouteLink>
+
+  <!--外链-->
+  <a v-else :class="theme" :href="autoSrc" :target="autoTarget">
+    <img v-if="img" :src="img" style="margin-right: 7px;">
+    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
+    {{ title }}
+  </a>
 </template>
 
 <script setup>
@@ -70,6 +71,12 @@ export default {
       } else {
         return ''
       }
+    },
+    isRouter() {
+      if (this.src && this.src.startsWith('http'))
+        return false
+      else
+        return true
     }
   }
 }
