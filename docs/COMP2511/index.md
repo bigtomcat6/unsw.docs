@@ -2,7 +2,7 @@
 title: The Art of Software Design (OO Design & Programming)
 ---
  
-<div class="how_qb">
+<div class="hao-card card-title">
 
 ## COMP2511
 
