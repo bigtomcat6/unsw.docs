@@ -17,14 +17,12 @@
     "@vuepress/bundler-vite": "2.0.0-rc.12",
     "@vuepress/theme-default": "2.0.0-rc.32",
     "vue": "^3.4.27",
-    "vuepress": "2.0.0-rc.13",
-    "vuepress-plugin-md-enhance": "2.0.0-rc.47",
+    "vuepress": "2.0.0-rc.12",
     "vuepress-theme-plume": "1.0.0-rc.61"
   },
   "dependencies": {
     "@iconify/json": "^2.2.217",
     "mermaid": "^10.9.1",
-    "vuepress-plugin-md-power": "1.0.0-rc.64",
-    "vuepress-plugin-remove-html-extension": "^1.10.0"
+    "vuepress-plugin-remove-html-extension": "^1.11.0"
   }
 }
