@@ -1,6 +1,6 @@
 <template>
   <!--内链-->
-  <RouteLink v-if="isRouter" :to="autoSrc" :class="theme">
+  <RouteLink :class="theme" v-if="isRouter" :to="autoSrc">
     <img v-if="img" :src="img" style="margin-right: 7px;">
     <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
@@ -113,5 +113,19 @@ a {
   color: var(--vp-button-alt-text);
   background-color: var(--vp-code-bg);
   border-color: var(--vp-button-alt-border);
+}
+
+.plume-content:not(h1, h2, h3, h4, h5, h6) /*修复主题style冲突*/
+a:hover {
+  color: var(--vp-button-brand-hover-text);
+  background-color: var(--vp-button-brand-hover-bg);
+  border-color: var(--vp-button-brand-hover-border);
+}
+
+.plume-content:not(h1, h2, h3, h4, h5, h6) /*修复主题style冲突*/
+a:active {
+    color: var(--vp-button-brand-active-text);
+    background-color: var(--vp-button-brand-active-bg);
+    border-color: var(--vp-button-brand-active-border);
 }
 </style>
