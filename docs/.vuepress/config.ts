@@ -122,9 +122,6 @@ export default defineUserConfig({
 
   plugins: [
     removeHtmlExtensionPlugin(),
-    markdownPowerPlugin({
-        icons: true,
-    }),
   ],
 
   alias: {

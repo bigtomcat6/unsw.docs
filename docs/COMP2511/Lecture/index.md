@@ -40,6 +40,7 @@ title: Lecture
 
 <p>
 <HButton type='Menu' title='Week 2 Tuesday' src='./w2#week-2-tuesday' />
+<HButton type='Menu' title='Week 2 Thursday' src='./w2#week-2-thursday' />
 </p>
 
 </div>

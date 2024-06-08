@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 a {
   color: var(--vp-button-brand-text);
   background-color: var(--vp-button-brand-bg);
@@ -120,7 +120,15 @@ a:hover {
   color: var(--vp-button-brand-hover-text);
   background-color: var(--vp-button-brand-hover-bg);
   border-color: var(--vp-button-brand-hover-border);
+  
 }
+
+// .plume-content:not(h1, h2, h3, h4, h5, h6) /*修复主题style冲突*/
+// .alt:hover {
+//   color: var(--vp-button-alt-hover-text);
+//   background-color: var(--vp-button-alt-hover-bg);
+//   border-color: var(--vp-button-alt-hover-border);
+// }
 
 .plume-content:not(h1, h2, h3, h4, h5, h6) /*修复主题style冲突*/
 a:active {
@@ -128,4 +136,12 @@ a:active {
     background-color: var(--vp-button-brand-active-bg);
     border-color: var(--vp-button-brand-active-border);
 }
+
+// .plume-content:not(h1, h2, h3, h4, h5, h6) /*修复主题style冲突*/
+// .alt:active {
+//     color: var(--vp-button-alt-active-text);
+//     background-color: var(--vp-button-alt-active-bg);
+//     border-color: var(--vp-button-alt-active-border);
+// }
+
 </style>
