@@ -10,7 +10,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 // Plume theme
 // https://plume.pengzhanbo.cn/
 import { plumeTheme } from 'vuepress-theme-plume'
-import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
+// import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 
 /**********/
 
