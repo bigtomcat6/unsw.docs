@@ -143,4 +143,9 @@ a:active {
 //     border-color: var(--vp-button-alt-active-border);
 // }
 
+img {
+  width: 17px;
+  height: 17px;
+}
+
 </style>
