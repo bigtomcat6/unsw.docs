@@ -14,9 +14,11 @@
   </a>
 </template>
 
-<script>
+<script setup>
 import { Icon } from '@iconify/vue';
+</script>
 
+<script>
 export default {
   props: {
     /**
