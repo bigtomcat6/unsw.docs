@@ -14,11 +14,12 @@
   "author": "",
   "devDependencies": {
     "@iconify/vue": "^4.1.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.12",
+    "@vuepress/bundler-vite": "2.0.0-rc.13",
     "@vuepress/theme-default": "2.0.0-rc.32",
     "vue": "^3.4.27",
-    "vuepress": "2.0.0-rc.12",
-    "vuepress-theme-plume": "1.0.0-rc.61"
+    "vuepress": "2.0.0-rc.13",
+    "vuepress-plugin-md-enhance": "2.0.0-rc.47",
+    "vuepress-theme-plume": "1.0.0-rc.64"
   },
   "dependencies": {
     "@iconify/json": "^2.2.217",
