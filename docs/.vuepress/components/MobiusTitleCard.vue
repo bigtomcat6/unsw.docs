@@ -44,7 +44,7 @@ export default {
 
 <style scoped lang="scss">
 .task-container {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 20px;

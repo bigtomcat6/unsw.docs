@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 externalLink: false
 config:
   -
@@ -15,4 +15,5 @@ config:
         title: Möbius
         details: Statistics Möbius
         link: /MATH2099/Statistics/mobius/
+title: Note
 ---
