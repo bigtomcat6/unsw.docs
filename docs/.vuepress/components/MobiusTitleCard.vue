@@ -1,5 +1,7 @@
 <template>
-  <a :href="src">{{ title }}</a>
+  <RouteLink :to="src">
+    {{ title }}
+  </RouteLink>
 </template>
 
 
