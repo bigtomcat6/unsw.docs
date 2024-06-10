@@ -3,7 +3,6 @@ title: Möbius
 ---
 
 <script setup>
-  import VPCard from '@VCard';
   import MobiusTitle from '@MobiusTitleCard';
 </script>
 
@@ -30,22 +29,44 @@ Please get started early!
 Revision Lecture, sections R.1 to R.6: **due 4th June, 2024 at 11am**
 
 Revision Lecture Quiz: **due 4th June, 2024 at 11am**
+
 Online Lecture 1, sections 1.1 to 1.8: **due 4th June, 2024 at 11am**
+
 Lecture 1 Quiz: **due 4th June, 2024 at 11am**
+
 Online Lecture 2, sections 2.1 to 2.6: **due 4th June, 2024 at 11am**
  
-
 Eka
 
 :::
 
----
+<div class="how_qb">
 
 ### Getting started
 
- <MobiusTitle title="Declaration - Must be completed first" src="Getting started/Declaration"/>
+<MobiusTitle title="Declaration - Must be completed first" src="Getting started/Declaration"/>
 
----
+</div>
+
+<div class="how_qb">
+
 ### Revision Lecture
 
  <MobiusTitle title="R.1 Definitions and notation" src="Revision Lecture/R.1 Definitions and notation" />
+ 
+ <MobiusTitle title="R.2 Probability rules" src="Revision Lecture/R.2 Probability rules" />
+
+ <MobiusTitle title="R.3 Equally likely outcomes" src="Revision Lecture/R.3 Equally likely outcomes" />
+
+ <MobiusTitle title="R.4 Conditional probability" src="Revision Lecture/R.4 Conditional probability" />
+
+ <MobiusTitle title="R.5 Conditional probability rules" src="Revision Lecture/R.5 Conditional probability rules" />
+
+ <MobiusTitle title="R.6 Independence of two events" src="Revision Lecture/R.6 Independence of two events" />
+
+
+<p>
+ <MobiusTitle title="Revision Lecture Quiz" src="Revision Lecture/Revision Lecture Quiz" />
+</p>
+
+</div>

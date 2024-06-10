@@ -2,7 +2,7 @@
 title: Declaration - Must be completed first
 author:
 createTime: 2024/06/04 00:11:34
-permalink: /article/1u5xup6l/
+permalink: /MATH2099/1u5xup6l/
 ---
 
 ## Question 1

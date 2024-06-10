@@ -10,6 +10,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 // Plume theme
 // https://plume.pengzhanbo.cn/
 import { plumeTheme } from 'vuepress-theme-plume'
+// import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 
 /**********/
 
@@ -61,15 +62,21 @@ export default defineUserConfig({
               collapsed: false,
               items: [
                 {
+                  text: 'Overview',
+                  dir: '',
+                  link: '/MATH2099/',
+                  items: []
+                },
+                {
+                  text: 'Linear Algebra',
                   dir: 'Algebra',
                   link: '/MATH2099/Algebra/',
-                  
                   items: ['index', 'Lecture', 'Tutorial']
                 },
                 {
                   dir: 'Statistics',
                   link: '/MATH2099/Statistics/',
-                  items: ['index', 'Lecture', 'mobius/index']
+                  items: ['index', 'mobius/index']
                 },
               ]
             }
@@ -82,7 +89,18 @@ export default defineUserConfig({
             {
               text: 'COMP2511',
               collapsed: false,
-              items: ['Lecture']
+              items: [
+                {
+                  dir: 'Note',
+                  link: '/COMP2511/',
+                  items: []
+                },
+                {
+                  dir: 'Lecture',
+                  link: '/COMP2511/Lecture/',
+                  items: []
+                }
+              ]
             }
           ]
         }

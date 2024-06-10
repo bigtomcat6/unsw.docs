@@ -3,12 +3,53 @@
 }
 
 .how_qb {
-    background-color: rgba(243, 247, 249, 0.5);
+    background-color: var(--vp-badge-tip-bg); /* rgba(243, 247, 249, 0.5); */
     padding: 15px;
     border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    iframe {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    h3, h2, h1 {
+        margin-left: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
 }
 
-.how_qb iframe {
-    width: 90%;
-    margin: auto
+// hao-card
+
+.hao-card {
+
+    background-color: var(--vp-badge-tip-bg); /* rgba(243, 247, 249, 0.5); */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    h3, h2, h1 {
+        margin-left: 10px;
+        margin-top: 5px;
+        padding-top: 5px;
+    }
+}
+
+.card-title {
+    background-color: var(--hao-c-bg-title);
+}
+
+// hao-card
+
+:root {
+    --hao-c-bg-title: var(--hao-c-blue-soft);
+}
+
+:root {
+    --hao-c-blue-soft: rgba(76, 144, 175, 0.278);
+    --hao-c-orange-soft: rgb(243 140 44 / 42%);
 }
