@@ -62,6 +62,13 @@ export default defineUserConfig({
               collapsed: false,
               items: [
                 {
+                  text: 'Overview',
+                  dir: '',
+                  link: '/MATH2099/',
+                  items: []
+                },
+                {
+                  text: 'Linear Algebra',
                   dir: 'Algebra',
                   link: '/MATH2099/Algebra/',
                   items: ['index', 'Lecture', 'Tutorial']

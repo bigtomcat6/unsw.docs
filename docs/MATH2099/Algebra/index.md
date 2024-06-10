@@ -15,7 +15,7 @@ config:
         title: Tutorial
         details: Algebra Tutorial
         link: /MATH2099/Algebra/Tutorial
-title: Linear Alegbra Notes
+title: Note
 ---
 
 ## Chapters Overview
