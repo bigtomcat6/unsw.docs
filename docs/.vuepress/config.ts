@@ -134,7 +134,6 @@ export default defineUserConfig({
   alias: {
     '@VCard': path.resolve(__dirname, 'components/VCard.vue'),
     '@MobiusTitleCard': path.resolve(__dirname, 'components/MobiusTitleCard.vue'),
-    '@HButton': path.resolve(__dirname, 'components/HButton.vue'),
   },
 
   // 全局注册：https://theme-hope.vuejs.press/zh/guide/component/global.html#%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C-vue-%E7%BB%84%E4%BB%B6

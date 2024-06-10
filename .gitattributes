@@ -1,3 +1,4 @@
-*.md linguist-detectable
+*.md linguist-detectable=true
+*.md linguist-documentation=true
 **/img/* filter=lfs diff=lfs merge=lfs -text
 **/public/**/* filter=lfs diff=lfs merge=lfs -text
