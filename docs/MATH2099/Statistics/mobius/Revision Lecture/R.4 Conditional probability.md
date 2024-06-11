@@ -31,4 +31,6 @@ A bin contains $5$ defective, $10$ partially defective and $25$ acceptable trans
 
 - `5/7`  _(Enter the exact value as a fraction)_
 
+<iframe width="672" height="378" src="https://www.youtube.com/embed/40rSJxbu3Oc" title="transistors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </div>
