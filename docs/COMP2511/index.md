@@ -12,7 +12,7 @@ title: The Art of Software Design (OO Design & Programming)
 
 <div class="how_qb">
 
-## Useful temporary links (24T2)
+## Useful 24T2 Courese Links
 
 <p>
 <HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/COMP2511/24T2/'/>
@@ -22,6 +22,11 @@ title: The Art of Software Design (OO Design & Programming)
 
 <p>
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/students/' />
+</p>
+
+<p>
+<HButton theme='alt' icon='ph:video' title='Lecture Recordings (Tuesday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6564581&triggerview=0'/>
+<HButton theme='alt' icon='ph:video' title='Lecture Recordings (Thursday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6794022&triggerview=0'/>
 </p>
 
 
