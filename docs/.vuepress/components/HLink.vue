@@ -20,7 +20,7 @@ export default {
      */
     type: {
       type: String,
-      default: 'Link'
+      default: 'link'
     },
     title: {
       type: String,

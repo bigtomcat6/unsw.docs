@@ -23,11 +23,11 @@ export default {
   props: {
     /**
      * @type {'Menu' | 'Link'}
-     * @default 'Menu'
+     * @default 'Link'
      */
     type: {
       type: String,
-      default: 'Menu'
+      default: 'Link'
     },
 
     /**
