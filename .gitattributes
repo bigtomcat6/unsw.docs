@@ -2,4 +2,4 @@
 *.md linguist-language=Markdown
 
 **/img/* filter=lfs diff=lfs merge=lfs -text
-**/public/**/* filter=lfs diff=lfs merge=lfs -text
+**/public/lfs/**/* filter=lfs diff=lfs merge=lfs -text

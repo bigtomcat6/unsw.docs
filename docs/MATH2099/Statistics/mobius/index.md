@@ -20,23 +20,9 @@ Welcome!
 
  
 
-The following items are due on **Tuesday Week 2** at 11am.
+The following items are due on **Tuesday** at 11am.
 
 Please get started early!
-
- 
-
-Revision Lecture, sections R.1 to R.6: **due 4th June, 2024 at 11am**
-
-Revision Lecture Quiz: **due 4th June, 2024 at 11am**
-
-Online Lecture 1, sections 1.1 to 1.8: **due 4th June, 2024 at 11am**
-
-Lecture 1 Quiz: **due 4th June, 2024 at 11am**
-
-Online Lecture 2, sections 2.1 to 2.6: **due 4th June, 2024 at 11am**
- 
-Eka
 
 :::
 

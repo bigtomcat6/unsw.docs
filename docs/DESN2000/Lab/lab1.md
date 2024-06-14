@@ -2,7 +2,7 @@
 title: Lab sheet 1 (weeks 1 and 2)
 author:
 createTime: 2024/06/06 21:32:54
-permalink: /article/33x7cjnw/
+permalink: /DESN2000/33x7cjnw/
 ---
 
 ::: right 

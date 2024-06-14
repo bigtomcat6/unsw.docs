@@ -2,14 +2,14 @@
   <!--内链-->
   <RouteLink :class="theme" v-if="isRouter" :to="autoSrc">
     <img v-if="img" :src="img" style="margin-right: 7px;">
-    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
+    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 17px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
   </RouteLink>
 
   <!--外链-->
   <a v-else :class="theme" :href="autoSrc" :target="autoTarget">
     <img v-if="img" :src="img" style="margin-right: 7px;">
-    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 18px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
+    <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 17px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
   </a>
 </template>
@@ -23,11 +23,11 @@ export default {
   props: {
     /**
      * @type {'Menu' | 'Link'}
-     * @default 'Menu'
+     * @default 'Link'
      */
     type: {
       type: String,
-      default: 'Menu'
+      default: 'Link'
     },
 
     /**
