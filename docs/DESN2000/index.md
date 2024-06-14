@@ -13,9 +13,9 @@ title: Engineering Design and Professional Practice
 ---
 ### Technical
 
-<HButton icon='mdi:lecture' title='Lecture' src='./Lecture'/>
+<HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
 
-<HButton icon='icomoon-free:lab' title='Lab' src='./Lab'/>
+<HButton icon='icomoon-free:lab' title='Lab' src='Lab/'/>
 
 </div>
 

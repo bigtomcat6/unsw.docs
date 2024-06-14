@@ -19,7 +19,7 @@ config:
         -
           theme: brand
           text: DESN2000
-          link: /DESN2000/Lecture
+          link: /DESN2000/
         -
           theme: brand
           text: MATH2099
