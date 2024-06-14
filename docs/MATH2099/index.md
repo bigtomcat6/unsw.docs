@@ -72,7 +72,7 @@ config:
 
 <div class="how_qb">
 
-## 24T2 Courese Links
+## 24T2 Course Links
 
 <p>
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=83257'/>

@@ -12,7 +12,7 @@ title: The Art of Software Design (OO Design & Programming)
 
 <div class="how_qb">
 
-## 24T2 Courese Links
+## 24T2 Course Links
 
 <p>
 <HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/COMP2511/24T2/'/>
