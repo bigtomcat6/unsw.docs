@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4aea47f6c8bafe30d68b5fc7429bdc9f74f304048de7cf55ca26b620cbbdfcec
-size 861
+globalLink: https://unsw.cdn.t.bigtomcat.com/unsw_docs
+links:
+# COMP2511
+  - title: CourseIntro_24T2
+    type: pdf
+    md5: f562990e7f46d878ef51c262987e25ff
+    src: /COMP2511/Lecture/CourseIntro_24T2.pdf
+  - title: OOP_inJava
+    type: pdf
+    md5: f5e7cd4f44d6dc6cbba41a36fdd685c2
+    src: /COMP2511/Lecture/OOP_inJava.pdf
+  - title: OOP_inJava_SubClass_AbstractClass_Interface_Poly_etc
+    type: pdf
+    md5: 0085b7713df60281bc464ce4c15cf9fd
+    src: /COMP2511/Lecture/OOP_inJava_SubClass_AbstractClass_Interface_Poly_etc.pdf
+  - title: DomainModelling
+    type: pdf
+    md5: 00f60665c017d8ae29c90c473b8abbbd
+    src: /COMP2511/Lecture/DomainModelling.pdf
+# MATH2099
+  - title: MATH2099_LA_Chap01_1pp
+    type: pdf
+    md5: 20ad432ba3015c4cffda0a1911f974ac
+    src: /MATH2099/Lecture/MATH2099_LA_Chap01_1pp.pdf
+
+# MD5: echo -n "TEXT" | md5
+#  or  md5 -s TEXT
