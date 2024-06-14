@@ -9,9 +9,7 @@ permalink: /MATH2099/Algebra/Lecture
 
 # Chapter 1: Linear Equations and Matrices
 
-::: details 
-PDF: [Linear Equations and Matrices](/MATH2099/MATH2099_LA_Chap01_1pp.pdf)
-:::
+<HGlobalLink title="Linear Equations and Matrices" md5="20ad432ba3015c4cffda0a1911f974ac" />
 
 ### 1.1 Matrix Multiplication
 
