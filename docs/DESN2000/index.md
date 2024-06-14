@@ -11,7 +11,7 @@ title: Engineering Design and Professional Practice
 
 
 ---
-### Technical
+### Technical (COMP)
 
 <HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
 
@@ -36,7 +36,7 @@ title: Engineering Design and Professional Practice
 </p>
 
 ---
-### Technical
+### Technical (COMP)
 
 <p>
 <HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/DESN2000/24T2/'/>
