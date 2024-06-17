@@ -1,12 +1,18 @@
 ---
 title: The Art of Software Design (OO Design & Programming)
 ---
- 
+
+<script setup>
+import unswUpdating from '@unswUpdating'
+</script>
+
 <div class="hao-card card-title">
 
-## COMP2511
+## COMP2511 <unswUpdating />
 
+<p>
 <HButton icon='mdi:lecture' title='Lecture' src='/COMP2511/Lecture/'/>
+</p>
 
 </div>
 
