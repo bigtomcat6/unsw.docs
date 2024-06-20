@@ -32,7 +32,7 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'UNSW Notes',
+  title: 'UNSW Notes ᵇᵉᵗᵃ' ,
   description: '123',
 
   theme: plumeTheme({
@@ -119,7 +119,10 @@ export default defineUserConfig({
       ]
     },
 
-    footer: false,
+    footer: {
+      message: '',
+      copyright: '©2022 - 2024 <a href="https://www.bigtomcat.com/">How</a><br>'
+    },
     plugins: {
       search: false,
       markdownEnhance: {
