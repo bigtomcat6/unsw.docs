@@ -18,6 +18,11 @@ links:
     md5: 00f60665c017d8ae29c90c473b8abbbd
     src: /COMP2511/Lecture/DomainModelling.pdf
 # MATH2099
+  # Algebra
+  - title: MATH2099_LA_CourseInfo24
+    type: pdf
+    md5: 6e2dcb1c3091dd65b470cf728de6af3e
+    src: /MATH2099/Lecture/MATH2099_LA_CourseInfo24.pdf
   - title: MATH2099_LA_Chap01_1pp
     type: pdf
     md5: 20ad432ba3015c4cffda0a1911f974ac

@@ -82,7 +82,7 @@ export default defineUserConfig({
                   text: 'Linear Algebra',
                   dir: 'Algebra',
                   link: '/MATH2099/Algebra/',
-                  items: ['index', 'Lecture', 'Tutorial']
+                  items: ['index', 'Lecture/index', 'Tutorial']
                 },
                 {
                   dir: 'Statistics',
