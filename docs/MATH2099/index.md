@@ -60,7 +60,7 @@ config:
 
 <p>
 <HButton icon='tabler:notes' title='Note' src='/MATH2099/Algebra/'/>
-<HButton icon='mdi:lecture' title='Lecture' src='/MATH2099/Algebra/Lecture'/>
+<HButton icon='mdi:lecture' title='Lecture' src='/MATH2099/Algebra/Lecture/'/>
 </p>
 
 ---

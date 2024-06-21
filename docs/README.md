@@ -10,7 +10,6 @@ config:
     hero:
       name: UNSW
       tagline: Notes
-      text: beta ❤️ by How
       actions1:
         -
           theme: brand
