@@ -60,7 +60,23 @@ export default defineUserConfig({
             {
               text: 'DESN2000',
               collapsed: false,
-              items: ['Lecture', 'Lab']
+              items: [
+                {
+                  dir: 'Note',
+                  link: '/DESN2000/',
+                  items: []
+                },
+                {
+                  dir: 'Lecture',
+                  link: '/DESN2000/Lecture',
+                  items: []
+                },
+                {
+                  dir: 'Lab',
+                  link: '/DESN2000/Lab/',
+                  items: []
+                }
+              ]
             }
           ]
         },
