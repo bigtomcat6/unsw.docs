@@ -1,10 +1,15 @@
 ---
 title: Engineering Design and Professional Practice
 ---
+
+<script setup>
+import unswUpdating from '@unswUpdating'
+</script>
+
  
 <div class="hao-card card-title">
 
-## DESN2000
+## DESN2000 <unswUpdating />
 ---
 ### Design
 
