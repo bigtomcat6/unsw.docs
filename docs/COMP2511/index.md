@@ -26,9 +26,18 @@ import unswUpdating from '@unswUpdating'
 <HButton theme='alt' img='/webcms3.ico' title='Lecture Schedule' src='https://webcms3.cse.unsw.edu.au/COMP2511/24T2/resources/100199' />
 </p>
 
+---
+
 <p>
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/students/' />
 </p>
+
+<p>
+<HButton icon='vscode-icons:file-type-gitlab' title='Assignment-i Spec' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/specs/assignment-i-spec' />
+<HButton theme='alt' icon='vscode-icons:file-type-gitlab' title='Assignment-i' src='https://cgi.cse.unsw.edu.au/~cs2511/redirect/?path=COMP2511/24T2/students/_/assignment-i/' />
+</p>
+
+---
 
 <p>
 <HButton theme='alt' icon='ph:video' title='Lecture Recordings (Tuesday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6564581&triggerview=0'/>
