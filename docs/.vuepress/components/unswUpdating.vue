@@ -1,6 +1,6 @@
 <template>
   &nbsp;
-  <Badge type="warning" text="Updating" />
+  <Badge type="warning" text="active" />
   &NoBreak;
   <Badge type="tip" :text="text" />
 </template>
