@@ -8,4 +8,5 @@ permalink: /DESN2000/Lab/
 
 ## Lab 1 (weeks 1 and 2)
 
- * [Lab sheet 1](lab1)
+ * [Lab 1](lab1)
+ * [Lab 2](lab2)
