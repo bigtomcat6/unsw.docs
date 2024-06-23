@@ -18,10 +18,95 @@ links:
     md5: 00f60665c017d8ae29c90c473b8abbbd
     src: /COMP2511/Lecture/DomainModelling.pdf
 # MATH2099
+  # Algebra
+  - title: MATH2099_LA_CourseInfo24
+    type: pdf
+    md5: 6e2dcb1c3091dd65b470cf728de6af3e
+    src: /MATH2099/Lecture/MATH2099_LA_CourseInfo24.pdf
   - title: MATH2099_LA_Chap01_1pp
     type: pdf
     md5: 20ad432ba3015c4cffda0a1911f974ac
     src: /MATH2099/Lecture/MATH2099_LA_Chap01_1pp.pdf
+# DESN2000
+  # Laboratory
+    # STM32 ARM and Dev Board Resources
+      # Basic Resources
+  - title: lab-assessment-guide
+    type: pdf
+    md5: 25193ce5675d9226f8e1796706537dc4
+    src: /DESN2000/Laboratory/lab-assessment-guide.pdf
+  - title: Getting_Started_With_STM32cubeIDE
+    type: pdf
+    md5: d212146c1f867decfe67ecf46c7d8338
+    src: /DESN2000/Laboratory/Getting_Started_With_STM32cubeIDE.pdf
+  - title: Board_Components
+    type: pdf
+    md5: cac2473b81afbbd45d30a6b694205171
+    src: /DESN2000/Laboratory/Board_Components.pdf
+  - title: board-test-procedure
+    type: pdf
+    md5: 6abfb8f66ed108b5f6c7f2c27afcddf6
+    src: /DESN2000/Laboratory/board-test-procedure.pdf
+  - title: coaST-test
+    type: zip
+    md5: 0f5e73b71d59581efac8ad609046d195
+    src: /DESN2000/Laboratory/coaST-test.zip
+  - title: board-wiring
+    type: pdf
+    md5: 3992d4f3326b0e660ae62191ed6bb94c
+    src: /DESN2000/Laboratory/board-wiring.pdf
+      # Advanced Resources
+  - title: um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics
+    type: pdf
+    md5: 8280cfdabbdcd0df0142ea62fd09e60d
+    src: /DESN2000/Laboratory/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf
+  - title: coaST-schematic
+    type: pdf
+    md5: 49c1d541f992376bc370b482a88ab693
+    src: /DESN2000/Laboratory/coaST-schematic.pdf
+  - title: stm32f303re
+    type: pdf
+    md5: 4c730d7f3dc5252b1e73bffa759cd9c5
+    src: /DESN2000/Laboratory/stm32f303re.pdf
+  - title: stm32f3-hal-and-lowlayer-drivers-stmicroelectronics
+    type: pdf
+    md5: f6172b4d98833f0a0dea7f12bab524c0
+    src: /DESN2000/Laboratory/stm32f3-hal-and-lowlayer-drivers-stmicroelectronics.pdf
+    # Lab 1
+  - title: lab1sheet
+    type: pdf
+    md5: 2dad676cd672271d2bffb0922151273f
+    src: /DESN2000/Laboratory/lab1sheet.pdf
+    # Lab 2
+  - title: DESN2000_Debugging_Guide
+    type: pdf
+    md5: 4357400e8680a2005dbf0ebe3dd31199
+    src: /DESN2000/Laboratory/DESN2000_Debugging_Guide.pdf
+  - title: HD44780
+    type: pdf
+    md5: 90904295ffa15d28b9f0f49778315bd1
+    src: /DESN2000/Laboratory/HD44780.pdf
+  - title: Reference_manual_stm32f303_-_GPIO
+    type: pdf
+    md5: 8f87bd182e81d6c47cbb0ee3e31f46e0
+    src: /DESN2000/Laboratory/Reference_manual_stm32f303_-_GPIO.pdf
+  - title: lab2sheet
+    type: pdf
+    md5: 382a0888b8c8e923e12295dfe8dd4e8f
+    src: /DESN2000/Laboratory/lab2sheet.pdf
+  - title: lcd_keypad_template
+    type: zip
+    md5: e003ef06d8f56e658e0e5f7e0e33732c
+    src: /DESN2000/Laboratory/lcd_keypad_template.zip
+  - title: Cortex_M3_M4_Instructions
+    type: pdf
+    md5: fb2e8984c126b4c953079769b11e2591
+    src: /DESN2000/Laboratory/Cortex_M3_M4_Instructions.pdf
+  - title: lab3sheet
+    type: pdf
+    md5: 85fd212ab3164d46d66a22ff25fcb68c
+    src: /DESN2000/Laboratory/lab3sheet.pdf
+
 
 # MD5: echo -n "TEXT" | md5
-#  or  md5 -s TEXT
+#  or: md5 -s TEXT

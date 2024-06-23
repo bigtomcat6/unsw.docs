@@ -1,10 +1,15 @@
 ---
 title: Engineering Design and Professional Practice
 ---
+
+<script setup>
+import unswUpdating from '@unswUpdating'
+</script>
+
  
 <div class="hao-card card-title">
 
-## DESN2000
+## DESN2000 <unswUpdating />
 ---
 ### Design
 
@@ -15,7 +20,7 @@ title: Engineering Design and Professional Practice
 
 <HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
 
-<HButton icon='icomoon-free:lab' title='Lab' src='Lab/'/>
+<HButton icon='icomoon-free:lab' title='Laboratory' src='Lab/'/>
 
 </div>
 
