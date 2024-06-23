@@ -15,7 +15,7 @@ import { Icon } from '@iconify/vue';
 export default {
   props: {
     /**
-     * @type {'link' | 'pdf'}
+     * @type {'link' | 'pdf' | 'zip'}
      * @default 'link'
      */
     type: {
@@ -34,14 +34,10 @@ export default {
   computed: {
     autoIcon() {
       switch (this.type) {
-        case 'pdf':
-          return 'grommet-icons:document-pdf'
-          break;
-        
+        case 'pdf': return 'grommet-icons:document-pdf'
+        case 'zip': return 'hugeicons:file-zip'
         case 'link':
-        default:
-          return 'lucide:link'
-          break;
+        default:  return 'lucide:link'
       }
     }
   }

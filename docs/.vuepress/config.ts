@@ -72,7 +72,7 @@ export default defineUserConfig({
                   items: []
                 },
                 {
-                  dir: 'Lab',
+                  dir: 'Laboratory',
                   link: '/DESN2000/Lab/',
                   items: []
                 }
