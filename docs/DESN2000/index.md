@@ -20,7 +20,7 @@ import unswUpdating from '@unswUpdating'
 
 <HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
 
-<HButton icon='icomoon-free:lab' title='Lab' src='Lab/'/>
+<HButton icon='icomoon-free:lab' title='Laboratory' src='Lab/'/>
 
 </div>
 
