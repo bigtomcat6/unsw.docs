@@ -7,22 +7,8 @@ title: Lecture
 
 ## Week 1
 
--  **Revision Lecture: Elements of Probability** 
-    1. Definitions and Notation
-    2. Probability rules
-    3. Equally likely outcomes
-    4. Conditional probability 
-    5. Conditional probability rules
-    6. Independence of two events
-- **Lecture 1: Introduction and descriptive statistics**
-    1. What is statistics?
-    2. The statistical process
-    3. Populations and samples
-    4. Random Sampling
-    5. Two key considerations in data analysis
-    6. Descriptive statistics
-    7. Graphical summaries
-    8. Numerical summaries
+- Revision Lecture: Elements of Probability
+- Lecture 1: Introduction and descriptive statistics
 
 <p>
 <HButton type='Menu' title='Revision Lecture' src='./LectureRevision' />
