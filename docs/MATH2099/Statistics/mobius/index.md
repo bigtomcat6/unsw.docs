@@ -8,7 +8,7 @@ title: Möbius
 
 ## Engineering Statistics - MATH2099/2859
 
-::: details 课程详细信息
+::: details Course Details
 
 Eka Shinjikashvili (eka@unsw.edu.au)
 

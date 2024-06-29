@@ -27,6 +27,11 @@ links:
     type: pdf
     md5: 20ad432ba3015c4cffda0a1911f974ac
     src: /MATH2099/Lecture/MATH2099_LA_Chap01_1pp.pdf
+  # Statistics
+  - title: LectureRevision
+    type: pdf
+    md5: a098b20c5e903866aad48edcb912b946
+    src: /MATH2099/Lecture/LectureRevision.pdf
 # DESN2000
   # Laboratory
     # STM32 ARM and Dev Board Resources
