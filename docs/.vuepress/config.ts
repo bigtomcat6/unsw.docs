@@ -103,7 +103,7 @@ export default defineUserConfig({
                 {
                   dir: 'Statistics',
                   link: '/MATH2099/Statistics/',
-                  items: ['index', 'mobius/index']
+                  items: ['index', 'Lecture/index','mobius/index']
                 },
               ]
             }

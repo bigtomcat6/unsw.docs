@@ -15,6 +15,14 @@ title: Lecture
     5. Conditional probability rules
     6. Independence of two events
 - **Lecture 1: Introduction and descriptive statistics**
+    1. What is statistics?
+    2. The statistical process
+    3. Populations and samples
+    4. Random Sampling
+    5. Two key considerations in data analysis
+    6. Descriptive statistics
+    7. Graphical summaries
+    8. Numerical summaries
 
 <p>
 <HButton type='Menu' title='Revision Lecture' src='./LectureRevision' />
