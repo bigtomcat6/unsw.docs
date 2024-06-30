@@ -155,6 +155,7 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'stylesheet', href: 'style/index.css'}],
+    ['link', { rel: 'icon', href: '/logo.png'}],
   ],
 
   plugins: [
