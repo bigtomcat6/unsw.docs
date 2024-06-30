@@ -7,7 +7,7 @@ permalink: /MATH2099/qtfxrpco/
 
 # Introduction and descriptive statistics
 
-<HGlobalLink md5="58d9212c7481def58bc0dab2c3ee983a"/>
+<HGlobalLink title="Lecture 1" md5="58d9212c7481def58bc0dab2c3ee983a"/>
 
 ### Objectives
 
