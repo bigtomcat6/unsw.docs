@@ -28,6 +28,7 @@ links:
     md5: 20ad432ba3015c4cffda0a1911f974ac
     src: /MATH2099/Lecture/MATH2099_LA_Chap01_1pp.pdf
   # Statistics
+    # Lecture
   - title: LectureRevision
     type: pdf
     md5: a098b20c5e903866aad48edcb912b946
@@ -36,6 +37,28 @@ links:
     type: pdf
     md5: 58d9212c7481def58bc0dab2c3ee983a
     src: /MATH2099/Lecture/Lecture1.pdf
+    # Pratice
+  - title: EngStatsExercises
+    type: pdf
+    md5: a619f3c979d10b431c62aae2cda67b6a
+    src: /MATH2099/Lecture/EngStatsExercises.pdf
+  - title: course-info-math2099-2859
+    type: pdf
+    md5: b1d04b0585c954296a9e13026eec328e
+    src: /MATH2099/Lecture/course-info-math2099-2859.pdf
+  - title: practice-class-wk1
+    type: pdf
+    md5: 0a96b923ee4dd8e0a926c6c508462d21
+    src: /MATH2099/Lecture/practice-class-wk1.pdf
+  - title: practice-class-wk1-annotated
+    type: pdf
+    md5: 6574d4b41a7a4583de687ccae644034a
+    src: /MATH2099/Lecture/practice-class-wk1-annotated.pdf
+  - title: Exercises_solns1
+    type: pdf
+    md5: 699356cd7a1bc474f624ae23c7d73524
+    src: /MATH2099/Lecture/Exercises_solns1.pdf
+
 # DESN2000
   # Laboratory
     # STM32 ARM and Dev Board Resources
