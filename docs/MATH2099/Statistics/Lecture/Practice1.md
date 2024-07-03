@@ -160,7 +160,7 @@ Did you **complete Online Lecture 1** on Möbius before class? Do you have any q
 
     ::: details
 
-    Sample mean will increase by 10, but sample stabdard deviation will be the same.
+    Sample mean will increase by 10, but sample standard deviation will be the same.
 
     - $\{2, 3, 4\}$ → $\{12, 13, 14\}$
 
