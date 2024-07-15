@@ -130,7 +130,6 @@ links:
     type: zip
     md5: e003ef06d8f56e658e0e5f7e0e33732c
     src: /DESN2000/Laboratory/lcd_keypad_template.zip
-    # Lab 3
   - title: Cortex_M3_M4_Instructions
     type: pdf
     md5: fb2e8984c126b4c953079769b11e2591
@@ -139,15 +138,6 @@ links:
     type: pdf
     md5: 85fd212ab3164d46d66a22ff25fcb68c
     src: /DESN2000/Laboratory/lab3sheet.pdf
-  - title: lab3sheet (1)
-    type: pdf
-    md5: c0d494ba44f5685eb1281d0c28b498a8
-    src: /DESN2000/Laboratory/lab3sheet (1).pdf
-    # Lab 4
-  - title: lab4sheet
-    type: pdf
-    md5: 7993a46b03846c1f51a945628ad1d73b
-    src: /DESN2000/Laboratory/lab4sheet.pdf
 
 
 # MD5: echo -n "TEXT" | md5
