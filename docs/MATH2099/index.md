@@ -22,7 +22,10 @@ import unswUpdating from '@unswUpdating'
 ---
 ### Statistics
 
+<p>
+<HButton icon='mdi:lecture' title='Lecture' src='/MATH2099/Statistics/Lecture/'/>
 <HButton theme='alt' img='/mobius.ico' title='Möbius' src='/MATH2099/Statistics/mobius/'/>
+</p>
 
 </div>
 

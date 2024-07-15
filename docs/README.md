@@ -10,19 +10,6 @@ config:
     hero:
       name: UNSW
       tagline: Notes
-      actions1:
-        -
-          theme: brand
-          text: COMP2511
-          link: /COMP2511/
-        -
-          theme: brand
-          text: DESN2000
-          link: /DESN2000/
-        -
-          theme: brand
-          text: MATH2099
-          link: /MATH2099/
   -
     type: features
     full: false

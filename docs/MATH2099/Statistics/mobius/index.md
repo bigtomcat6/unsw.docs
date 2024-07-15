@@ -8,7 +8,7 @@ title: Möbius
 
 ## Engineering Statistics - MATH2099/2859
 
-::: details 课程详细信息
+::: details Course Details
 
 Eka Shinjikashvili (eka@unsw.edu.au)
 
@@ -56,3 +56,30 @@ Please get started early!
 </p>
 
 </div>
+
+<div class="how_qb">
+
+### Lecture 1
+
+ <MobiusTitle title="1.1 What is statistics?" src="Lecture 1/1.1 What is statistics" />
+
+ <MobiusTitle title="1.2 The statistical process" src="Lecture 1/1.2 The statistical process" />
+
+ <MobiusTitle title="1.3 Populations and samples" src="Lecture 1/1.3 Populations and samples" />
+
+ <MobiusTitle title="1.4 Random sampling" src="Lecture 1/1.4 Random sampling" />
+
+ <MobiusTitle title="1.5 Two key considerations in data analysis" src="Lecture 1/1.5 Two key considerations in data analysis" />
+
+ <MobiusTitle title="1.6 Descriptive statistics" src="Lecture 1/1.6 Descriptive statistics" />
+
+  <MobiusTitle title="1.7 Graphical summaries" src="Lecture 1/1.7 Graphical summaries" />
+
+  <MobiusTitle title="1.8 Numerical summaries" src="Lecture 1/1.8 Numerical summaries" />
+
+<p>
+  <MobiusTitle title="Lecture 1 Quiz" src="Lecture 1/Lecture 1 Quiz" />
+</p>
+
+</div>
+
