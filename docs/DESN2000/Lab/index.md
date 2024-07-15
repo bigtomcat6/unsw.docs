@@ -64,6 +64,16 @@ permalink: /DESN2000/Lab/
 ## Lab 3
 
 - <HGlobalLink title="ARM Instructions" md5="fb2e8984c126b4c953079769b11e2591"/>
-- <HGlobalLink title="Lab 3 Sheet" md5="85fd212ab3164d46d66a22ff25fcb68c"/>
+- <HGlobalLink title="Lab 3 Sheet" md5="c0d494ba44f5685eb1281d0c28b498a8"/>
+
+<HButton type='Menu' title='Lab 3' src='./lab3' />
+
+</div>
+
+<div class="how_qb">
+
+## Lab 4
+
+- <HGlobalLink title="Lab 4 Sheet" md5="7993a46b03846c1f51a945628ad1d73b"/>
 
 </div>
