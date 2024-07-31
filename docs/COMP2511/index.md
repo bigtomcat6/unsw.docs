@@ -29,7 +29,7 @@ import unswUpdating from '@unswUpdating'
 ---
 
 <p>
-<HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/students/' />
+<HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://cgi.cse.unsw.edu.au/~cs2511/redirect/?path=COMP2511/24T2/students/_/' />
 </p>
 
 <p>
@@ -40,6 +40,11 @@ import unswUpdating from '@unswUpdating'
 <p>
 <HButton icon='vscode-icons:file-type-gitlab' title='Assignment-ii Spec' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/specs/assignment-ii-spec' />
 <HButton theme='alt' icon='vscode-icons:file-type-gitlab' title='Assignment-ii' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/teams' />
+</p>
+
+<p>
+<HButton icon='vscode-icons:file-type-gitlab' title='Assignment-iii Spec' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/specs/assignment-iii-spec' />
+<HButton theme='alt' icon='vscode-icons:file-type-gitlab' title='Assignment-iii' src='https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/teams/T15C_JALAPENO/assignment-iii' />
 </p>
 
 ---
