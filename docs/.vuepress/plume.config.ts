@@ -123,6 +123,9 @@ export default plumeTheme({
     ]
   },
 
+  nextPage: false,
+  prevPage: false,
+
   footer: {
     message: '',
     copyright: COPYRIGHT
