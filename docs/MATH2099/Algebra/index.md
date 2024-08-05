@@ -1,7 +1,7 @@
 ---
 title: Note
 outline: 1
-author:
+author: How
 createTime: 2024/08/05 19:27:43
 permalink: /MATH2099/Algebra/
 ---

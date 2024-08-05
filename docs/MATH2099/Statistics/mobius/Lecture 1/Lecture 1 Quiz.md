@@ -1,6 +1,6 @@
 ---
 title: Lecture 1 Quiz
-author:
+author: How
 createTime: 2024/07/01 19:42:35
 permalink: /MATH2099/8yv5serp/
 ---

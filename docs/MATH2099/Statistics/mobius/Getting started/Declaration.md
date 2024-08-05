@@ -1,6 +1,6 @@
 ---
 title: Declaration - Must be completed first
-author:
+author: How
 createTime: 2024/06/04 00:11:34
 permalink: /MATH2099/1u5xup6l/
 ---

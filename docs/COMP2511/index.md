@@ -1,6 +1,6 @@
 ---
 title: The Art of Software Design (OO Design & Programming)
-author:
+author: How
 createTime: 2024/08/05 19:27:43
 permalink: /COMP2511/
 ---

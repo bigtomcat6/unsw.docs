@@ -1,6 +1,6 @@
 ---
 title: Lecture 1
-author:
+author: How
 createTime: 2024/06/29 22:09:12
 permalink: /MATH2099/qtfxrpco/
 ---

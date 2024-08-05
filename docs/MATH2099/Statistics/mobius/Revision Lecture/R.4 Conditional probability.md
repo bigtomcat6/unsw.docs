@@ -1,6 +1,6 @@
 ---
 title: R.4 Conditional probability
-author:
+author: How
 createTime: 2024/06/10 21:04:56
 permalink: /MATH2099/c68qd1xr/
 ---

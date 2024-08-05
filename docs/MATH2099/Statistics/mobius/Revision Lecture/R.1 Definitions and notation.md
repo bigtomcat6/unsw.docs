@@ -1,6 +1,6 @@
 ---
 title: R.1 Definitions and notation
-author:
+author: How
 createTime: 2024/06/04 00:17:47
 permalink: /MATH2099/n9j483p6/
 ---

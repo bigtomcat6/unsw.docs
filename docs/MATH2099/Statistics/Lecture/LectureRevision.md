@@ -1,6 +1,6 @@
 ---
 title: Revision Lecture
-author:
+author: How
 createTime: 2024/06/28 20:33:00
 permalink: /MATH2099/q5o4t9tk/
 ---

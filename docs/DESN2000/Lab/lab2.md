@@ -1,6 +1,6 @@
 ---
 title: Lab sheet 2 (weeks 3 and 4)
-author:
+author: How
 createTime: 2024/06/23 00:39:19
 permalink: /DESN2000/s1c24h0j/
 ---
