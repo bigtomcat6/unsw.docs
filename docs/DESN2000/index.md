@@ -1,5 +1,8 @@
 ---
 title: Engineering Design and Professional Practice
+author:
+createTime: 2024/08/05 19:27:43
+permalink: /DESN2000/
 ---
 
 <script setup>

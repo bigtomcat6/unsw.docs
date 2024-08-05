@@ -14,15 +14,15 @@
   "author": "",
   "devDependencies": {
     "@iconify/vue": "^4.1.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.13",
-    "axios": "^1.7.2",
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "axios": "^1.7.3",
     "js-yaml": "^4.1.0",
-    "vue": "^3.4.27",
-    "vuepress": "2.0.0-rc.13",
-    "vuepress-theme-plume": "1.0.0-rc.64"
+    "vue": "^3.4.35",
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-plume": "1.0.0-rc.83"
   },
   "dependencies": {
     "mermaid": "^10.9.1",
-    "vuepress-plugin-remove-html-extension": "^1.11.0"
+    "vuepress-plugin-remove-html-extension": "1.12.0"
   }
 }

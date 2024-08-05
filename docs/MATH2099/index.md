@@ -1,5 +1,8 @@
 ---
 title: Mathematics 2B
+author:
+createTime: 2024/08/05 19:27:43
+permalink: /MATH2099/
 ---
 
 <script setup>
