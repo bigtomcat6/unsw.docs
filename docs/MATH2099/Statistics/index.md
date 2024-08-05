@@ -18,5 +18,5 @@ config:
 title: Note
 author:
 createTime: 2024/08/05 19:27:43
-permalink: /MATH2099/MATH2099/Statistics/
+permalink: /MATH2099/Statistics/
 ---

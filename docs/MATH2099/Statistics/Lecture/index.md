@@ -2,7 +2,7 @@
 title: Lecture
 author:
 createTime: 2024/08/05 19:27:43
-permalink: /MATH2099/MATH2099/Statistics/Lecture/
+permalink: /MATH2099/Statistics/Lecture/
 ---
 
 <HGlobalLink title="All Statistics Practice Class Exercises" md5="a619f3c979d10b431c62aae2cda67b6a"/>

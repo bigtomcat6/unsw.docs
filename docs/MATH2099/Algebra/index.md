@@ -3,7 +3,7 @@ title: Note
 outline: 1
 author:
 createTime: 2024/08/05 19:27:43
-permalink: /MATH2099/MATH2099/Algebra/
+permalink: /MATH2099/Algebra/
 ---
 
 # Chapter 1: Linear Equations and Matrices
