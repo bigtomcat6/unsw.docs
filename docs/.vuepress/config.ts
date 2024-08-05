@@ -171,5 +171,20 @@ export default defineUserConfig({
 
   // 全局注册：https://theme-hope.vuejs.press/zh/guide/component/global.html#%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C-vue-%E7%BB%84%E4%BB%B6
 
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      build: {
+        rollupOptions: {
+          output: {
+            manualChunks: (id) => { // not work
+              if (id.includes('node_modules')) {
+                return 'vendor';
+              }
+            },
+          },
+        },
+        chunkSizeWarningLimit: 1500, // 将警告限制提高到 1500 kB (but not work)
+      }
+    },
+  }),
 });
