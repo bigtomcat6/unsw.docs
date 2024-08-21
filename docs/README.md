@@ -1,7 +1,8 @@
 ---
-home: true
-title: Home
-externalLink: false
+layut: false
+# pageLayout: home
+title: UNSW notes ᵇᵉᵗᵃ
+externalLink: true
 config:
   -
     type: hero
@@ -26,4 +27,36 @@ config:
         title: MATH2099
         details: Mathematics 2B
         link: /MATH2099/
+aside: false
+readingTime: false
+
 ---
+
+<CardGrid>
+    <LinkCard 
+        title="DESN2000"
+        href="/DESN2000/">
+        Engineering Design and Professional Practice
+    </LinkCard>
+    <LinkCard 
+        title="MATH2099"
+        href="/MATH2099/">
+        Mathematics 2B
+    </LinkCard>
+</CardGrid>
+
+<CardGrid>
+    <LinkCard 
+        title="COMP2511"
+        href="/COMP2511/">
+        The Art of Software Design (OO Design & Programming)
+    </LinkCard>
+</CardGrid>
+
+---
+
+<LinkCard 
+    title="DPST & DPGE"
+    href="https://dp.unsw.docs.bigtomcat.com/">
+    UNSW College Diploma Courses
+</LinkCard>
