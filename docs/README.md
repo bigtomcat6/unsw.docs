@@ -1,5 +1,5 @@
 ---
-layut: false
+home: false
 # pageLayout: home
 title: UNSW notes ᵇᵉᵗᵃ
 externalLink: true
