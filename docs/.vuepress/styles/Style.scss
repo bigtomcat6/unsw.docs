@@ -1,6 +1,6 @@
-.pager {
-    display: none;
-}
+// .pager {
+//     display: none;
+// }
 
 .how_qb {
     background-color: var(--vp-badge-tip-bg); /* rgba(243, 247, 249, 0.5); */
@@ -43,6 +43,37 @@
     background-color: var(--hao-c-bg-title);
 }
 
+  /* moodle style By @How */
+
+  .moodle_section {
+    background-color: #f1f4f5;
+    box-shadow: 0 0 8px 0 #ddd;
+    border-top: 1px solid #3f61c4;
+    padding: 0 15px 15px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h3, h2, h1 {
+        // margin-left: 5px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+  }
+
+  .moodle_que {
+    background-color: #eff9fc;
+
+    position: relative;
+    padding: 0 12px 12px 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #d1edf6;
+    border-radius: .286rem;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
 // hao-card
 
 :root {
@@ -52,4 +83,23 @@
 :root {
     --hao-c-blue-soft: rgba(76, 144, 175, 0.278);
     --hao-c-orange-soft: rgb(243 140 44 / 42%);
+}
+
+// font-family 覆写
+
+@font-face {
+    font-family: Comic-Sans-MS;
+    src: url(https://unsw.cdn.t.bigtomcat.com/web/Comic-Sans-MS.ttf);
+    unicode-range: U+30-39, U+41-5A, U+61-7A, U+C0-FF
+}
+
+@font-face {
+    font-family: HannotateSC-W5;
+    src: url(https://unsw.cdn.t.bigtomcat.com/web/HannotateSC-W5.woff);
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Comic-Sans-MS, HannotateSC-W5;
 }
