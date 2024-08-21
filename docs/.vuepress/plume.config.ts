@@ -44,9 +44,15 @@ export default plumeTheme({
             collapsed: false,
             items: [
               {
-                text: 'Note',
-                dir: 'Note',
+                text: 'Overview',
+                dir: '',
                 link: '/DESN2000/',
+                items: []
+              },
+              {
+                text: 'Design',
+                dir: 'Design',
+                link: '/DESN2000/Design/',
                 items: []
               },
               {
@@ -122,6 +128,10 @@ export default plumeTheme({
 
     ]
   },
+
+  nextPage: false,
+  prevPage: false,
+  externalLinkIcon: true,
 
   footer: {
     message: '',
