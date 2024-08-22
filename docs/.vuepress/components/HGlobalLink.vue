@@ -28,12 +28,26 @@ export default {
     await this.loadData();
   },
   methods: {
+    async getFile() {
+      try {
+        const res = await axios.get('/HGlobalLink.yaml');
+        return res;
+      } catch (error) {
+        // console.error(error);
+        return null;
+      }
+    },
     async loadData() {
-      const file = await axios.get('/HGlobalLink.yaml');
+      const file = await this.getFile();
+      
+      if (!file || !file.data) {
+        return;
+      }
+
       const data = yaml.load(file.data);
       // console.log(data);
       
-      if (!this.md5) {
+      if (!data) {
         this.title = 'ERROR';
         return;
       }

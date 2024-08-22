@@ -1,6 +1,6 @@
 ---
 title: Week 1 Practice Class
-author:
+author: How
 createTime: 2024/07/02 22:01:48
 permalink: /MATH2099/grbaprk7/
 ---

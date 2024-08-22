@@ -1,6 +1,6 @@
 ---
 title: R.6 Independence of two events
-author:
+author: How
 createTime: 2024/06/10 21:25:54
 permalink: /MATH2099/4zo9j8oa/
 ---

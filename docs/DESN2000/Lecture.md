@@ -1,6 +1,6 @@
 ---
 title: Lecture Notes
-author:
+author: How
 createTime: 2024/05/28 19:51:17
 permalink: /DESN2000/Lecture
 ---

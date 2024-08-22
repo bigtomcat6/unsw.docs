@@ -1,6 +1,6 @@
 ---
 title: R.3 Equally likely outcomes
-author:
+author: How
 createTime: 2024/06/10 20:51:14
 permalink: /MATH2099/yb6v7lv5/
 ---

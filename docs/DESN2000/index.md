@@ -1,19 +1,21 @@
 ---
 title: Engineering Design and Professional Practice
+author: How
+createTime: 2024/08/05 19:27:43
+permalink: /DESN2000/
 ---
 
 <script setup>
 import unswUpdating from '@unswUpdating'
 </script>
 
- 
 <div class="hao-card card-title">
 
 ## DESN2000 <unswUpdating />
 ---
 ### Design
 
-
+<HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
 
 ---
 ### Technical (COMP)
@@ -56,13 +58,9 @@ import unswUpdating from '@unswUpdating'
 <HButton theme='alt' icon='ph:video' title='Echo360 link (Moodle)' src='https://webcms3.cse.unsw.edu.au/logger/3843/100350'/>
 </p>
 
-
-
-
-
 <p>
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/z5423001/desn2000ce-group-c' />
 </p>
 
-
 </div>
+

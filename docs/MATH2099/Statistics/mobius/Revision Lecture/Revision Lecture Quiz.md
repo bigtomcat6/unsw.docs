@@ -1,6 +1,6 @@
 ---
 title: Revision Lecture Quiz
-author:
+author: How
 createTime: 2024/06/10 21:39:28
 permalink: /MATH2099/8xh2czzz/
 ---

@@ -1,5 +1,8 @@
 ---
 title: Lecture
+author: How
+createTime: 2024/08/05 19:27:43
+permalink: /COMP2511/Lecture/
 ---
 
 **There are 8 core types of lectures in this course:**

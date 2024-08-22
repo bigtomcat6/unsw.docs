@@ -1,6 +1,6 @@
 ---
 title: R.2 Probability rules
-author:
+author: How
 createTime: 2024/06/10 20:08:17
 permalink: /MATH2099/0fzgmq14/
 ---

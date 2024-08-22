@@ -1,6 +1,6 @@
 ---
 title: R.5 Conditional probability rules
-author:
+author: How
 createTime: 2024/06/10 21:15:13
 permalink: /MATH2099/t3plbg14/
 ---
