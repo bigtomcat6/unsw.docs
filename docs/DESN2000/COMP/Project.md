@@ -2,7 +2,7 @@
 title: Project
 author: How
 createTime: 2024/06/11 12:30:44
-permalink: /DESN2000/Project
+permalink: /DESN2000/COMP/Project
 ---
 
 DESN2000 (Computer Engineering) 2024 T2

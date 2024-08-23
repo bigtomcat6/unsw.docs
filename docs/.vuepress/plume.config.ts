@@ -56,16 +56,10 @@ export default plumeTheme({
                 items: []
               },
               {
-                text: 'Lecture',
-                dir: 'Lecture',
-                link: '/DESN2000/Lecture',
-                items: []
-              },
-              {
-                text: 'Laboratory',
-                dir: 'Laboratory',
-                link: '/DESN2000/Lab/',
-                items: []
+                text: 'Tech (COMP)',
+                dir: 'COMP',
+                link: '/DESN2000/COMP/',
+                items: ['/DESN2000/COMP/Lecture/', '/DESN2000/COMP/Lab/']
               }
             ]
           }
