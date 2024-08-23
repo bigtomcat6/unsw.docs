@@ -60,6 +60,43 @@ links:
     src: /MATH2099/Lecture/Exercises_solns1.pdf
 
 # DESN2000
+  # Design
+  - title: DESN2000 T2 2024 Assessment Guide - Design Journal Week 3
+    type: pdf
+    md5: 480cea083dba2e959353f04dd4eb3308
+    src: /DESN2000/Design/DESN2000 T2 2024 Assessment Guide - Design Journal Week 3.pdf
+  - title: DESN2000 T2 2024 Assessment Guide - Design Journal Week 7
+    type: pdf
+    md5: 86b9ed218a54f30cf9b12d50a73b7dd7
+    src: /DESN2000/Design/DESN2000 T2 2024 Assessment Guide - Design Journal Week 7.pdf
+  - title: DESN2000-2023T2-AssessmentGuideline - Design Presentation
+    type: pdf
+    md5: c8cb2715ebbdca700e46523fbc81f978
+    src: /DESN2000/Design/DESN2000-2023T2-AssessmentGuideline - Design Presentation.pdf
+  - title: DESN2000 Week 1 Lecture 1, T2 2024 LORES
+    type: pdf
+    md5: ddbd4139f27d2fc1cb4261d3a45bc1cf
+    src: /DESN2000/Design/DESN2000 Week 1 Lecture 1, T2 2024 LORES.pdf
+  - title: DESN2000 Week 2 Lecture 2, T2 2024 LORES
+    type: pdf
+    md5: 9e26dabc253e6076083d9660366594c8
+    src: /DESN2000/Design/DESN2000 Week 2 Lecture 2, T2 2024 LORES.pdf
+  - title: DESN2000 Technical Presentations 2024_T2
+    type: pdf
+    md5: a39b8e1dbdb96af1851a8f91d0bf0b3c
+    src: /DESN2000/Design/DESN2000 Technical Presentations 2024_T2.pdf
+  - title: DESN2000 T2 2024 Workshop 1
+    type: pdf
+    md5: 7a8f72e5cd1c617aae501f532a815459
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 1.pdf
+  - title: DESN2000 T2 2024 Workshop 2
+    type: pdf
+    md5: d7a02a586fdaf79bef533252b41fea74
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 2.pdf
+  - title: DESN2000 T2 2024 Workshop 3 LORES
+    type: pdf
+    md5: b7f7aa1c4a20f184d90fa05951f366b9
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 3 LORES.pdf
   # Laboratory
     # STM32 ARM and Dev Board Resources
       # Basic Resources

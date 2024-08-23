@@ -122,7 +122,7 @@ The course has four main assessments. They are designed to support your design p
 
 ## Design Journal: Research and Concept, Week 3
 
-- <HGlobalLink title="" md5=""/>
+<HGlobalLink title="Design Journal, Week 3 - Assessment guide" md5="480cea083dba2e959353f04dd4eb3308"/>
 
 ::: note
 Your journal is an active record of your design work. It is submitted in two parts. This part is for quick feedback for you, and targets the very early phase of design from problem statement and research to concept generation.
@@ -134,7 +134,7 @@ Page limit: the main body of the Design Journal is limited to 10 pages. Max file
 
 ## Design Journal: Technical Development, Week 7
 
-- <HGlobalLink title="" md5=""/>
+<HGlobalLink title="Design Journal, Week 7 - Assessment guide" md5="86b9ed218a54f30cf9b12d50a73b7dd7"/>
 
 ::: note
 The second part of the design journal assessment focuses on your technical development. This is a team submission. Each team must select a member who is responsible for submitting this journal.
@@ -146,7 +146,7 @@ Page limit: the main body of the Design Journal is limited to 10 pages. Max file
 
 ## Design Presentation
 
-- <HGlobalLink title="" md5=""/>
+- <HGlobalLink title="Design Presentation - Assessment guide" md5="c8cb2715ebbdca700e46523fbc81f978"/>
 
 ::: note
 **1) Submission (by one team member only)**
@@ -181,7 +181,19 @@ Your individual contribution to this group submission will be evaluated in a tea
 
 ### Design Lectures in Weeks 1-3, Tuesday 2-3 pm, Clancy Auditorium
 
+- <HGlobalLink title="Lecture 1: Intro and research (30 MB)" md5="ddbd4139f27d2fc1cb4261d3a45bc1cf"/>
+- <HGlobalLink title="Lecture 2: Analysis and concept creation (3 MB)" md5="9e26dabc253e6076083d9660366594c8"/>
+- <HGlobalLink title="Technical communication UPDATED JUNE 7" md5="a39b8e1dbdb96af1851a8f91d0bf0b3c"/>
 
+#### Lecture recordings
 
+- <HLink title="Week 1 Tuesday Lecture" src="https://unsw-my.sharepoint.com/:v:/g/personal/z3505506_ad_unsw_edu_au1/ESUsTUHuoXxDkyNUibclyCsBg1IzPx9fsJPL7ybhHu1b6A?e=f5RzJf"/>
+- <HLink title="Recordings of design lectures" src="https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6761497&triggerview=0"/>
+
+### Workshop guides
+
+- <HGlobalLink title="Workshop 1 Research plan" md5="7a8f72e5cd1c617aae501f532a815459"/>
+- <HGlobalLink title="Workshop 2 Analysis and Concept generation" md5="d7a02a586fdaf79bef533252b41fea74"/>
+- <HGlobalLink title="Workshop 3 Storytelling UPDATED JUNE 11" md5="b7f7aa1c4a20f184d90fa05951f366b9"/>
 
 </div>
