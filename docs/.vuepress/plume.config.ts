@@ -29,6 +29,7 @@ export default plumeTheme({
     { text: 'DESN2000', link: '/DESN2000/' },
     { text: 'MATH2099', link: '/MATH2099/' },
     { text: 'COMP2511', link: '/COMP2511/' },
+    { text: 'Help',     link: '/help/', icon: 'game-icons:help'},
   ],
 
   notes: {
@@ -118,8 +119,11 @@ export default plumeTheme({
             ]
           }
         ]
+      },
+      {
+        dir: 'help',
+        link: '/help/',
       }
-
     ]
   },
 
