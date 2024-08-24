@@ -24,12 +24,15 @@ export default plumeTheme({
     {
       link: '/',
       text: 'Home',//`${Text()}`,
+      icon: 'ri:home-8-line'
     },
-    // { text: 'Get Started', link: '/get-started' },
-    { text: 'DESN2000', link: '/DESN2000/' },
-    { text: 'MATH2099', link: '/MATH2099/' },
-    { text: 'COMP2511', link: '/COMP2511/' },
-    { text: 'Help',     link: '/help/', icon: 'game-icons:help'},
+    { text: 'Userful Links', link: '/useful/', icon: 'fa6-solid:link' },
+    { text: 'Help', icon: 'mi:circle-help',
+      items: [
+        { text: 'About', link: '/help/about' },
+        { text: 'Copyright', link: '/help/copyright' }
+      ]
+    },
   ],
 
   notes: {
@@ -123,6 +126,7 @@ export default plumeTheme({
       {
         dir: 'help',
         link: '/help/',
+        sidebar: 'auto'
       }
     ]
   },
