@@ -26,7 +26,7 @@ export default plumeTheme({
       text: 'Home',//`${Text()}`,
       icon: 'ri:home-8-line'
     },
-    { text: 'Userful Links', link: '/useful/', icon: 'fa6-solid:link' },
+    { text: 'Links', link: '/useful/', icon: 'fa6-solid:link' },
     { text: 'Help', icon: 'mi:circle-help',
       items: [
         { text: 'About', link: '/help/about' },
