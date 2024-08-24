@@ -29,7 +29,8 @@ config:
         link: /MATH2099/
 aside: false
 readingTime: false
-
+createTime: false
+contributors: false
 ---
 
 <CardGrid>
