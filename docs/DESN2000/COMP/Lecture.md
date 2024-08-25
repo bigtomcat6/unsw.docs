@@ -2,7 +2,7 @@
 title: Lecture Notes
 author: How
 createTime: 2024/05/28 19:51:17
-permalink: /DESN2000/Lecture
+permalink: /DESN2000/COMP/Lecture
 ---
 
 ## Week 1 Monday
@@ -30,19 +30,19 @@ permalink: /DESN2000/Lecture
 
 * `File` → `New` → `STM32 Project`
 
-![image-20240527160444703](./img/image-20240527160444703.png)
+![image-20240527160444703](../img/image-20240527160444703.png)
 
 * In the window that opens, select `Board Selector`, select `NUCLEO-F303RE`, and click `Next`
 
-![image-20240527160951356](./img/image-20240527160951356.png)
+![image-20240527160951356](../img/image-20240527160951356.png)
 
 * Enter the project name in `Project Name` and click `Finish`
 
-![image-20240527161100525](./img/image-20240527161100525.png)
+![image-20240527161100525](../img/image-20240527161100525.png)
 
 * Generate code in `Project` → `Generate Code`
 
-![image-20240527161951134](./img/image-20240527161951134.png)
+![image-20240527161951134](../img/image-20240527161951134.png)
 
 Since then, the project initialization has been completed
 
@@ -52,7 +52,7 @@ Since then, the project initialization has been completed
 
  In the `Project Explorer` on the left, you can see the structure of the project.
 
-![image-20240527164335373](./img/image-20240527164335373.png)
+![image-20240527164335373](../img/image-20240527164335373.png)
 
 * `Core/Inc`: header File
 
@@ -63,7 +63,7 @@ Since then, the project initialization has been completed
 
 #### `main.c` File
 
-![image-20240527165638360](./img/image-20240527165638360.png)
+![image-20240527165638360](../img/image-20240527165638360.png)
 
 In the `main.c` file, we can see the `main` function, which is the entry point of the program.
 
@@ -75,9 +75,9 @@ The reason is that if you change something in the project settings, the code in 
 
 ::: details How to find LED pinouts
 
-![image-20240527204130910](./img/image-20240527204130910.png)
+![image-20240527204130910](../img/image-20240527204130910.png)
 
-![image-20240527204659561](./img/image-20240527204659561.png)
+![image-20240527204659561](../img/image-20240527204659561.png)
 
 :::
 

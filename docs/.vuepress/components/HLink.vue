@@ -34,10 +34,16 @@ export default {
   computed: {
     autoIcon() {
       switch (this.type) {
-        case 'pdf': return 'grommet-icons:document-pdf'
-        case 'zip': return 'hugeicons:file-zip'
+        case 'pdf':   return 'grommet-icons:document-pdf'
+        case 'zip':   return 'hugeicons:file-zip'
+        case 'ppt':
+        case 'pptx':  return 'grommet-icons:document-ppt'
+        case 'doc':
+        case 'docx':  return 'grommet-icons:document-word'
+        case 'xls':
+        case 'xlsx':  return 'grommet-icons:document-excel'
         case 'link':
-        default:  return 'lucide:link'
+        default:      return 'lucide:link'
       }
     }
   }

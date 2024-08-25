@@ -29,7 +29,8 @@ config:
         link: /MATH2099/
 aside: false
 readingTime: false
-
+createTime: false
+contributors: false
 ---
 
 <CardGrid>
@@ -55,8 +56,19 @@ readingTime: false
 
 ---
 
-<LinkCard 
-    title="DPST & DPGE"
-    href="https://dp.unsw.docs.bigtomcat.com/">
-    UNSW College Diploma Courses
-</LinkCard>
+<CardGrid>
+    <LinkCard 
+        title="Useful Links"
+        icon="fa6-solid:link"
+        href="/useful/">
+        Moodle, Möbius, myUNSW, WebCMS3...
+    </LinkCard>
+    <LinkCard 
+        title="DPST & DPGE"
+        href="https://dp.unsw.docs.bigtomcat.com/">
+        UNSW College Diploma Courses
+    </LinkCard>
+</CardGrid>
+
+
+

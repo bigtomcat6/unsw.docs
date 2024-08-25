@@ -1,13 +1,13 @@
 <template>
   <!--内链-->
-  <RouteLink :class="theme" v-if="isRouter" :to="autoSrc">
+  <RouteLink :class="setClassType" v-if="isRouter" :to="autoSrc">
     <img v-if="img" :src="img" style="margin-right: 7px;">
     <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 17px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
   </RouteLink>
 
   <!--外链-->
-  <a v-else :class="theme" :href="autoSrc" :target="autoTarget">
+  <a v-else :class="setClassType" :href="autoSrc" :target="autoTarget">
     <img v-if="img" :src="img" style="margin-right: 7px;">
     <Icon v-if="icon" :icon="icon" style="margin-right: 7px; font-size: 17px;" /> <!--https://iconify.design/docs/icon-components/vue/-->
     {{ title }}
@@ -36,6 +36,10 @@ export default {
     theme: {
       type: String,
       default: 'brand'
+    },
+    alt: {
+      type: Boolean,
+      default: false
     },
     title: {
       type: String,
@@ -76,6 +80,10 @@ export default {
         return false
       else
         return true
+    },
+    setClassType() {
+      if (this.alt || this.theme == 'alt')  return 'alt'
+      else  'brand'
     }
   }
 }

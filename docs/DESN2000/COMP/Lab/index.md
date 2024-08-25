@@ -2,7 +2,7 @@
 title: Laboratory
 author: How
 createTime: 2024/05/31 21:19:53
-permalink: /DESN2000/Lab/
+permalink: /DESN2000/COMP/Lab/
 ---
 
 **Note: Only for those in the computer engineering stream**
@@ -37,7 +37,7 @@ permalink: /DESN2000/Lab/
 
 <div class="how_qb">
 
-## Lab 1
+## Lab 1 (weeks 1 and 2)
 
 - <HGlobalLink title="Lab 1 sheet" md5="2dad676cd672271d2bffb0922151273f"/>
 
@@ -47,7 +47,7 @@ permalink: /DESN2000/Lab/
 
 <div class="how_qb">
 
-## Lab 2
+## Lab 2 (weeks 3 and 4)
 
 - <HGlobalLink title="🪲 Debugging Guide" md5="4357400e8680a2005dbf0ebe3dd31199"/>
 - <HGlobalLink title="LCD Controller Manual" md5="90904295ffa15d28b9f0f49778315bd1"/>
@@ -56,12 +56,13 @@ permalink: /DESN2000/Lab/
 - <HGlobalLink md5="e003ef06d8f56e658e0e5f7e0e33732c"/>
 
 <HButton type='Menu' title='Lab 2' src='./lab2' />
+<HButton type='Menu' title='Debug' src='./debug' />
 
 </div>
 
 <div class="how_qb">
 
-## Lab 3
+## Lab 3 (weeks 5 and 7)
 
 - <HGlobalLink title="ARM Instructions" md5="fb2e8984c126b4c953079769b11e2591"/>
 - <HGlobalLink title="Lab 3 Sheet" md5="c0d494ba44f5685eb1281d0c28b498a8"/>
@@ -72,8 +73,10 @@ permalink: /DESN2000/Lab/
 
 <div class="how_qb">
 
-## Lab 4
+## Lab 4 (weeks 8 and 9)
 
 - <HGlobalLink title="Lab 4 Sheet" md5="7993a46b03846c1f51a945628ad1d73b"/>
+
+<HButton type='Menu' title='Lab 4' src='./lab4' />
 
 </div>

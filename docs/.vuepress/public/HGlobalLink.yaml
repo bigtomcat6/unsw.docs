@@ -60,6 +60,129 @@ links:
     src: /MATH2099/Lecture/Exercises_solns1.pdf
 
 # DESN2000
+  # Design
+  - title: DESN2000 T2 2024 Assessment Guide - Design Journal Week 3
+    type: pdf
+    md5: 480cea083dba2e959353f04dd4eb3308
+    src: /DESN2000/Design/DESN2000 T2 2024 Assessment Guide - Design Journal Week 3.pdf
+  - title: DESN2000 T2 2024 Assessment Guide - Design Journal Week 7
+    type: pdf
+    md5: 86b9ed218a54f30cf9b12d50a73b7dd7
+    src: /DESN2000/Design/DESN2000 T2 2024 Assessment Guide - Design Journal Week 7.pdf
+  - title: DESN2000-2023T2-AssessmentGuideline - Design Presentation
+    type: pdf
+    md5: c8cb2715ebbdca700e46523fbc81f978
+    src: /DESN2000/Design/DESN2000-2023T2-AssessmentGuideline - Design Presentation.pdf
+  - title: DESN2000 Week 1 Lecture 1, T2 2024 LORES
+    type: pdf
+    md5: ddbd4139f27d2fc1cb4261d3a45bc1cf
+    src: /DESN2000/Design/DESN2000 Week 1 Lecture 1, T2 2024 LORES.pdf
+  - title: DESN2000 Week 2 Lecture 2, T2 2024 LORES
+    type: pdf
+    md5: 9e26dabc253e6076083d9660366594c8
+    src: /DESN2000/Design/DESN2000 Week 2 Lecture 2, T2 2024 LORES.pdf
+  - title: DESN2000 Technical Presentations 2024_T2
+    type: pdf
+    md5: a39b8e1dbdb96af1851a8f91d0bf0b3c
+    src: /DESN2000/Design/DESN2000 Technical Presentations 2024_T2.pdf
+  - title: DESN2000 T2 2024 Workshop 1
+    type: pdf
+    md5: 7a8f72e5cd1c617aae501f532a815459
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 1.pdf
+  - title: DESN2000 T2 2024 Workshop 2
+    type: pdf
+    md5: d7a02a586fdaf79bef533252b41fea74
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 2.pdf
+  - title: DESN2000 T2 2024 Workshop 3 LORES
+    type: pdf
+    md5: b7f7aa1c4a20f184d90fa05951f366b9
+    src: /DESN2000/Design/DESN2000 T2 2024 Workshop 3 LORES.pdf
+  # Lecture
+    # Week 1
+  - title: Course_intro
+    type: pdf
+    md5: f6a573d0a48c028be350dfd888eec978
+    src: /DESN2000/Lecture/Course_intro.pdf
+  - title: Introduction_to_STM32_ARM_and_GPIO_-_Part_1
+    type: pdf
+    md5: 870a2d779bd326fdb2d7c78bfa82daf8
+    src: /DESN2000/Lecture/Introduction_to_STM32_ARM_and_GPIO_-_Part_1.pdf
+  - title: helloworld
+    type: zip
+    md5: 1a37fd1c53c0fddabeaa1259247efa79
+    src: /DESN2000/Lecture/helloworld.zip
+  - title: directC-example
+    type: zip
+    md5: 3261590a957176c4ef0a5546f5324435
+    src: /DESN2000/Lecture/directC-example.zip
+    # Week 2
+  - title: lcd
+    type: pdf
+    md5: a83fa68bc50675d8470b6d60942367e7
+    src: /DESN2000/Lecture/lcd.pdf
+  - title: gpio_without_hal
+    type: pdf
+    md5: bc05f6836efefd047c8308b0887f7cfb
+    src: /DESN2000/Lecture/gpio_without_hal.pdf
+    # Week 3
+  - title: asm.pdf
+    type: pdf
+    md5: 462bf3152d874e3501402807263f0875
+    src: /DESN2000/Lecture/asm.pdf
+  - title: mix_c_with_assembly
+    type: zip
+    md5: 0f0f33a61361bbb56c35614ad5b0b750
+    src: /DESN2000/Lecture/mix_c_with_assembly.zip
+    # Week 4
+  - title: interrupts
+    type: pdf
+    md5: 547531fdf51718be9d065f399dc21585
+    src: /DESN2000/Lecture/interrupts.pdf
+  - title: HAL_interrupts
+    type: zip
+    md5: ad025f70173a4c82fa822a33139ff4ac
+    src: /DESN2000/Lecture/HAL_interrupts.zip
+    # Week 5
+  - title: timers
+    type: pdf
+    md5: 66ec7f7cac196946963ed7886e545358
+    src: /DESN2000/Lecture/timers.pdf
+  - title: timers-lec
+    type: pdf
+    md5: 384b65d70478cb4ada0a612a107d08ac
+    src: /DESN2000/Lecture/timers-lec.pdf
+    # Week 7
+  - title: adc
+    type: pdf
+    md5: d1f81450f0ba308579507e021c68a7d1
+    src: /DESN2000/Lecture/adc.pdf
+    # Week 8
+  - title: Lec_-_Stepper_Motors.pptx
+    type: pptx
+    md5: 50ae1e2ee0aea4abf6c7e1ebd7e4eb1e
+    src: /DESN2000/Lecture/Lec_-_Stepper_Motors.pptx
+  - title: UART
+    type: pdf
+    md5: 276930b726a6d45bd642dd7079daf839
+    src: /DESN2000/Lecture/UART.pdf
+    # Week 9
+  - title: spi-i2c
+    type: pdf
+    md5: 7eb2f02993f259d211e4aa3aabea97e3
+    src: /DESN2000/Lecture/spi-i2c.pdf
+  # Project
+  - title: Project-brief
+    type: pdf
+    md5: 2eacb0c1505fd0ad72d35d0b6c78887b
+    src: /DESN2000/Project/Project-brief.pdf
+  - title: Projdetails
+    type: pdf
+    md5: 4ed8ae3fb6dd3364172a837b9768d2e7
+    src: /DESN2000/Project/Projdetails.pdf
+  - title: proj-assessment-guide
+    type: pdf
+    md5: 883be16d6cf0b8bf5ba6f19c5609bf99
+    src: /DESN2000/Project/proj-assessment-guide.pdf
   # Laboratory
     # STM32 ARM and Dev Board Resources
       # Basic Resources
