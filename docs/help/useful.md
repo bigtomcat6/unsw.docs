@@ -26,4 +26,36 @@ aside: false
         title="CSE WebCMS3"
         href="https://webcms3.cse.unsw.edu.au/">
     </LinkCard>
+    <LinkCard 
+        icon="/playconomics.png"
+        title="Playconomics"
+        href="https://my.playconomics.com/accounts/login/">
+    </LinkCard>
+</CardGrid>
+
+---
+
+### UNSW Handbook 2025
+
+<CardGrid>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="3707 Engineering (Honours)"
+        href="https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3707">
+    </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="3778 Computer Science"
+        href="https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3778">
+    </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="3970 Science"
+        href="https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3970">
+    </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="3543 Economics"
+        href="https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3543">
+    </LinkCard>
 </CardGrid>
