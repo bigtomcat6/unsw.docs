@@ -46,7 +46,7 @@ export default defineUserConfig({
   ],
 
   plugins: [
-    // removeHtmlExtensionPlugin(),
+    removeHtmlExtensionPlugin(),
     markdownPowerPlugin({
       icons: true,
     }),
