@@ -13,12 +13,14 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
+    "@iconify/json": "^2.2.241",
     "@iconify/vue": "^4.1.2",
     "@vuepress/bundler-vite": "2.0.0-rc.14",
     "axios": "^1.7.4",
     "js-yaml": "^4.1.0",
     "vue": "^3.4.38",
     "vuepress": "2.0.0-rc.14",
+    "vuepress-plugin-md-power": "1.0.0-rc.88",
     "vuepress-theme-plume": "1.0.0-rc.88"
   },
   "dependencies": {
