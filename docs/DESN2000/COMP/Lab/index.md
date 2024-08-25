@@ -2,7 +2,7 @@
 title: Laboratory
 author: How
 createTime: 2024/05/31 21:19:53
-permalink: /DESN2000/Lab/
+permalink: /DESN2000/COMP/Lab/
 ---
 
 **Note: Only for those in the computer engineering stream**
@@ -56,6 +56,7 @@ permalink: /DESN2000/Lab/
 - <HGlobalLink md5="e003ef06d8f56e658e0e5f7e0e33732c"/>
 
 <HButton type='Menu' title='Lab 2' src='./lab2' />
+<HButton type='Menu' title='Debug' src='./debug' />
 
 </div>
 
