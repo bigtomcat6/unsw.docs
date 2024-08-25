@@ -15,14 +15,20 @@ import unswUpdating from '@unswUpdating'
 ---
 ### Design
 
-<HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
+<HButton icon='material-symbols:overview-key-outline-rounded' title='Overview' src='Design/'/>
 
 ---
 ### Technical (COMP)
 
-<HButton icon='mdi:lecture' title='Lecture' src='Lecture'/>
+<HButton icon='material-symbols:overview-key-outline-rounded' title='Overview' src='COMP/'/>
 
-<HButton icon='icomoon-free:lab' title='Laboratory' src='Lab/'/>
+<p>
+<HButton alt icon='mdi:lecture' title='Lectures' src='COMP/Lecture/'/>
+
+<HButton alt icon='icomoon-free:lab' title='Labs' src='COMP/Lab/'/>
+
+<HButton alt icon='fluent-mdl2:assessment-group' title='Project' src='COMP/Project/'/>
+</p>
 
 </div>
 

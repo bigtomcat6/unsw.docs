@@ -170,6 +170,19 @@ links:
     type: pdf
     md5: 7eb2f02993f259d211e4aa3aabea97e3
     src: /DESN2000/Lecture/spi-i2c.pdf
+  # Project
+  - title: Project-brief
+    type: pdf
+    md5: 2eacb0c1505fd0ad72d35d0b6c78887b
+    src: /DESN2000/Project/Project-brief.pdf
+  - title: Projdetails
+    type: pdf
+    md5: 4ed8ae3fb6dd3364172a837b9768d2e7
+    src: /DESN2000/Project/Projdetails.pdf
+  - title: proj-assessment-guide
+    type: pdf
+    md5: 883be16d6cf0b8bf5ba6f19c5609bf99
+    src: /DESN2000/Project/proj-assessment-guide.pdf
   # Laboratory
     # STM32 ARM and Dev Board Resources
       # Basic Resources
