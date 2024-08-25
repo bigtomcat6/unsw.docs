@@ -60,7 +60,7 @@ export default plumeTheme({
                 items: []
               },
               {
-                text: 'Tech (COMP)',
+                text: 'Technical (COMP)',
                 dir: 'COMP',
                 link: '/DESN2000/COMP/',
                 items: ['/DESN2000/COMP/Lecture/', '/DESN2000/COMP/Lab/']
