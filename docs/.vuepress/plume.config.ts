@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 
 
-const COPYRIGHT = 'Subdocument of <a href="https://docs.bigtomcat.com/" target="_blank">docs.bigtomcat.com</a><br> \
+const COPYRIGHT = 'Subdocument of <a href="https://docs.bigtomcat.com/" target="_blank">How\'s Docs</a> &nbsp; <br>\
 Copyright ©2022 - 2024 <a href="https://www.bigtomcat.com/" target="_blank">How</a> <br>';
 
 export default plumeTheme({
