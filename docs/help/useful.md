@@ -33,9 +33,7 @@ aside: false
     </LinkCard>
 </CardGrid>
 
----
-
-### UNSW Handbook 2025
+## UNSW Handbook 2025
 
 <CardGrid>
     <LinkCard 
