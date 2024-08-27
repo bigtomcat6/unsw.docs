@@ -118,6 +118,11 @@ export default plumeTheme({
                 dir: 'Lecture',
                 link: '/COMP2511/Lecture/',
                 items: []
+              },
+              {
+                text: 'Tutorial',
+                dir: 'Tutorial',
+                link: '/COMP2511/Tutorial/'
               }
             ]
           }
