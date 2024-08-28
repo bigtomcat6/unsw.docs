@@ -26,7 +26,13 @@ Login is your zID email (i.e. `z1234567@unsw.edu.au`) and your zID password.
 
 **Hobbies:** 🚗 Cars, 🏋️ Gym, 🎮 Gaming, 🕵️ Hacking, ✈ Travelling
 
-![img](img/car-20240827170733614.jpeg)![img](img/IMG_8535.jpg)![img](img/IMG_7779.jpg)![img](img/IMG_9557.jpeg)
+![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F081db720-4944-439b-8e9e-2f8ba26bfb75252Fcar-20240828113320337.jpeg)
+
+![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F5de16517-41e6-4318-8fbe-be5c5fabe455252FIMG_8535-20240828113327122.jpg)
+
+![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252Fc9a2958d-b4fd-4a7b-8d4d-2d8111b4a16b252FIMG_7779-20240828113340445.jpg)
+
+![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F2a217ed5-2e45-4245-a0b5-f432a1e64804252FIMG_9557-20240828113348780.jpeg)
 
 
 🐻 **Your turn…**
@@ -90,7 +96,7 @@ Here's a concise explanation of essential git commands:
 - `git status`: Shows the state of current repository and branch.
 - `git log`: Displays the history of the current branch.
 
-![img](img/git-usage-diagram.svg)
+![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F62a858f1-db7c-40f1-9252-11ed23ceab36252Fgit-usage-diagram-20240828114837086.svg)
 
 <https://nw-syd-gitlab.cseunsw.tech/COMP2511/24T2/content/-/blob/main/setup/docs/Git.md>
 
@@ -129,13 +135,13 @@ Here's a concise explanation of essential git commands:
 
 
 
-- Correct way to open your repository. 1 repository per folder.![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252Ff0ae2128-19ff-4939-bbd5-7eea4e91642f252FUntitled-20240827173437581.png)
+- Correct way to open your repository. 1 repository per folder.![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252Ff0ae2128-19ff-4939-bbd5-7eea4e91642f252FUntitled-20240828113905705.png)
 
-- Wrong way to open repository. There are multiple repositories in your folder. ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F12aec095-2cc2-44b9-a884-facf2f48bd5f252FUntitled-20240827173758682.png)
+- Wrong way to open repository. There are multiple repositories in your folder. ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F12aec095-2cc2-44b9-a884-facf2f48bd5f252FUntitled-20240828114213485.png)
 
-- Have the correct Java extensions installed ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F1e5eb21d-f91d-4e1a-b969-7dd30e9f332d252FUntitled-20240827173923736.png)
+- Have the correct Java extensions installed ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F1e5eb21d-f91d-4e1a-b969-7dd30e9f332d252FUntitled-20240828114242993.png)
 
-- Use the “Run” button to run your code ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F602da3f9-e48b-4756-9530-7ff7f3feb38d252FUntitled-20240827173954084.png)
+- Use the “Run” button to run your code ![img](img/https253A252F252Fprod-files-secure.s3.us-west-2.amazonaws.com252F732d6586-9cd5-4149-8c5c-b5be6cfb4cb5252F602da3f9-e48b-4756-9530-7ff7f3feb38d252FUntitled-20240828114308762.png)
 
 ## **👨‍💻Code Demo**
 
@@ -158,10 +164,10 @@ Here's a concise explanation of essential git commands:
 - Inside a new file called `Sum.java`, write a program that uses the `Scanner` class which reads in a line of numbers separated by spaces, and sums them.
     ```java
     package example;
-
+    
     import java.util.Arrays;
     import java.util.Scanner;
-
+    
     /**
      * Write a program that uses the `Scanner` class
      * which reads in a line of numbers separated by spaces,
@@ -176,25 +182,25 @@ Here's a concise explanation of essential git commands:
              * System.in == stdin in C
              */
             Scanner scanner = new Scanner(System.in);
-
+    
             /**
              * Keeps reading input until it sees a \n
              *
              * Splits each string into an array of strings
              */
             String[] numbers = scanner.nextLine().split(" ");
-
+    
             int sum = 0;
             for (String number : numbers) {
                 sum += Integer.parseInt(number);
             }
             System.out.println("The sum is " + sum);
-
+    
             // Advanced
             // Using streams
             int streamSum = Arrays.asList(numbers).stream().mapToInt(x -> Integer.parseInt(x)).sum();
             System.out.println(String.format("The sum is %d", streamSum));
-
+    
             /**
              * Frees I/O resources
              * Java's garbage collector only manages memory, not other resources
@@ -207,43 +213,43 @@ Here's a concise explanation of essential git commands:
 - Inside a new file `Shouter.java`, Write a program that stores a message and has methods for getting the message, updating the message and printing it out in all caps. Write a `main()` method for testing this class.
     ```java
     package example;
-
+    
     public class Shouter {
         private String message;
-
+    
         public Shouter(String message) {
             this.message = message;
         }
-
+    
         public String getMessage() {
             // NOTE: You don't have to use the keyword `this`
             // But I use it because of clarity
             return this.message;
         }
-
+    
         public void setMessage(String newMessage) {
             this.message = newMessage;
         }
-
+    
         public String toString() {
             return String.format("Shouter message = %s", this.message);
         }
-
+    
         public void printMe() {
             System.out.println(this.message);
         }
-
+    
         public void shout() {
             System.out.println(this.message.toUpperCase());
         }
-
+    
         public void printAndShout() {
             // NOTE: You don't have to use the keyword `this`
             // But I use it because of clarity
             this.printMe();
             this.shout();
         }
-
+    
         public static void main(String[] args) {
             Shouter s = new Shouter("This is my message");
             s.printMe();
