@@ -62,7 +62,10 @@ If I don't respond within 48 hours, please bump it.
 <HButton alt title='⚗️ Week 03' src='./otut3'/>
 <HButton alt title='🎯 Week 04' src='./otut4'/>
 <HButton alt title='⛸ Week 05' src='./otut5'/>
-
+<HButton alt title='🏭 Week 07' src='./otut7'/>
+<HButton alt title='🏒 Week 08' src='./otut8'/>
+<HButton alt title='🪆 Week 09' src='./otut9'/>
+<HButton alt title='🚘 Week 10' src='./otut10'/>
 
 ::: details Original links
 [Week 01](https://www.notion.so/Week-01-5c2b9565f31549d1bf81eeca2627a613?pvs=21)
