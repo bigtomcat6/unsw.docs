@@ -31,6 +31,11 @@ aside: false
         title="Playconomics"
         href="https://my.playconomics.com/accounts/login/">
     </LinkCard>
+    <LinkCard 
+        icon="vscode-icons:file-type-gitlab"
+        title="UNSW GitLab"
+        href="https://nw-syd-gitlab.cseunsw.tech/dashboard/groups">
+    </LinkCard>
 </CardGrid>
 
 ## UNSW Handbook 2025
