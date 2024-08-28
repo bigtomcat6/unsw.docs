@@ -11,6 +11,7 @@ Tutorials for each week will be released on Friday night to Saturday morning of 
 <p><HButton title='Tutorial 01' src='./tute01'/> <HButton alt title='Solutions 01' src='./tute01s'/></p>
 <p><HButton title='Tutorial 02' src='./tute02'/> <HButton alt title='Solutions 02' src='./tute02s'/></p>
 <p><HButton title='Tutorial 03' src='./tute03'/> <HButton alt title='Solutions 03' src='./tute03s'/></p>
+<p><HButton title='Tutorial 04' src='./tute04'/> <HButton alt title='Solutions 04' src='./tute04s'/></p>
 
 ::: details GitLab Links
 | **Week** | **Tutorial**                                                 | **Recording**                                                | **Solutions**                                                |
@@ -56,10 +57,9 @@ If I don't respond within 48 hours, please bump it.
 #### 📝 Tutorial Content
 
 <HButton alt title='🎓 Week 01' src='./otut1'/>
-
 <HButton alt title='🐟 Week 02' src='./otut2'/>
-
 <HButton alt title='⚗️ Week 03' src='./otut3'/>
+<HButton alt title='🎯 Week 04' src='./otut4'/>
 
 
 ::: details Original links

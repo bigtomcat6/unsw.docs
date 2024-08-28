@@ -6,8 +6,6 @@ permalink: /COMP2511/xwupu562/
 
 ## 🧬 Inheritance
 
----
-
 In Java, a class can inherit attributes and methods from another class. The class that inherits the properties is known as the sub-class or the child class. The class from which the properties are inherited is known as the superclass or the parent class.
 
 Also known ask a “**is-a**” relationship
