@@ -12,7 +12,7 @@ import theme from './plume.config'
 /**********/
 
 import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension'
-import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
+// import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 // import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 import { getDirname, path } from "vuepress/utils";
@@ -47,9 +47,9 @@ export default defineUserConfig({
 
   plugins: [
     removeHtmlExtensionPlugin(),
-    markdownPowerPlugin({
-      icons: true,
-    }),
+    // markdownPowerPlugin({
+    //   icons: true,
+    // }),
   ],
 
   alias: {

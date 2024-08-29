@@ -149,6 +149,9 @@ export default plumeTheme({
     markdownEnhance: {
       mermaid: true,
     },
+    markdownPower: {
+      icons: true,
+    }
   },
   
 });
