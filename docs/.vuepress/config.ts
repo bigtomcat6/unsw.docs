@@ -57,6 +57,7 @@ export default defineUserConfig({
     '@MobiusTitleCard': path.resolve(__dirname, 'components/MobiusTitleCard.vue'),
     '@unswUpdating': path.resolve(__dirname, 'components/unswUpdating.vue'),
     '@HSelect': path.resolve(__dirname, 'components/HSelect.vue'),
+    '@HMoodleLink': path.resolve(__dirname, 'components/HMoodleLink.vue'),
   },
 
   // 全局注册：https://theme-hope.vuejs.press/zh/guide/component/global.html#%E5%85%A8%E5%B1%80%E6%B3%A8%E5%86%8C-vue-%E7%BB%84%E4%BB%B6
