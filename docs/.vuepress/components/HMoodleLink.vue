@@ -1,6 +1,6 @@
 <template>
   <HBaseLink :src="autoSrc" :img="undefined" :icon="autoIcon">
-    {{ title }}
+    <slot></slot>
   </HBaseLink>
 </template>
 
