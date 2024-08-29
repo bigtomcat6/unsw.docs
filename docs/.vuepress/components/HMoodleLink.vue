@@ -4,20 +4,22 @@
   </HBaseLink>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import HBaseLink from './base/HBaseLink.vue';
 </script>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent, PropType } from 'vue';
+export default defineComponent({
   props: {
     /**
      * @type {'link' | 'pdf' | 'zip'}
      * @default 'link'
      */
     type: {
-      type: String,
-      default: 'link'
+      type: String as PropType<'forum' | 'link'>,
+      default: 'link',
+      validator: (value: string) => ['forum', 'link'].includes(value)
     },
     title: {
       type: String,
@@ -25,20 +27,13 @@ export default {
     },
     src: {
       type: String,
-      default: undefined
+      default: undefined,
     }
   },
   computed: {
     autoIcon() {
       switch (this.type) {
-        case 'pdf':   return 'grommet-icons:document-pdf'
-        case 'zip':   return 'hugeicons:file-zip'
-        case 'ppt':
-        case 'pptx':  return 'grommet-icons:document-ppt'
-        case 'doc':
-        case 'docx':  return 'grommet-icons:document-word'
-        case 'xls':
-        case 'xlsx':  return 'grommet-icons:document-excel'
+        case 'forum':   return 'lets-icons:chat-alt-2-duotone-line'
         case 'link':
         default:      return 'lucide:link'
       }
@@ -53,7 +48,7 @@ export default {
       }
     },
   }
-}
+})
 </script>
 
 <style scoped lang="scss">
