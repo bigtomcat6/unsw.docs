@@ -35,7 +35,7 @@ export default defineComponent({
       switch (this.type) {
         case 'forum':   return 'lets-icons:chat-alt-2-duotone-line'
         case 'link':
-        default:      return 'lucide:link'
+        default:      return 'pepicons-pop:internet'
       }
     },
     autoSrc() {
