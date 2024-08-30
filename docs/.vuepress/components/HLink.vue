@@ -7,12 +7,13 @@
 </template>
 
 
-<script setup>
+<script setup lang="ts">
 import { Icon } from '@iconify/vue';
 </script>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
   props: {
     /**
      * @type {'link' | 'pdf' | 'zip'}
@@ -34,6 +35,7 @@ export default {
   computed: {
     autoIcon() {
       switch (this.type) {
+        case 'none':  return undefined
         case 'pdf':   return 'grommet-icons:document-pdf'
         case 'zip':   return 'hugeicons:file-zip'
         case 'ppt':
@@ -47,7 +49,7 @@ export default {
       }
     }
   }
-}
+})
 </script>
 
 <style scoped lang="scss">
