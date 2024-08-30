@@ -1,5 +1,5 @@
 <template>
-  <HBaseLink :src="autoSrc" :img="undefined" :icon="autoIcon">
+  <HBaseLink :src="autoSrc" :img="autoImg" :icon="autoIcon">
     <slot></slot>
   </HBaseLink>
 </template>
@@ -34,8 +34,17 @@ export default defineComponent({
     autoIcon() {
       switch (this.type) {
         case 'forum':   return 'lets-icons:chat-alt-2-duotone-line'
+        case 'page':    return 'iconoir:page'
+        /***/
+        case 'pdf':     return undefined
+        /***/
         case 'link':
         default:      return 'pepicons-pop:internet'
+      }
+    },
+    autoImg() {
+      switch (this.type) {
+        case 'pdf':   return '/moodleIcon/pdf-24.png'
       }
     },
     autoSrc() {
