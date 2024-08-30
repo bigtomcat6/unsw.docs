@@ -1,5 +1,6 @@
 <template>
-  <HBaseLink :src="autoSrc" :img="autoImg" :icon="autoIcon">
+  <HGlobalLink v-if="md5" :title="titleFromSlot" :md5="md5" />
+  <HBaseLink v-else :src="autoSrc" :img="autoImg" :icon="autoIcon">
     <slot></slot>
   </HBaseLink>
 </template>
@@ -10,7 +11,13 @@ import HBaseLink from './base/HBaseLink.vue';
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
+import HGlobalLink from './HGlobalLink.vue';
 export default defineComponent({
+  data() {
+    return {
+      titleFromSlot: '',
+    }
+  },
   props: {
     /**
      * @type {'link' | 'pdf' | 'zip'}
@@ -26,6 +33,10 @@ export default defineComponent({
       default: 'Link'
     },
     src: {
+      type: String,
+      default: undefined,
+    },
+    md5: {
       type: String,
       default: undefined,
     }
@@ -56,6 +67,9 @@ export default defineComponent({
         return './'
       }
     },
+  },
+  mounted() {
+    this.titleFromSlot = this.$slots.default?.()[0].children[0].text
   }
 })
 </script>
