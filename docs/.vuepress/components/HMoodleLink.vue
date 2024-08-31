@@ -66,10 +66,15 @@ export default defineComponent({
       } else {
         return './'
       }
-    },
+    }
   },
   mounted() {
-    this.titleFromSlot = this.$slots.default?.()[0].children[0].text
+    this.checkSlot()
+  },
+  methods: {
+    checkSlot() {
+      this.titleFromSlot = this.$slots.default?.()[0].children
+    }
   }
 })
 </script>
