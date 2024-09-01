@@ -259,5 +259,25 @@ Note, you **cannot access course material on Mobius**, including linear algebra 
 
 ## Linear Algebra: Lectures
 
+<HMoodleLink type='pdf' md5='6e2dcb1c3091dd65b470cf728de6af3e'>Linear Algebra Course Information</HMoodleLink>
+
+> **Erratum**: there is only one algebra test in week 9, not 2 (see p.5). There are 2 quizzes.
+<HMoodleLink type='pdf' md5='db937eb28fd426ae588a873cd9b25ea7'>Linear Algebra Course Information</HMoodleLink>
+
+> A useful resource for revision
+<HMoodleLink type='pdf' md5='7494e9bc56aed047c01998266d991e8e'>MATH1231/1241 Algebra Lecture Notes</HMoodleLink>
+
+> A useful resource for revision
+
+
+</div>
+
+
+<div class="moodle_section">
+
+## Linear Algebra: Tutorials / TU2
+
+<HMoodleLink type='pdf' md5='a7aec417e1dd3ccf6f4e7c09b9edb635'>2024 Linear Algebra Problems</HMoodleLink>
+
 
 </div>
