@@ -2,11 +2,12 @@
   <HLink :type="type" :title="titleL" :src="src" />
 </template>
 
-<script>
+<script lang="ts">
 import axios from 'axios';
 import yaml from 'js-yaml';
 
-export default {
+import { defineComponent } from 'vue';
+export default defineComponent({
   props: {
     md5: {
       type: String,
@@ -15,6 +16,10 @@ export default {
     title: {
       type: String,
       default: undefined
+    },
+    noneIcon: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -58,13 +63,15 @@ export default {
         if (!this.title)  this.titleL = found.title;
         else              this.titleL = this.title;
         
-        this.type = found.type;
+        if (this.noneIcon) this.type = 'none';
+        else               this.type = found.type;
+        
         this.src = data.globalLink + found.src;
       } else {
         this.title = 'ERROR';
       }
     }
   }
-}
+})
 
 </script>

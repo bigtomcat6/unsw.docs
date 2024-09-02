@@ -19,14 +19,28 @@ links:
     src: /COMP2511/Lecture/DomainModelling.pdf
 # MATH2099
   # Algebra
+  - title: MATH1131-1141-Algebra-Notes-2020T1
+    type: pdf
+    md5: db937eb28fd426ae588a873cd9b25ea7
+    src: /MATH2099/Lecture/MATH1131-1141-Algebra-Notes-2020T1.pdf
+  - title: MATH1231-1241-Algebra-Notes-2020T1
+    type: pdf
+    md5: 7494e9bc56aed047c01998266d991e8e
+    src: /MATH2099/Lecture/MATH1231-1241-Algebra-Notes-2020T1.pdf
   - title: MATH2099_LA_CourseInfo24
     type: pdf
     md5: 6e2dcb1c3091dd65b470cf728de6af3e
     src: /MATH2099/Lecture/MATH2099_LA_CourseInfo24.pdf
+    # Lecture
   - title: MATH2099_LA_Chap01_1pp
     type: pdf
     md5: 20ad432ba3015c4cffda0a1911f974ac
     src: /MATH2099/Lecture/MATH2099_LA_Chap01_1pp.pdf
+    # Tutorial
+  - title: MATH2099_LinaAlgProbsv02
+    type: pdf
+    md5: a7aec417e1dd3ccf6f4e7c09b9edb635
+    src: /MATH2099/Tutorial/MATH2099_LinaAlgProbsv02.pdf
   # Statistics
     # Lecture
   - title: LectureRevision
