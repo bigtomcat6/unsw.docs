@@ -94,4 +94,6 @@ Please get started early!
 <MobiusTitle title="
 2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
 
+<MobiusTitle title="2.2 Discrete random variables" src="Lecture 2/2.2 Discrete random variables" />
+
 </div>
