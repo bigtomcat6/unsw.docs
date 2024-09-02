@@ -86,3 +86,12 @@ Please get started early!
 
 </div>
 
+
+<div class="how_qb">
+
+### Lecture 2
+
+<MobiusTitle title="
+2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
+
+</div>
