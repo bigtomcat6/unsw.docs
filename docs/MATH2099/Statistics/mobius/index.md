@@ -96,4 +96,6 @@ Please get started early!
 
 <MobiusTitle title="2.2 Discrete random variables" src="Lecture 2/2.2 Discrete random variables" />
 
+<MobiusTitle title="2.3 Continuous random variables" src="Lecture 2/2.3 Continuous random variables" />
+
 </div>
