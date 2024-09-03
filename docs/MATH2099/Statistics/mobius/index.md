@@ -100,4 +100,6 @@ Please get started early!
 
 <MobiusTitle title="2.4 Expectation and variance of a random variable" src="Lecture 2/2.4 Expectation and variance of a random variable" />
 
+<MobiusTitle title="2.5 Jointly distributed random variables" src="Lecture 2/2.5 Jointly distributed random variables" />
+
 </div>
