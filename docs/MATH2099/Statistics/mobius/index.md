@@ -91,8 +91,7 @@ Please get started early!
 
 ### Lecture 2
 
-<MobiusTitle title="
-2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
+<MobiusTitle title="2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
 
 <MobiusTitle title="2.2 Discrete random variables" src="Lecture 2/2.2 Discrete random variables" />
 
@@ -108,5 +107,12 @@ Please get started early!
   <MobiusTitle title="Lecture 2 Quiz" src="Lecture 2/Lecture 2 Quiz" />
 </p>
 
+</div>
+
+<div class="how_qb">
+
+### Lecture 3
+
+<MobiusTitle title="3.1 The Binomial distribution" src="Lecture 3/3.1 The Binomial distribution" />
 
 </div>
