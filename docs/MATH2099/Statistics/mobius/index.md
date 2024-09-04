@@ -102,4 +102,6 @@ Please get started early!
 
 <MobiusTitle title="2.5 Jointly distributed random variables" src="Lecture 2/2.5 Jointly distributed random variables" />
 
+<MobiusTitle title="2.6 Covariance and correlation" src="Lecture 2/2.6 Covariance and correlation" />
+
 </div>
