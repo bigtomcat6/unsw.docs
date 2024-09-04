@@ -104,4 +104,9 @@ Please get started early!
 
 <MobiusTitle title="2.6 Covariance and correlation" src="Lecture 2/2.6 Covariance and correlation" />
 
+<p>
+  <MobiusTitle title="Lecture 2 Quiz" src="Lecture 2/Lecture 2 Quiz" />
+</p>
+
+
 </div>
