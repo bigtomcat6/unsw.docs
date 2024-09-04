@@ -115,4 +115,6 @@ Please get started early!
 
 <MobiusTitle title="3.1 The Binomial distribution" src="Lecture 3/3.1 The Binomial distribution" />
 
+<MobiusTitle title="3.2 The Poisson distribution" src="Lecture 3/3.2 The Poisson distribution" />
+
 </div>
