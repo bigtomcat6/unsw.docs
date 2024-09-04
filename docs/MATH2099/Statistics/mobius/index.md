@@ -117,4 +117,6 @@ Please get started early!
 
 <MobiusTitle title="3.2 The Poisson distribution" src="Lecture 3/3.2 The Poisson distribution" />
 
+<MobiusTitle title="3.3 The Uniform distribution" src="Lecture 3/3.3 The Uniform distribution" />
+
 </div>
