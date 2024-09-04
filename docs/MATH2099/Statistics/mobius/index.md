@@ -86,3 +86,27 @@ Please get started early!
 
 </div>
 
+
+<div class="how_qb">
+
+### Lecture 2
+
+<MobiusTitle title="
+2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
+
+<MobiusTitle title="2.2 Discrete random variables" src="Lecture 2/2.2 Discrete random variables" />
+
+<MobiusTitle title="2.3 Continuous random variables" src="Lecture 2/2.3 Continuous random variables" />
+
+<MobiusTitle title="2.4 Expectation and variance of a random variable" src="Lecture 2/2.4 Expectation and variance of a random variable" />
+
+<MobiusTitle title="2.5 Jointly distributed random variables" src="Lecture 2/2.5 Jointly distributed random variables" />
+
+<MobiusTitle title="2.6 Covariance and correlation" src="Lecture 2/2.6 Covariance and correlation" />
+
+<p>
+  <MobiusTitle title="Lecture 2 Quiz" src="Lecture 2/Lecture 2 Quiz" />
+</p>
+
+
+</div>
