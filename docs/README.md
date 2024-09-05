@@ -52,6 +52,12 @@ contributors: false
         href="/COMP2511/">
         The Art of Software Design (OO Design & Programming)
     </LinkCard>
+    <LinkCard 
+        icon="mdi:university-outline"
+        title="COMP9444"
+        href="/COMP9444/">
+        Neural Networks & Deep Learning
+    </LinkCard>
 </CardGrid>
 
 ---
