@@ -11,7 +11,7 @@ import unswUpdating from '@unswUpdating'
 
 <div class="hao-card card-title">
 
-## COMP2511 <unswUpdating />
+## COMP2511 <unswUpdating ongoing />
 
 <p>
 <HButton icon='mdi:lecture' title='Lecture' src='/COMP2511/Lecture/'/>

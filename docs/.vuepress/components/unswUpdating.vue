@@ -1,12 +1,25 @@
 <template>
   &nbsp;
-  <Badge type="warning" text="active" />
+  <Badge type="warning" :text="(ongoing as boolean) ? 'Ongoing Refinement' : 'active'" />
   &NoBreak;
-  <Badge type="tip" :text="text" />
+  <Badge v-if="showBadge && !ongoing" type="tip" :text="text" />
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  data() {
+    return {
+      weeks: '',
+      showBadge: false,
+    }
+  },
+  props: {
+    ongoing: {
+      type: Boolean,
+      default: false,
+    }
+  },
   computed: {
     text() {
 
@@ -17,13 +30,20 @@ export default {
       // const Text = `${hours}:${minutes}:${seconds}`;
       // return Text;
 
-      return formatWeeks(getWeeks(new Date('2024/05/26'), new Date()));
+      return this.weeks;
     }
-  }
-}
+  },
+  created() {
+    const weeks: string = formatWeeks(getWeeks(new Date('2024/09/09'), new Date()));
+      if (weeks ==  '') this.showBadge = false;
+      else              this.showBadge = true;
+    
+    this.weeks = weeks;
+  },
+})
 
 
-function getWeeks(StartDate, EndDate) {
+function getWeeks(StartDate: Date, EndDate: Date): number {
   var date1 = new Date(StartDate);
   var date2 = new Date(EndDate);
   var date3 = date2.getTime() - date1.getTime();
@@ -32,8 +52,8 @@ function getWeeks(StartDate, EndDate) {
   return weeks;
 }
 
-function formatWeeks(weeks) {
-  if (weeks < 0 || weeks > 10) return "";
+function formatWeeks(weeks: number): string {
+  if (weeks < 0 || weeks > 13) return "";
 
   switch(weeks) {
     case 0: return "O-Week";

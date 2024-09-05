@@ -91,8 +91,7 @@ Please get started early!
 
 ### Lecture 2
 
-<MobiusTitle title="
-2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
+<MobiusTitle title="2.1 Random variables and cumulative distribution functions" src="Lecture 2/2.1 Random variables and cumulative distribution functions" />
 
 <MobiusTitle title="2.2 Discrete random variables" src="Lecture 2/2.2 Discrete random variables" />
 
@@ -108,5 +107,27 @@ Please get started early!
   <MobiusTitle title="Lecture 2 Quiz" src="Lecture 2/Lecture 2 Quiz" />
 </p>
 
+</div>
+
+<div class="how_qb">
+
+### Lecture 3
+
+<MobiusTitle title="3.1 The Binomial distribution" src="Lecture 3/3.1 The Binomial distribution" />
+
+<MobiusTitle title="3.2 The Poisson distribution" src="Lecture 3/3.2 The Poisson distribution" />
+
+<MobiusTitle title="3.3 The Uniform distribution" src="Lecture 3/3.3 The Uniform distribution" />
+
+<MobiusTitle title="3.4 The Exponential distribution" src="Lecture 3/3.4 The Exponential distribution" />
+
+<MobiusTitle title="3.5 The Normal distribution" src="Lecture 3/3.5 The Normal distribution" />
+
+<MobiusTitle title="3.6 Checking if data are normally distributed" src="Lecture 3/3.6 Checking if data are normally distributed" />
+
+<p>
+    <MobiusTitle title="Lecture 3 Quiz" src="Lecture 3/Lecture 3 Quiz" />
+</p>
 
 </div>
+
