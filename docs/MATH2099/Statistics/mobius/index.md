@@ -119,4 +119,15 @@ Please get started early!
 
 <MobiusTitle title="3.3 The Uniform distribution" src="Lecture 3/3.3 The Uniform distribution" />
 
+<MobiusTitle title="3.4 The Exponential distribution" src="Lecture 3/3.4 The Exponential distribution" />
+
+<MobiusTitle title="3.5 The Normal distribution" src="Lecture 3/3.5 The Normal distribution" />
+
+<MobiusTitle title="3.6 Checking if data are normally distributed" src="Lecture 3/3.6 Checking if data are normally distributed" />
+
+<p>
+    <MobiusTitle title="Lecture 3 Quiz" src="Lecture 3/Lecture 3 Quiz" />
+</p>
+
 </div>
+
