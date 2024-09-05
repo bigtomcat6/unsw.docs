@@ -10,6 +10,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   data() {
     return {
+      weeks: '',
       showBadge: false,
     }
   },
@@ -29,9 +30,16 @@ export default defineComponent({
       // const Text = `${hours}:${minutes}:${seconds}`;
       // return Text;
 
-      return formatWeeks(getWeeks(new Date('2024/09/09'), new Date()));
+      return this.weeks;
     }
-  }
+  },
+  created() {
+    const weeks: string = formatWeeks(getWeeks(new Date('2024/09/09'), new Date()));
+      if (weeks ==  '') this.showBadge = false;
+      else              this.showBadge = true;
+    
+    this.weeks = weeks;
+  },
 })
 
 
@@ -46,8 +54,6 @@ function getWeeks(StartDate: Date, EndDate: Date): number {
 
 function formatWeeks(weeks: number): string {
   if (weeks < 0 || weeks > 13) return "";
-
-  this.showBadge = true;
 
   switch(weeks) {
     case 0: return "O-Week";
