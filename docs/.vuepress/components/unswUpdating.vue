@@ -2,7 +2,7 @@
   &nbsp;
   <Badge type="warning" :text="(ongoing as boolean) ? 'Ongoing Refinement' : 'active'" />
   &NoBreak;
-  <Badge v-if="showBadge" type="tip" :text="text" />
+  <Badge v-if="showBadge && !ongoing" type="tip" :text="text" />
 </template>
 
 <script lang="ts">
