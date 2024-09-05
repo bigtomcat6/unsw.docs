@@ -12,7 +12,7 @@ import HMoodleLink from '@HMoodleLink'
 
 <div class="hao-card card-title">
 
-## MATH2099 <unswUpdating />
+## MATH2099 <unswUpdating ongoing />
 
 ---
 

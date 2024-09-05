@@ -5,13 +5,9 @@ createTime: 2024/08/05 19:27:43
 permalink: /DESN2000/
 ---
 
-<script setup>
-import unswUpdating from '@unswUpdating'
-</script>
-
 <div class="hao-card card-title">
 
-## DESN2000 <unswUpdating />
+## DESN2000 <unswUpdating ongoing />
 ---
 ### Design
 
@@ -32,7 +28,7 @@ import unswUpdating from '@unswUpdating'
 
 </div>
 
-<div class="how_qb">
+<!--div class="how_qb">
 
 ## 24T2 Course Links
 
@@ -68,5 +64,5 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/z5423001/desn2000ce-group-c' />
 </p>
 
-</div>
+</div-->
 
