@@ -58,6 +58,12 @@ contributors: false
         href="/COMP2511/">
         The Art of Software Design (OO Design & Programming)
     </LinkCard>
+    <LinkCard
+        icon="mdi:university-outline"
+        title="COMP3222"
+        href="/COMP3222/">
+        Digital Circuits and Systems
+    </LinkCard>
     <LinkCard 
         icon="mdi:university-outline"
         title="COMP9444"
