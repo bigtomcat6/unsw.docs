@@ -154,3 +154,25 @@ Please get started early!
 
 
 </div>
+
+<div class="how_qb">
+
+### Lecture 5
+
+<MobiusTitle title="5.1 Introduction to Confidence Intervals" src="Lecture 5/5.1 Introduction to Confidence Intervals" />
+
+<MobiusTitle title="5.2 A confidence interval for mu when sigma is known" src="Lecture 5/5.2 A confidence interval for mu when sigma is known" />
+
+<MobiusTitle title="5.3 Sample size determination using a CI" src="Lecture 5/5.3 Sample size determination using a CI" />
+
+<MobiusTitle title="5.4 One-sided confidence intervals" src="Lecture 5/5.4 One-sided confidence intervals" />
+
+<MobiusTitle title="5.5 Confidence interval for the mean of a distribution, variance unknown" src="Lecture 5/5.5 Confidence interval for the mean of a distribution, variance unknown" />
+
+<MobiusTitle title="5.6 Confidence interval for a proportion" src="Lecture 5/5.6 Confidence interval for a proportion" />
+
+<p>
+    <MobiusTitle title="Lecture 5 Quiz" src="Lecture 5/Lecture 5 Quiz" />
+</p>
+
+</div>
