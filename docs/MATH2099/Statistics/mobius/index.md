@@ -131,3 +131,26 @@ Please get started early!
 
 </div>
 
+
+<div class="how_qb">
+
+### Lecture 4
+
+<MobiusTitle title="4.1 Statistical Inference" src="Lecture 4/4.1 Statistical Inference" />
+
+<MobiusTitle title="4.2 Estimators and sampling distributions" src="Lecture 4/4.2 Estimators and sampling distributions" />
+
+<MobiusTitle title="4.3 The sampling distribution of an estimator" src="Lecture 4/4.3 The sampling distribution of an estimator" />
+
+<MobiusTitle title="4.4 The Central Limit Theorem" src="Lecture 4/4.4 The Central Limit Theorem" />
+
+<MobiusTitle title="4.5 Properties of estimators" src="Lecture 4/4.5 Properties of estimators" />
+
+<MobiusTitle title="4.6 Standard error of a point estimate" src="Lecture 4/4.6 Standard error of a point estimate" />
+
+<p>
+    <MobiusTitle title="Lecture 4 Quiz" src="Lecture 4/Lecture 4 Quiz" />
+</p>
+
+
+</div>
