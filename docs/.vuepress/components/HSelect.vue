@@ -4,9 +4,10 @@
   </select>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
+export default defineComponent({
   props: {
     /**
      * @type {'Mobius'}
@@ -33,6 +34,12 @@ export default {
   computed: {
 
   }
-}
+})
 
 </script>
+
+<style scoped lang="scss">
+select {
+  appearance: auto; /* 恢复默认样式 */
+}
+</style>
