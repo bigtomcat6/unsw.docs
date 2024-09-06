@@ -10,6 +10,7 @@ export const navbar: NavItem[] = [
     text: 'Current',  icon: 'mdi:university-outline',
     items: [
       { text: 'COMP9444', link: '/COMP9444/' },
+      { text: 'ELEC2134', link: '/ELEC2134/' },
     ]
   },
   { text: 'Links', link: '/useful/', icon: 'fa6-solid:link' },

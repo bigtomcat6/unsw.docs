@@ -44,6 +44,12 @@ contributors: false
         href="/MATH2099/">
         Mathematics 2B
     </LinkCard>
+    <LinkCard 
+        icon="mdi:university-outline"
+        title="ELEC2134"
+        href="/ELEC2134/">
+        Circuits and Signals
+    </LinkCard>
 </CardGrid>
 
 <CardGrid>
