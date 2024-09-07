@@ -180,7 +180,7 @@ Please get started early!
 
 <div class="how_qb">
 
-### Lecture 5
+### Lecture 7
 
 <MobiusTitle title="7.1 The Reasoning for Hypothesis Tests" src="Lecture 7/7.1 The Reasoning for Hypothesis Tests" />
 
