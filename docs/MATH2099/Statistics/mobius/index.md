@@ -176,3 +176,28 @@ Please get started early!
 </p>
 
 </div>
+
+
+<div class="how_qb">
+
+### Lecture 5
+
+<MobiusTitle title="7.1 The Reasoning for Hypothesis Tests" src="Lecture 7/7.1 The Reasoning for Hypothesis Tests" />
+
+<MobiusTitle title="7.2 Rejection Regions" src="Lecture 7/7.2 Rejection Regions" />
+
+<MobiusTitle title="7.3 One-sided and two-sided tests about means and proportions" src="Lecture 7/7.3 One-sided and two-sided tests about means and proportions" />
+
+<MobiusTitle title="7.4 Assumptions" src="Lecture 7/7.4 Assumptions" />
+
+<MobiusTitle title="7.5 Errors and power" src="Lecture 7/7.5 Errors and power" />
+
+<MobiusTitle title="7.6 Hypothesis tests and confidence intervals" src="Lecture 7/7.6 Hypothesis tests and confidence intervals" />
+
+<p>
+    <MobiusTitle title="Lecture 7 Quiz" src="Lecture 7/Lecture 7 Quiz" />
+</p>
+
+</div>
+
+
