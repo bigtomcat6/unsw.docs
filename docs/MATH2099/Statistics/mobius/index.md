@@ -201,3 +201,21 @@ Please get started early!
 </div>
 
 
+<div class="how_qb">
+
+### Lecture 7
+
+<MobiusTitle title="8.1 Comparative experiments" src="Lecture 8/8.1 Comparative experiments" />
+
+<MobiusTitle title="8.2 Two-sample test" src="Lecture 8/8.2 Two-sample test" />
+
+<MobiusTitle title="8.3 Confidence intervals for mean difference" src="Lecture 8/8.3 Confidence intervals for mean difference" />
+
+<MobiusTitle title="8.4 Paired samples" src="Lecture 8/8.4 Paired samples" />
+
+<p>
+    <MobiusTitle title="Lecture 8 Quiz" src="Lecture 8/Lecture 8 Quiz" />
+</p>
+
+</div>
+
