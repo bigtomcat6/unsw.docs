@@ -19,4 +19,16 @@ import unswUpdating from '@unswUpdating'
 
 ## 24T3 Course Links
 
+<p>
+<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=86820'/>
+
+<HButton img='/icon/edstemstrfavicon-64x64.e314354e.png' title='Forum' src='https://edstem.org/au/courses/19022/discussion/'/>
+
+<HButton img='/icon/McGrawHill-favicon.ico' title='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041671&triggerview=0'/>
+</p>
+
+<p>
+<HButton theme='alt' icon='ph:video' title='Lecture Recoding (Moodle)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041680&triggerview=0'/>
+</p>
+
 </div>
