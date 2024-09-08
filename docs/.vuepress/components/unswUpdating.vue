@@ -1,6 +1,6 @@
 <template>
   &nbsp;
-  <Badge type="warning" :text="(ongoing as boolean) ? 'Ongoing Refinement' : 'active'" />
+  <Badge type="warning" :text="(ongoing as boolean) ? 'Under Construction' : 'active'" />
   &NoBreak;
   <Badge v-if="showBadge && !ongoing" type="tip" :text="text" />
 </template>
