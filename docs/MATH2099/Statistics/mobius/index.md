@@ -203,7 +203,7 @@ Please get started early!
 
 <div class="how_qb">
 
-### Lecture 7
+### Lecture 8
 
 <MobiusTitle title="8.1 Comparative experiments" src="Lecture 8/8.1 Comparative experiments" />
 
