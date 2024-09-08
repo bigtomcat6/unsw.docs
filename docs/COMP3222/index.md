@@ -19,4 +19,12 @@ import unswUpdating from '@unswUpdating'
 
 ## 24T3 Course Links
 
+<p>
+<HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/>
+
+<HButton alt img='/webcms3.ico' title='Lectures' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/resources/102517' />
+
+<HButton alt img='/webcms3.ico' title='Labs' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/resources/102587' />
+</p>
+
 </div>
