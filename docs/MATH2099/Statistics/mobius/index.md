@@ -131,3 +131,91 @@ Please get started early!
 
 </div>
 
+
+<div class="how_qb">
+
+### Lecture 4
+
+<MobiusTitle title="4.1 Statistical Inference" src="Lecture 4/4.1 Statistical Inference" />
+
+<MobiusTitle title="4.2 Estimators and sampling distributions" src="Lecture 4/4.2 Estimators and sampling distributions" />
+
+<MobiusTitle title="4.3 The sampling distribution of an estimator" src="Lecture 4/4.3 The sampling distribution of an estimator" />
+
+<MobiusTitle title="4.4 The Central Limit Theorem" src="Lecture 4/4.4 The Central Limit Theorem" />
+
+<MobiusTitle title="4.5 Properties of estimators" src="Lecture 4/4.5 Properties of estimators" />
+
+<MobiusTitle title="4.6 Standard error of a point estimate" src="Lecture 4/4.6 Standard error of a point estimate" />
+
+<p>
+    <MobiusTitle title="Lecture 4 Quiz" src="Lecture 4/Lecture 4 Quiz" />
+</p>
+
+
+</div>
+
+<div class="how_qb">
+
+### Lecture 5
+
+<MobiusTitle title="5.1 Introduction to Confidence Intervals" src="Lecture 5/5.1 Introduction to Confidence Intervals" />
+
+<MobiusTitle title="5.2 A confidence interval for mu when sigma is known" src="Lecture 5/5.2 A confidence interval for mu when sigma is known" />
+
+<MobiusTitle title="5.3 Sample size determination using a CI" src="Lecture 5/5.3 Sample size determination using a CI" />
+
+<MobiusTitle title="5.4 One-sided confidence intervals" src="Lecture 5/5.4 One-sided confidence intervals" />
+
+<MobiusTitle title="5.5 Confidence interval for the mean of a distribution, variance unknown" src="Lecture 5/5.5 Confidence interval for the mean of a distribution, variance unknown" />
+
+<MobiusTitle title="5.6 Confidence interval for a proportion" src="Lecture 5/5.6 Confidence interval for a proportion" />
+
+<p>
+    <MobiusTitle title="Lecture 5 Quiz" src="Lecture 5/Lecture 5 Quiz" />
+</p>
+
+</div>
+
+
+<div class="how_qb">
+
+### Lecture 7
+
+<MobiusTitle title="7.1 The Reasoning for Hypothesis Tests" src="Lecture 7/7.1 The Reasoning for Hypothesis Tests" />
+
+<MobiusTitle title="7.2 Rejection Regions" src="Lecture 7/7.2 Rejection Regions" />
+
+<MobiusTitle title="7.3 One-sided and two-sided tests about means and proportions" src="Lecture 7/7.3 One-sided and two-sided tests about means and proportions" />
+
+<MobiusTitle title="7.4 Assumptions" src="Lecture 7/7.4 Assumptions" />
+
+<MobiusTitle title="7.5 Errors and power" src="Lecture 7/7.5 Errors and power" />
+
+<MobiusTitle title="7.6 Hypothesis tests and confidence intervals" src="Lecture 7/7.6 Hypothesis tests and confidence intervals" />
+
+<p>
+    <MobiusTitle title="Lecture 7 Quiz" src="Lecture 7/Lecture 7 Quiz" />
+</p>
+
+</div>
+
+
+<div class="how_qb">
+
+### Lecture 8
+
+<MobiusTitle title="8.1 Comparative experiments" src="Lecture 8/8.1 Comparative experiments" />
+
+<MobiusTitle title="8.2 Two-sample test" src="Lecture 8/8.2 Two-sample test" />
+
+<MobiusTitle title="8.3 Confidence intervals for mean difference" src="Lecture 8/8.3 Confidence intervals for mean difference" />
+
+<MobiusTitle title="8.4 Paired samples" src="Lecture 8/8.4 Paired samples" />
+
+<p>
+    <MobiusTitle title="Lecture 8 Quiz" src="Lecture 8/Lecture 8 Quiz" />
+</p>
+
+</div>
+

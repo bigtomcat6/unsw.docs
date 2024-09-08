@@ -44,6 +44,12 @@ contributors: false
         href="/MATH2099/">
         Mathematics 2B
     </LinkCard>
+    <LinkCard 
+        icon="mdi:university-outline"
+        title="ELEC2134"
+        href="/ELEC2134/">
+        Circuits and Signals
+    </LinkCard>
 </CardGrid>
 
 <CardGrid>
@@ -51,6 +57,12 @@ contributors: false
         title="COMP2511"
         href="/COMP2511/">
         The Art of Software Design (OO Design & Programming)
+    </LinkCard>
+    <LinkCard
+        icon="mdi:university-outline"
+        title="COMP3222"
+        href="/COMP3222/">
+        Digital Circuits and Systems
     </LinkCard>
     <LinkCard 
         icon="mdi:university-outline"

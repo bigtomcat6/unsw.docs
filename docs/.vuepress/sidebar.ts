@@ -6,11 +6,25 @@ const COMP9444: NoteItem = {
   sidebar: 'auto'
 }
 
+const ELEC2134: NoteItem = {
+  dir: 'ELEC2134',
+  link: '/ELEC2134/',
+  sidebar: 'auto'
+}
+
+const COMP3222: NoteItem = {
+  dir: 'COMP3222',
+  link: '/COMP3222/',
+  sidebar: 'auto'
+}
+
 
 export const notes: NotesOptions = {
   dir: '/',
   link: '/',
   notes: [
+    ELEC2134,
+    COMP3222,
     COMP9444,
     {
       dir: 'DESN2000',
