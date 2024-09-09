@@ -286,6 +286,22 @@ links:
     md5: 7993a46b03846c1f51a945628ad1d73b
     src: /DESN2000/Laboratory/lab4sheet.pdf
 
+# ELEC2134
+  # Moodle
+  - title: ELEC2134 T3 2024 UNSW
+    type: pdf
+    md5: 5810e22fd86906d1497bdb116eddb3fd
+    src: /ELEC2134/Moodle/ELEC2134 T3 2024 UNSW.pdf
+  - title: LTSpice guidance
+    type: avi
+    md5: f8c3dcc7a743301eeaf3e86219a0dc0c
+    src: /ELEC2134/Moodle/LTSpice guidance.avi
+
+  # Laboratory
+  - title: ELEC2134 Laboratory 1
+    type: pdf
+    md5: 5c19156438f2a51a4bcaa4e64acadf7c
+    src: /ELEC2134/Laboratory/ELEC2134 Laboratory 1.pdf
 
 # MD5: echo -n "TEXT" | md5
 #  or: md5 -s TEXT
