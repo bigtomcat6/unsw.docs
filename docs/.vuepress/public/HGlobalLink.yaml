@@ -296,12 +296,69 @@ links:
     type: avi
     md5: f8c3dcc7a743301eeaf3e86219a0dc0c
     src: /ELEC2134/Moodle/LTSpice guidance.avi
+  
+  - title: ELEC2134_Circuits1_AlternatingCurrent_clean
+    type: pdf
+    md5: 92568b5ef229c6c360728012ea38f18f
+    src: /ELEC2134/Moodle/ELEC2134_Circuits1_AlternatingCurrent_clean.pdf
+  - title: ELEC2134_Circuits1_AlternatingCurrent_solutions_to_examples_in_class
+    type: pdf
+    md5: 3b70bd262a4dbe006899372a27a33801
+    src: /ELEC2134/Moodle/ELEC2134_Circuits1_AlternatingCurrent_solutions_to_examples_in_class.pdf
+  - title: ELEC2134_Circuits2_ACCircuitAnalysis_clean
+    type: pdf
+    md5: d834cc9cc59082b02539ac22c972fc2a
+    src: /ELEC2134/Moodle/ELEC2134_Circuits2_ACCircuitAnalysis_clean.pdf
+  - title: ELEC2134_Circuits2_ACCircuitAnalysis_solutions_to_examples_in_class
+    type: pdf
+    md5: 06da8cdaf45cb028a1115aa9e9dd885d
+    src: /ELEC2134/Moodle/ELEC2134_Circuits2_ACCircuitAnalysis_solutions_to_examples_in_class.pdf
+  - title: ELEC2134_Circuits3_ACCircuitTheorems_clean
+    type: pdf
+    md5: 60f87af92f9ddb99764faf8293b1aeb1
+    src: /ELEC2134/Moodle/ELEC2134_Circuits3_ACCircuitTheorems_clean.pdf
+  - title: ELEC2134_Circuits3_ACCircuitTheorems_solutions_to_examples_in_class
+    type: pdf
+    md5: b72b746a5b067cccc4700b8efad6987c
+    src: /ELEC2134/Moodle/ELEC2134_Circuits3_ACCircuitTheorems_solutions_to_examples_in_class.pdf
 
   # Laboratory
   - title: ELEC2134 Laboratory 1
     type: pdf
     md5: 5c19156438f2a51a4bcaa4e64acadf7c
     src: /ELEC2134/Laboratory/ELEC2134 Laboratory 1.pdf
+  
+  # Lecture
+  - title: ELEC2134_Intro
+    type: pdf
+    md5: 17109d35e100615efbe214c5ea04aec0
+    src: /ELEC2134/Lecture/ELEC2134_Intro.pdf
+  - title: ELEC2134_AC Review
+    type: pdf
+    md5: 70594d8574044c87266faf896be3c508
+    src: /ELEC2134/Lecture/ELEC2134_AC Review.pdf
+  - title: ELEC2134_AC Power
+    type: pdf
+    md5: fddb231b1331a22f319d88c936b5318c
+    src: /ELEC2134/Lecture/ELEC2134_AC Power.pdf
+  
+  # Supplementary Material
+  - title: Week1_RevisionSimulationProblems
+    type: pdf
+    md5: 58d7c8c3e30c6f1644933bf0601c6776
+    src: /ELEC2134/Supplementary/Week1_RevisionSimulationProblems.pdf
+  - title: Week1_RevisionSimulationProblems_solutions
+    type: pdf
+    md5: 68bc290de1d2c24bfe54b3dc0cf38d99
+    src: /ELEC2134/Supplementary/Week1_RevisionSimulationProblems_solutions.pdf
+  - title: Week1 - AC Power Problem Sheet
+    type: pdf
+    md5: 459023cd1a105879d7271f58003a57ba
+    src: /ELEC2134/Supplementary/Week1 - AC Power Problem Sheet.pdf
+  - title: Week 1 - AC Power Problem Sheet - Worked solutions
+    type: pdf
+    md5: e0909c2c345f8a1ee859fe6e99fff5c0
+    src: /ELEC2134/Supplementary/Week 1 - AC Power Problem Sheet - Worked solutions.pdf
 
 # MD5: echo -n "TEXT" | md5
 #  or: md5 -s TEXT
