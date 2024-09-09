@@ -1,5 +1,5 @@
 <template>
-  <HGlobalLink v-if="md5" :title="titleFromSlot" :md5="md5" />
+  <HGlobalLink v-if="md5" :title="titleFromSlot" :md5="md5" :HMoodleLinkIcon="autoImg"/>
   <HBaseLink v-else :src="autoSrc" :img="autoImg" :icon="autoIcon">
     <slot></slot>
   </HBaseLink>
