@@ -24,7 +24,7 @@ import unswUpdating from '@unswUpdating'
 
 <HButton img='/icon/edstemstrfavicon-64x64.e314354e.png' title='Forum' src='https://edstem.org/au/courses/19022/discussion/'/>
 
-<HButton img='/icon/McGrawHill-favicon.ico' title='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041671&triggerview=0'/>
+<HButton img='/icon/mhe-logo.svg' title='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041671&triggerview=0'/>
 </p>
 
 <p>
