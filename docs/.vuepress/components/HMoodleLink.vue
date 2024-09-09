@@ -1,5 +1,5 @@
 <template>
-  <HGlobalLink v-if="md5" :title="titleFromSlot" :md5="md5" />
+  <HGlobalLink v-if="md5" :title="titleFromSlot" :md5="md5" :HMoodleLinkIcon="autoImg"/>
   <HBaseLink v-else :src="autoSrc" :img="autoImg" :icon="autoIcon">
     <slot></slot>
   </HBaseLink>
@@ -26,7 +26,7 @@ export default defineComponent({
     type: {
       type: String as PropType<'forum' | 'link'>,
       default: 'link',
-      validator: (value: string) => ['forum', 'link'].includes(value)
+      validator: (value: string) => ['forum', 'page', 'link'].includes(value)
     },
     title: {
       type: String,
@@ -43,20 +43,17 @@ export default defineComponent({
   },
   computed: {
     autoIcon() {
+      if (this.ImgMethod()) return;
+
       switch (this.type) {
-        case 'forum':   return 'lets-icons:chat-alt-2-duotone-line'
+        case 'forum':   return 'solar:chat-line-linear'
         case 'page':    return 'iconoir:page'
-        /***/
-        case 'pdf':     return undefined
-        /***/
         case 'link':
         default:      return 'pepicons-pop:internet'
       }
     },
     autoImg() {
-      switch (this.type) {
-        case 'pdf':   return '/moodleIcon/pdf-24.png'
-      }
+      return this.ImgMethod();
     },
     autoSrc() {
       if (this.src !== undefined) {
@@ -72,6 +69,15 @@ export default defineComponent({
     this.checkSlot()
   },
   methods: {
+    ImgMethod() {
+      switch (this.type) {
+        case 'pdf':         return '/moodleIcon/pdf-24.png'
+        case 'avi':         return '/moodleIcon/avi-24.png'
+        case 'McGrawHill':  return '/moodleIcon/mhe-logo.svg'
+        case 'edstem':      return '/moodleIcon/edstemstrfavicon-64x64.e314354e.png'
+      }
+      return null
+    },
     checkSlot() {
       this.titleFromSlot = this.$slots.default?.()[0].children
     }
