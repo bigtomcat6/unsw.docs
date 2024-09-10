@@ -406,5 +406,39 @@ links:
     md5: a8f05269b7cbe70bacacc35a28993a5b
     src: /COMP3222/Laboratory/lab1.zip
 
+# COMP9444
+  # Lecture
+    # Week 1
+  - title: 1a._Course_Overview
+    type: pdf
+    md5: f61c06e1ce02c4fd429c7193c076762f
+    src: /COMP9444/Lecture/1a._Course_Overview.pdf
+  - title: 1b_Neuroanatomy
+    type: pdf
+    md5: e5ce67e7e98b802ca0ce804234dfeb23
+    src: /COMP9444/Lecture/1b_Neuroanatomy.pdf
+  - title: 1b_Neuroanatomy4
+    type: pdf
+    md5: cf505788329083752d2b49faeb876198
+    src: /COMP9444/Lecture/1b_Neuroanatomy4.pdf
+  - title: 1c_Perceptrons
+    type: pdf
+    md5: 77257b2c279e1ba6ab12d1b89c3433ad
+    src: /COMP9444/Lecture/1c_Perceptrons.pdf
+  - title: 1c_Perceptrons4
+    type: pdf
+    md5: 6ed5670fd1c9b43635811a75108b5f0c
+    src: /COMP9444/Lecture/1c_Perceptrons4.pdf
+  - title: 1d_Backprop
+    type: pdf
+    md5: 3e005ea6f1cb5be068ee02ccfb7506e5
+    src: /COMP9444/Lecture/1d_Backprop.pdf
+  - title: 1d_Backprop4
+    type: pdf
+    md5: 3dd70444ad8f8d68478a03bb1bd3479e
+    src: /COMP9444/Lecture/1d_Backprop4.pdf
+
+
+
 # MD5: echo -n "TEXT" | md5
 #  or: md5 -s TEXT
