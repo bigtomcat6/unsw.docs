@@ -12,6 +12,9 @@ import unswUpdating from '@unswUpdating'
 
 ## COMP9444 <unswUpdating />
 
+<p>
+<HButton icon='mdi:lecture' title='Lecture' src='Lecture/'/>
+</p>
 
 </div>
 

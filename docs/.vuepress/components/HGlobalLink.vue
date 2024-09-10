@@ -1,6 +1,11 @@
 <template>
-  <HLink :type="type" :title="titleL" :src="src" />
+  <HBaseLink v-if="HMoodleLinkIcon" :src="src || ''" :img="HMoodleLinkIcon">{{ titleL }}</HBaseLink>
+  <HLink v-else :type="type" :title="titleL" :src="src" />
 </template>
+
+<script setup lang="ts">
+import HBaseLink from './base/HBaseLink.vue';
+</script>
 
 <script lang="ts">
 import axios from 'axios';
@@ -20,6 +25,10 @@ export default defineComponent({
     noneIcon: {
       type: Boolean,
       default: false
+    },
+    HMoodleLinkIcon: {
+      type: String,
+      default: undefined
     }
   },
   data() {
@@ -68,7 +77,7 @@ export default defineComponent({
         
         this.src = data.globalLink + found.src;
       } else {
-        this.title = 'ERROR';
+        this.titleL = 'ERROR';
       }
     }
   }
