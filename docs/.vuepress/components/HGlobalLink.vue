@@ -77,7 +77,7 @@ export default defineComponent({
         
         this.src = data.globalLink + found.src;
       } else {
-        this.title = 'ERROR';
+        this.titleL = 'ERROR';
       }
     }
   }
