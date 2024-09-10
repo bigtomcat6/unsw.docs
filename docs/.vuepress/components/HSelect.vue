@@ -1,6 +1,19 @@
 <template>
   <select>
-    <option v-for="value in values" :value="value.label" :selected="value.selected | false">{{ value.label }}</option>
+    <!-- If no option is selected, show the unchecked option -->
+    <option 
+      v-if="!anySelected" 
+      disabled 
+      selected>
+      [ unchecked ]
+    </option>
+
+    <option
+      v-for="value in values"
+      :value="(value as any).label"
+      :selected="(value as any).selected">
+      {{ (value as any).label }}
+    </option>
   </select>
 </template>
 
@@ -32,7 +45,12 @@ export default defineComponent({
     }
   },
   computed: {
-
+    /**
+     * Checks if any value is selected
+     */
+    anySelected(): boolean {
+      return this.values.some((value: { selected: any; }) => value.selected);
+    }
   }
 })
 

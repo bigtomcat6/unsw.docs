@@ -31,6 +31,14 @@ Please get started early!
 
 <div class="how_qb">
 
+### Past Exams Practice
+
+<MobiusTitle title="Final Exam 2020 T2 (Stats questions)" src="Past Exams/Final Exam 2020 T2 (Stats questions)"/>
+
+</div>
+
+<div class="how_qb">
+
 ### Getting started
 
 <MobiusTitle title="Declaration - Must be completed first" src="Getting started/Declaration"/>
