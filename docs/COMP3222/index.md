@@ -12,6 +12,7 @@ import unswUpdating from '@unswUpdating'
 
 ## COMP3222 <unswUpdating />
 
+<HButton icon='icomoon-free:lab' title='Labs' src='Lab/'/>
 
 </div>
 
