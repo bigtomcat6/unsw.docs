@@ -115,7 +115,7 @@ The $p$-value is `number` . *(Enter your answer correct to at least 4 decimal pl
 
 **g)** **[1 mark]** Write down a **Matlab** command that computes the $p$-value in part f). You may use the functions: **normcdf**, **norminv**, **tcdf**, or **tinv**.
 
-` `
+<textarea></textarea>
 
 **h)** Consider a screen size of $X = 5$ inches.
 

@@ -35,6 +35,10 @@ Please get started early!
 
 <MobiusTitle title="Final Exam 2020 T2 (Stats questions)" src="Past Exams/Final Exam 2020 T2 (Stats questions)"/>
 
+<MobiusTitle title="Final Exam 2021 T2 (Stats questions)" src="Past Exams/Final Exam 2021 T2 (Stats questions)"/>
+
+<MobiusTitle title="Final Exam 2022 T2 (Stats questions)" src="Past Exams/Final Exam 2022 T2 (Stats questions)"/>
+
 </div>
 
 <div class="how_qb">
