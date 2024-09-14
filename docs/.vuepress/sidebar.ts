@@ -1,9 +1,49 @@
 import type { NotesOptions, NoteItem } from 'vuepress-theme-plume';
 
+const icons = {
+  current: 'mdi:university-outline',
+  overview: 'material-symbols:overview-key-outline-rounded',
+  lecture: 'mdi:lecture',
+  tutorial: 'streamline:group-meeting-call',
+  project: 'fluent-mdl2:assessment-group',
+  lab: 'icomoon-free:lab',
+  ed: 'mdi:book-open'
+}
+
+
 const COMP9444: NoteItem = {
   dir: 'COMP9444',
   link: '/COMP9444/',
-  sidebar: 'auto'
+  sidebar: [
+    {
+      text: 'COMP9444',
+      icon: icons.current,
+      collapsed: false,
+      items: [
+        {
+          text: 'Overview',
+          dir: '',
+          link: '/COMP9444/',
+        },
+        {
+          text: 'Lecture',
+          dir: 'Lecture',
+          link: '/COMP9444/Lecture/',
+        },
+        {
+          text: 'Tutorial',
+          dir: 'Tutorial',
+          link: '/COMP9444/Tutorial/',
+        },
+        {
+          text: 'Ed Lessons',
+          dir: 'Ed',
+          link: '/COMP9444/Ed/',
+          items: []
+        },
+      ]
+    }
+  ]
 }
 
 const ELEC2134: NoteItem = {
