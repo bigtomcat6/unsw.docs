@@ -18,6 +18,30 @@ const COMP3222: NoteItem = {
   sidebar: 'auto'
 }
 
+const Help: NoteItem = {
+  dir: 'Help',
+  link: '/help/',
+  sidebar: [
+    {
+      text: 'Help Center',
+      collapsed: false,
+      items: [
+        '/help/useful',
+        '/help/cseLabs'
+      ]
+    },
+    {
+      text: 'Terms',
+      collapsed: false,
+      items: [
+        '/help/terms/about',
+        '/help/terms/copyright'
+      ]
+    }
+
+  ]
+}
+
 
 export const notes: NotesOptions = {
   dir: '/',
@@ -26,6 +50,7 @@ export const notes: NotesOptions = {
     ELEC2134,
     COMP3222,
     COMP9444,
+    Help,
     {
       dir: 'DESN2000',
       link: '/DESN2000/',
@@ -114,11 +139,6 @@ export const notes: NotesOptions = {
           ]
         }
       ]
-    },
-    {
-      dir: 'help',
-      link: '/help/',
-      sidebar: 'auto'
     }
   ]
 };

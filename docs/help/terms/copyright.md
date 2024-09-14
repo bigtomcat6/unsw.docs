@@ -1,7 +1,7 @@
 ---
 title: Copyright
 createTime: 2024/08/24 19:31:50
-permalink: /help/copyright/
+permalink: /help/terms/copyright
 ---
 
 Copyright @ [How](https://www.bigtomcat.com/)
