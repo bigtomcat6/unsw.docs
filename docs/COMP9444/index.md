@@ -1,5 +1,6 @@
 ---
 title: Neural Networks and Deep Learning
+icon: material-symbols:overview-key-outline-rounded
 permalink: /COMP9444/
 createTime: 2024/09/05 12:03:56
 ---

@@ -1,5 +1,6 @@
 ---
-title: index
+title: Tutorial
+icon: streamline:group-meeting-call
 createTime: 2024/09/14 15:17:24
 permalink: /COMP9444/1iochvju/
 ---
