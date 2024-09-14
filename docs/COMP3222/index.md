@@ -26,6 +26,15 @@ import unswUpdating from '@unswUpdating'
 <HButton alt img='/webcms3.ico' title='Lectures' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/resources/102517' />
 
 <HButton alt img='/webcms3.ico' title='Labs' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/resources/102587' />
+
+<HButton alt img='/icon/edstemstrfavicon-64x64.e314354e.png' title='Forum' src='https://edstem.org/au/courses/19098/discussion/'/>
+</p>
+
+
+<p>
+<HButton icon='devicon:moodle' title='Moodle' src='https://webcms3.cse.unsw.edu.au/COMP3222/24T3/resources/102545'/>
+
+<HButton alt icon='ph:video' title='Lecture Recordings' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6874646&triggerview=0'/>
 </p>
 
 </div>
