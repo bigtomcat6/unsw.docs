@@ -14,6 +14,9 @@ import unswUpdating from '@unswUpdating'
 
 <p>
 <HButton icon='mdi:lecture' title='Lecture' src='Lecture/'/>
+
+<HButton alt icon='streamline:group-meeting-call' title='Tutorial' src='Tutorial/'/>
+
 <HButton alt icon='mdi:book-open' title='Ed Lessons' src='Ed/'/>
 </p>
 
