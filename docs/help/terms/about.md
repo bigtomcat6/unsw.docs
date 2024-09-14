@@ -1,7 +1,7 @@
 ---
 title: About
 createTime: 2024/08/24 20:43:31
-permalink: /help/about/
+permalink: /help/terms/about
 ---
 
 - Stable: [unsw.vip](https://www.unsw.vip/).
