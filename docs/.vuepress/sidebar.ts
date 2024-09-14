@@ -20,6 +20,11 @@ const COMP9444: NoteItem = {
           link: '/COMP9444/Lecture/',
         },
         {
+          text: 'Tutorial',
+          dir: 'Tutorial',
+          link: '/COMP9444/Tutorial/',
+        },
+        {
           text: 'Ed Lessons',
           dir: 'Ed',
           link: '/COMP9444/Ed/',
