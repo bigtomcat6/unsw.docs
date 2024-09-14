@@ -3,7 +3,31 @@ import type { NotesOptions, NoteItem } from 'vuepress-theme-plume';
 const COMP9444: NoteItem = {
   dir: 'COMP9444',
   link: '/COMP9444/',
-  sidebar: 'auto'
+  sidebar: [
+    {
+      text: 'COMP9444',
+      collapsed: false,
+      items: [
+        {
+          text: 'Overview',
+          dir: '',
+          link: '/COMP9444/',
+          items: []
+        },
+        {
+          text: 'Lecture',
+          dir: 'Lecture',
+          link: '/COMP9444/Lecture/',
+        },
+        {
+          text: 'Ed Lessons',
+          dir: 'Ed',
+          link: '/COMP9444/Ed/',
+          items: []
+        },
+      ]
+    }
+  ]
 }
 
 const ELEC2134: NoteItem = {
