@@ -13,6 +13,7 @@ import HMoodleLink from '@HMoodleLink'
 
 ## ELEC2134 <unswUpdating />
 
+<HButton icon='tabler:notes' title='Note' src='Note/'/>
 
 </div>
 
