@@ -1,5 +1,5 @@
 ---
-title: AC Review 1 - Alternating Current
+title: AC Review
 createTime: 2024/09/15 17:46:34
 permalink: /ELEC2134/Note/9uufirtz/
 ---
@@ -121,5 +121,41 @@ $$P_{\text{average}} = RI_{\text{rms}}^2 = RI_{\text{dc}}^2$$
 $$I_{\text{rms}} = \sqrt{\frac{1}{T} \int_0^T i^2(t) \, dt}$$
 
 $$V_{\text{rms}} = \sqrt{\frac{1}{T} \int_0^T v^2(t) \, dt}$$
+
+## Phasor Representations:
+- **Phasor**: A complex number representing the amplitude and phase angle of a sinusoid.
+  - Rectangular: $OP = V_m \cos(\theta) + j V_m \sin(\theta)$
+  - Polar: $OP = V_m \angle \theta$
+  - Exponential: $OP = V_m e^{j\theta}$
+
+## Phasor Concept
+
+- A phasor is a rotating vector
+
+![image-20240915201438758](img/image-20240915201438758.png)
+
+Notation: 
+
+- $v(t)$- instantaneous voltage 
+- $V$ is the  corresponding phasor voltage
+
+## V-I Relationship for Circuit Elements:
+### Resistor:
+- Voltage and current are **in phase**.
+- $v(t) = i(t) R = R I_m \cos(\omega t)$
+
+### Inductor:
+- Voltage **leads** current by 90°.
+- $v_L(t) = \omega L I_m \cos(\omega t + 90^\circ)$
+
+### Capacitor:
+- Current **leads** voltage by 90°.
+- $i(t) = \omega C V_m \cos(\omega t + 90^\circ)$
+
+## Impedance of Circuit Elements:
+
+- Resistor: $Z_R = R$ <br/> <img src="./img/image-20240915211344634.png" alt="image-20240915211344634" style="zoom:36%;" /> 
+- Inductor: $Z_L = j\omega L$ <br/> <img src="./img/image-20240915211521087.png" alt="image-20240915211521087" style="zoom:33%;" /> 
+- Capacitor: $Z_C = \frac{1}{j\omega C}$ <br/> <img src="./img/image-20240915211536269.png" alt="image-20240915211536269" style="zoom:33%;" /> 
 
 </div>
