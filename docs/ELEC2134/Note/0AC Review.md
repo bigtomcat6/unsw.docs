@@ -158,4 +158,53 @@ Notation:
 - Inductor: $Z_L = j\omega L$ <br/> <img src="./img/image-20240915211521087.png" alt="image-20240915211521087" style="zoom:33%;" /> 
 - Capacitor: $Z_C = \frac{1}{j\omega C}$ <br/> <img src="./img/image-20240915211536269.png" alt="image-20240915211536269" style="zoom:33%;" /> 
 
+
+## AC Circuit Theorems:
+::: details Nodal Analysis
+Use KCL to find node voltages.
+
+![image-20240915213524328](img/image-20240915213524328.png)
+
+![image-20240915213621036](img/image-20240915213621036.png)
+:::
+
+::: details Mesh Analysis
+Use KVL to find loop currents.
+
+![image-20240915214033371](img/image-20240915214033371.png)
+:::
+
+::: details Superposition Theorem
+Calculate the total response by summing individual contributions of independent sources.
+
+$$
+\text{Voltage source} → \text{short circuit} \\
+\text{Current source} → \text{open circuit}
+$$
+
+![image-20240915214549317](img/image-20240915214549317.png)
+
+![image-20240915214612625](img/image-20240915214612625.png)
+
+:::
+
+::: details Sourse Transformation
+
+![image-20240915215112946](img/image-20240915215112946.png)
+
+![image-20240915221813241](img/image-20240915221813241.png)
+
+:::
+
+::: details Thevenin's and Norton's Equivalent Circuits
+Simplify circuits into a single voltage or current source with impedance.
+
+![image-20240915222653451](img/image-20240915222653451.png)
+
+![image-20240915222708438](img/image-20240915222708438.png)
+
+![image-20240915222722813](img/image-20240915222722813.png)
+
+:::
+
 </div>
