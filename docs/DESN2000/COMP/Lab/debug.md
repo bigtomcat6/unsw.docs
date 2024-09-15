@@ -334,7 +334,7 @@ Let’s have a go at sending some characters to it.
 
 We now build and download that, before running Minicom:
 
-```ba
+```bash
 $ minicom -b 38400 -D /dev/ttyACM0
 ```
 
