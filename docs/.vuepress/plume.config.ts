@@ -34,7 +34,7 @@ export default plumeTheme({
     copyright: COPYRIGHT
   },
   plugins: {
-    search: false,
+    // search: false,
     markdownEnhance: {
       mermaid: true,
     },
