@@ -438,7 +438,25 @@ links:
     md5: 3dd70444ad8f8d68478a03bb1bd3479e
     src: /COMP9444/Lecture/1d_Backprop4.pdf
 
-
+  # Tutorial
+    # Week 1
+  - title: Tutorial1_Questions
+    type: pdf
+    md5: 92ea7306c557b21eb0a89a48a895ef8c
+    src: /COMP9444/Tutorial/Tutorial1_Questions.pdf
+  - title: Tutorial1-Sample_Solution
+    type: pdf
+    md5: 9d44696dc102cb76e7a2cb30b94bd665
+    src: /COMP9444/Tutorial/Tutorial1-Sample_Solution.pdf
+    # Week 2
+  - title: Tutorial2_Questions
+    type: pdf
+    md5: 720b1741468f78a827f68513f1b6060b
+    src: /COMP9444/Tutorial/Tutorial2_Questions.pdf
+  - title: AlexNet_Paper
+    type: pdf
+    md5: 70318379b4c1f5b650c6ddfa2b6a5cb1
+    src: /COMP9444/Tutorial/AlexNet_Paper.pdf
 
 # MD5: echo -n "TEXT" | md5
 #  or: md5 -s TEXT

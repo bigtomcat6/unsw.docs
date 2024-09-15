@@ -1,5 +1,6 @@
 ---
 title: Neural Networks and Deep Learning
+icon: material-symbols:overview-key-outline-rounded
 permalink: /COMP9444/
 createTime: 2024/09/05 12:03:56
 ---
@@ -14,6 +15,10 @@ import unswUpdating from '@unswUpdating'
 
 <p>
 <HButton icon='mdi:lecture' title='Lecture' src='Lecture/'/>
+
+<HButton alt icon='streamline:group-meeting-call' title='Tutorial' src='Tutorial/'/>
+
+<HButton alt icon='mdi:book-open' title='Ed Lessons' src='Ed/'/>
 </p>
 
 </div>
@@ -34,9 +39,9 @@ import unswUpdating from '@unswUpdating'
 </p>
 
 <p>
-<HButton theme='alt' icon='ph:video' title='Lecture Recordings (Tuesday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6874396&triggerview=0'/>
+<HButton alt icon='ph:video' title='Lecture Recordings (Tuesday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6874396&triggerview=0'/>
 
-<HButton theme='alt' icon='ph:video' title='Lecture Recordings (Thursday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6874396&triggerview=0'/>
+<HButton alt icon='ph:video' title='Lecture Recordings (Thursday)' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=6874396&triggerview=0'/>
 </p>
 
 
