@@ -1,10 +1,11 @@
 ---
 title: Copyright
+icon: mdi:copyright
 createTime: 2024/08/24 19:31:50
 permalink: /help/terms/copyright
 ---
 
-Copyright @ [How](https://www.bigtomcat.com/)
+Copyright © [How](https://www.bigtomcat.com/)
 
 
 Portions of the site come from [YouTube](https://www.youtube.com/howyoutubeworks/policies/copyright/) _© Google LLC_

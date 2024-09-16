@@ -18,7 +18,6 @@ export default plumeTheme({
     avatar: '/logo.png',
     description: 'bigtomcat',
     location: 'Sydney, Australia',
-    
   },
 
   
