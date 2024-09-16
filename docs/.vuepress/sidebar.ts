@@ -63,11 +63,12 @@ const Help: NoteItem = {
   link: '/help/',
   sidebar: [
     {
-      text: 'Help Center',
+      text: 'Tools',
+      link: '/help/tools/',
       collapsed: false,
       items: [
-        '/help/useful',
-        '/help/cseLabs'
+        '/help/tools/useful',
+        '/help/tools/cseLabs'
       ]
     },
     {

@@ -1,5 +1,6 @@
 ---
 title: Useful Links
+icon: fa6-solid:link
 createTime: 2024/08/24 21:14:03
 permalink: /useful/
 aside: false
