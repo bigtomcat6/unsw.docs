@@ -393,6 +393,25 @@ links:
     src: /ELEC2134/Supplementary/Week2_RevisionProblems_solutions.pdf
 
 # COMP3222
+  # Lecture
+    # Week 1
+  - title: s1
+    type: pdf
+    md5: c756e7a74999ab49dafa5a86a71d0468
+    src: /COMP3222/Lecture/s1.pdf
+  - title: 01-Intro
+    type: pdf
+    md5: 8e7f0846ff30c945003937e5aa7a7657
+    src: /COMP3222/Lecture/01-Intro.pdf
+  - title: 02-Optimized
+    type: pdf
+    md5: 5d37ddfd07f5b30f740f7dd210349cfa
+    src: /COMP3222/Lecture/02-Optimized.pdf
+  - title: ch2-probs
+    type: pdf
+    md5: f33545397581f498495f7f17dfb8963d
+    src: /COMP3222/Lecture/ch2-probs.pdf
+
   # Laboratory
     # Getting started with COMP3222 labs
   - title: Vivado-get-started.pdf

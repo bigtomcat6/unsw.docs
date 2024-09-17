@@ -1,5 +1,6 @@
 ---
 title: Digital Circuits and Systems
+icon: material-symbols:overview-key-outline-rounded
 permalink: /COMP3222/
 createTime: 2024/09/06 13:13:47
 ---
@@ -13,6 +14,8 @@ import unswUpdating from '@unswUpdating'
 ## COMP3222 <unswUpdating />
 
 <HButton icon='tabler:notes' title='Note' src='Note/'/>
+
+<HButton icon='mdi:lecture' title='Lecture' src='Lecture/'/>
 
 <HButton icon='icomoon-free:lab' title='Labs' src='Lab/'/>
 </div>
