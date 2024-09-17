@@ -12,8 +12,9 @@ import unswUpdating from '@unswUpdating'
 
 ## COMP3222 <unswUpdating />
 
-<HButton icon='icomoon-free:lab' title='Labs' src='Lab/'/>
+<HButton icon='tabler:notes' title='Note' src='Note/'/>
 
+<HButton icon='icomoon-free:lab' title='Labs' src='Lab/'/>
 </div>
 
 <div class="how_qb">
