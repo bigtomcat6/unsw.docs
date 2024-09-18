@@ -67,6 +67,11 @@ const COMP3222: NoteItem = {
           link: '/COMP3222/',
         },
         {
+          text: 'Note',
+          dir: 'Note',
+          link: '/COMP3222/Note/',
+        },
+        {
           text: 'Lecture',
           dir: 'Lecture',
           link: '/COMP3222/Lecture/',
