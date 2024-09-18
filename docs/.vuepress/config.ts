@@ -2,6 +2,7 @@
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
+import { visualizer } from "rollup-plugin-visualizer";  
 /** Theme **/
 
 // VuePress default theme
@@ -49,11 +50,11 @@ export default defineUserConfig({
     removeHtmlExtensionPlugin(),
     // markdownPowerPlugin({
     //   icons: true,
-    // }),
+    // }),  
   ],
 
   alias: {
-    '@VCard': path.resolve(__dirname, 'components/VCard.vue'),
+    // '@VCard': path.resolve(__dirname, 'components/VCard.vue'),
     '@MobiusTitleCard': path.resolve(__dirname, 'components/MobiusTitleCard.vue'),
     '@unswUpdating': path.resolve(__dirname, 'components/unswUpdating.vue'),
     '@HSelect': path.resolve(__dirname, 'components/HSelect.vue'),
@@ -64,17 +65,31 @@ export default defineUserConfig({
 
   bundler: viteBundler({
     viteOptions: {
+      plugins: [
+        visualizer({  
+          open: false, // 注意这里要设置为true，否则无效  
+          gzipSize: true, // 分析图生成的文件名  
+          brotliSize: true, // 收集 brotli 大小并将其显示  
+          filename: "stats.html", // 分析图生成的文件名  
+        }),
+      ],
+
       build: {
         rollupOptions: {
           output: {
-            manualChunks: (id) => { // not work
-              if (id.includes('node_modules')) {
-                return 'vendor';
-              }
-            },
+            // manualChunks(id: string) { // not work
+            //   if (id.indexOf('node_modules') !== -1) {
+            //     const basic = id.toString().split('node_modules/')[1];
+            //     const sub1 = basic.split('/')[0];
+            //     if (sub1 !== '.pnpm') {
+            //       return sub1.toString();
+            //     }
+            //     const name2 = basic.split('/')[1];
+            //     return name2.split('@')[name2[0] === '@' ? 1 : 0].toString();
+            //   }
+            // },
           },
         },
-        chunkSizeWarningLimit: 1500, // 将警告限制提高到 1500 kB (but not work)
       }
     },
   }),

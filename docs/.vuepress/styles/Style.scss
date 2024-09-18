@@ -2,6 +2,15 @@
 //     display: none;
 // }
 
+// 灰屏
+// html {
+//     filter: grayscale(80%);
+//     -webkit-filter: grayscale(80%);
+//     -moz-filter: grayscale(80%);
+//     -ms-filter: grayscale(80%);
+//     -o-filter: grayscale(80%);
+// }
+
 .how_qb {
     background-color: var(--vp-badge-tip-bg);
     /* rgba(243, 247, 249, 0.5); */
