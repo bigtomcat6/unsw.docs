@@ -55,7 +55,30 @@ const ELEC2134: NoteItem = {
 const COMP3222: NoteItem = {
   dir: 'COMP3222',
   link: '/COMP3222/',
-  sidebar: 'auto'
+  sidebar: [
+    {
+      text: 'COMP3222',
+      icon: icons.current,
+      collapsed: false,
+      items: [
+        {
+          text: 'Overview',
+          dir: '',
+          link: '/COMP3222/',
+        },
+        {
+          text: 'Lecture',
+          dir: 'Lecture',
+          link: '/COMP3222/Lecture/',
+        },
+        {
+          text: 'Lab',
+          dir: 'Lab',
+          link: '/COMP3222/Lab/',
+        }
+      ]
+    }
+  ]
 }
 
 const Help: NoteItem = {
