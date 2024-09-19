@@ -37,6 +37,11 @@ aside: false
         title="UNSW GitLab"
         href="https://nw-syd-gitlab.cseunsw.tech/dashboard/groups">
     </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="Class Timetable"
+        href="https://timetable.unsw.edu.au/">
+    </LinkCard>
 </CardGrid>
 
 ## UNSW Handbook 2025
