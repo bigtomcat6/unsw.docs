@@ -1,5 +1,6 @@
 ---
 title: Laboratory
+icon: icomoon-free:lab
 createTime: 2024/09/09 22:05:29
 permalink: /COMP3222/Lab/
 ---

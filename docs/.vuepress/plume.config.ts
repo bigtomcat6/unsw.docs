@@ -18,7 +18,6 @@ export default plumeTheme({
     avatar: '/logo.png',
     description: 'bigtomcat',
     location: 'Sydney, Australia',
-    
   },
 
   
@@ -34,12 +33,13 @@ export default plumeTheme({
     copyright: COPYRIGHT
   },
   plugins: {
-    search: false,
+    // search: false,
     markdownEnhance: {
       mermaid: true,
     },
     markdownPower: {
       icons: true,
+      imageSize: true, // 图片优化 (rc.98试验性)
     }
   },
   

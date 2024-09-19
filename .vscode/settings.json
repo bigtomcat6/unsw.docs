@@ -1,0 +1,11 @@
+{
+    "conventionalCommits.scopes": [
+        "ELEC2134",
+        "DESN2000",
+        "COMP2511",
+        "COMP3222",
+        "COMP9444",
+        "Help",
+        "Components"
+    ]
+}

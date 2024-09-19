@@ -1,5 +1,6 @@
 ---
 title: Useful Links
+icon: fa6-solid:link
 createTime: 2024/08/24 21:14:03
 permalink: /useful/
 aside: false
@@ -35,6 +36,11 @@ aside: false
         icon="vscode-icons:file-type-gitlab"
         title="UNSW GitLab"
         href="https://nw-syd-gitlab.cseunsw.tech/dashboard/groups">
+    </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="Class Timetable"
+        href="https://timetable.unsw.edu.au/">
     </LinkCard>
 </CardGrid>
 

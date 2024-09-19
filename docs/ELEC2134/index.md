@@ -13,6 +13,7 @@ import HMoodleLink from '@HMoodleLink'
 
 ## ELEC2134 <unswUpdating />
 
+<HButton icon='tabler:notes' title='Note' src='Note/'/>
 
 </div>
 
@@ -194,7 +195,7 @@ ELEC2134 quizzes will be accessed via Moodle (Course Content --> Week XX --> Pro
 
 **IMPORTANT: Always use at least 2 decimal places throughout your calculation and in your answers.** Quizzes are marked automatically and answers have a certain tolerance (2%) to account for rounding errors, but if you do not use at least 2 decimal places in your answers, it is quite likely that your answer is marked wrong because it will not be within the tolerance range.
 
-- Quiz opens from **Tuesday 11****:59pm to the next Tuesday 11:59pm**, starting from **week 1.**
+- Quiz opens from **Tuesday 11:59pm to the next Tuesday 11:59pm**, starting from **week 1.**
 - **3 attempts, immediate right/wrong feedback after each attempt.** You will always get the **highest mark as final mark.**
 - **Detailed feedback provided after due date**.
 - Circuit parameters are distributed randomly among the class. 
@@ -262,13 +263,14 @@ Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
 - <HMoodleLink type='pdf' md5='d834cc9cc59082b02539ac22c972fc2a'>AC Review 2 - AC Circuit Analysis</HMoodleLink>
     - <HMoodleLink type='pdf' md5='06da8cdaf45cb028a1115aa9e9dd885d'>AC Review 2 - Solutions to AC Circuit Analysis exercises</HMoodleLink>
 - <HMoodleLink type='pdf' md5='60f87af92f9ddb99764faf8293b1aeb1'>AC Review 3 - AC Circuit Theorems</HMoodleLink>
-    <!-- - <HMoodleLink type='pdf' md5=''>AC Power - Solutions to in-class examples</HMoodleLink-->
+    - <HMoodleLink type='pdf' md5='b72b746a5b067cccc4700b8efad6987c'>AC Review 3 - Solutions to AC Circuit Theorems exercises</HMoodleLink>
 
 <img src="/elec/Lectures.png" alt="Lectures" style="zoom:50%;" />
 
 - <HMoodleLink type='pdf' md5='17109d35e100615efbe214c5ea04aec0'>ELEC2134 Introduction</HMoodleLink>
 - <HMoodleLink type='pdf' md5='70594d8574044c87266faf896be3c508'>AC Review</HMoodleLink>
-- <HMoodleLink type='pdf' md5='fddb231b1331a22f319d88c936b5318c'></HMoodleLink>
+- <HMoodleLink type='pdf' md5='fddb231b1331a22f319d88c936b5318c'>AC Power</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='9e3acef1a8dc4b311e26499b28e5e7e4'>AC Power - Solutions to in-class examples</HMoodleLink>
 
 **Laboratory**
 
@@ -289,9 +291,10 @@ Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
 
 ---
 
-- <HMoodleLink type='pdf' md5='58d7c8c3e30c6f1644933bf0601c6776'>Week1 - AC Power Problem Sheet</HMoodleLink>
-    - <HMoodleLink type='pdf' md5='68bc290de1d2c24bfe54b3dc0cf38d99'>Week 1 - AC Power Problem Sheet - Worked solutions</HMoodleLink>
-    
+- <HMoodleLink type='pdf' md5='58d7c8c3e30c6f1644933bf0601c6776'>Week1 - AC Review and Simulation Problem Sheet</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='68bc290de1d2c24bfe54b3dc0cf38d99'>Week1 - AC Review and Simulation Problem Sheet - Worked Solutions</HMoodleLink>
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041796&triggerview=0'>Week 1 – AC Review</HMoodleLink>
+
 **AC Power**
     
 - Examples and exercises in the lecture slides.
@@ -308,5 +311,60 @@ Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
 <img src="/elec/ProgressQuiz.png" alt="Progress Quiz" style="zoom:50%;" />
 
 - <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041796&triggerview=0'>Weekly Quiz 1</HMoodleLink>
+
+</div>
+
+<div class="moodle_section">
+
+## Week 2
+
+<img src="/elec/PreReading.png" alt="Pre-Reading" style="zoom:50%;" />
+
+Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
+
+<img src="/elec/Lectures.png" alt="Lectures" style="zoom:50%;" />
+
+- <HMoodleLink type='pdf' md5='1c499f4cfe85133ca86a4d18dff1dd88'></HMoodleLink>
+- <HMoodleLink type='pdf' md5='4b13ef58f806c430ba56646ee0536e8f'></HMoodleLink>
+
+**Laboratory**
+
+<HMoodleLink type='pdf' md5='5c19156438f2a51a4bcaa4e64acadf7c'>Laboratory 1 (weeks 1 & 2)</HMoodleLink>
+
+> This lab requires significant preparation, so please aim to spend time completing the analytical parts ahead of your lab class. This allows you to make the most of the class opportunity. It is also likely that you will need to work on it further in your own time after your Week 1 lab class. Note that this lab will **need to be fully marked before the end of the Week 2 lab class.**
+> 
+> During the first 2 hours of the Week 2 lab class you will complete an AC power experimental practical (Section 5) - This will be done in lab EE205. Once the experiment is complete, you need to return to your regular lab to complete any unfinalised work from the previous sections (Sections 1 to 4) and get fully marked.
+
+<img src="/elec/SupplementaryMaterial.png" alt="Supplementary Material" style="zoom:50%;" />
+
+**Transfer Function**
+
+- Examples and exercises in the lecture slides.
+- Week2 - Transfer Function Problem Sheet (below)
+
+---
+
+- <HMoodleLink type='pdf' md5='9267ec3817fa24c220a6f38323816282'>Week2 - Transfer Function Problem Sheet</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='36dccdf1b40510e3b14053d965e46edf'>Week2 - Transfer Function Problem Sheet - Worked Solutions</HMoodleLink>
+
+**Fourier Series**
+
+- Examples and exercises in the lecture slides
+- Week2 - Fourier Series Problem Sheet (below)
+- Practice problems 17.1, 17.2, 17.3, 17.4, 17.5, 17.6, 17.7, 17.10, 17.11
+- Problems 17.1, 17.3, 17.7, 17.53, 17.55, 17.57, 17.59, 17.61, 17.63 (Problems with fully worked solutions accessible via McGraw Hill Connect - link below. To see step-by-step solutions, click 'Submit' and 'Show correct answer' - you do not need to enter any value to submit and you do not need to worry about the mark, since these problems are only to practice).
+- Take a look at <http://www.falstad.com/fourier/>
+- Derive the results in Table 17.3 in the textbook, using the even/odd/half-wave symmetry where they apply.
+
+---
+
+- <HMoodleLink type='pdf' md5='dd0e9ef214608de160e6ada6a68eb5bc'>Week2 - Fourier Series Problem Sheet</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='caf14ef931525dfdd61436bc69806f6d'>Week2 - Fourier Series Problem Sheet - Worked Solutions</HMoodleLink>
+
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041819&triggerview=0'>Week 2 – Fourier Series</HMoodleLink>
+
+<img src="/elec/ProgressQuiz.png" alt="Progress Quiz" style="zoom:50%;" />
+
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041817&triggerview=0'>Weekly Quiz 2</HMoodleLink>
 
 </div>

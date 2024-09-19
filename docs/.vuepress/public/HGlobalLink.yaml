@@ -329,6 +329,7 @@ links:
     src: /ELEC2134/Laboratory/ELEC2134 Laboratory 1.pdf
   
   # Lecture
+    # Week 1
   - title: ELEC2134_Intro
     type: pdf
     md5: 17109d35e100615efbe214c5ea04aec0
@@ -341,8 +342,22 @@ links:
     type: pdf
     md5: fddb231b1331a22f319d88c936b5318c
     src: /ELEC2134/Lecture/ELEC2134_AC Power.pdf
+  - title: ELEC2134_AC Power_Solutions in-class examples
+    type: pdf
+    md5: 9e3acef1a8dc4b311e26499b28e5e7e4
+    src: /ELEC2134/Lecture/ELEC2134_AC Power_Solutions in-class examples.pdf
+    # Week 2
+  - title: ELEC2134_Transfer Function
+    type: pdf
+    md5: 1c499f4cfe85133ca86a4d18dff1dd88
+    src: /ELEC2134/Lecture/ELEC2134_Transfer Function.pdf
+  - title: ELEC2134_Fourier Series
+    type: pdf
+    md5: 4b13ef58f806c430ba56646ee0536e8f
+    src: /ELEC2134/Lecture/ELEC2134_Fourier Series.pdf
   
   # Supplementary Material
+    # Week 1
   - title: Week1_RevisionSimulationProblems
     type: pdf
     md5: 58d7c8c3e30c6f1644933bf0601c6776
@@ -359,8 +374,44 @@ links:
     type: pdf
     md5: e0909c2c345f8a1ee859fe6e99fff5c0
     src: /ELEC2134/Supplementary/Week 1 - AC Power Problem Sheet - Worked solutions.pdf
+    # Week 2
+  - title: Week2_Transfer Function Problem Sheet
+    type: pdf
+    md5: 9267ec3817fa24c220a6f38323816282
+    src: /ELEC2134/Supplementary/Week2_Transfer Function Problem Sheet.pdf
+  - title: Week2_Transfer Function Problem Sheet - Worked Solutions
+    type: pdf
+    md5: 36dccdf1b40510e3b14053d965e46edf
+    src: /ELEC2134/Supplementary/Week2_Transfer Function Problem Sheet - Worked Solutions.pdf
+  - title: Week2_RevisionProblems
+    type: pdf
+    md5: dd0e9ef214608de160e6ada6a68eb5bc
+    src: /ELEC2134/Supplementary/Week2_RevisionProblems.pdf
+  - title: Week2_RevisionProblems_solutions
+    type: pdf
+    md5: caf14ef931525dfdd61436bc69806f6d
+    src: /ELEC2134/Supplementary/Week2_RevisionProblems_solutions.pdf
 
 # COMP3222
+  # Lecture
+    # Week 1
+  - title: s1
+    type: pdf
+    md5: c756e7a74999ab49dafa5a86a71d0468
+    src: /COMP3222/Lecture/s1.pdf
+  - title: 01-Intro
+    type: pdf
+    md5: 8e7f0846ff30c945003937e5aa7a7657
+    src: /COMP3222/Lecture/01-Intro.pdf
+  - title: 02-Optimized
+    type: pdf
+    md5: 5d37ddfd07f5b30f740f7dd210349cfa
+    src: /COMP3222/Lecture/02-Optimized.pdf
+  - title: ch2-probs
+    type: pdf
+    md5: f33545397581f498495f7f17dfb8963d
+    src: /COMP3222/Lecture/ch2-probs.pdf
+
   # Laboratory
     # Getting started with COMP3222 labs
   - title: Vivado-get-started.pdf
