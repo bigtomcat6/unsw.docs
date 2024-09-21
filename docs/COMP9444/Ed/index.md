@@ -13,3 +13,7 @@ permalink: /COMP9444/Ed/
 - [Numpy refresher](week0/Numpy%20refresher.md)
 - [Matplotlib refresher](week0/Matplotlib%20refresher.md)
 - [Google Colab refresher](week0/Google%20Colab%20refresher.md)
+
+## Week 1: Perceptrons and Backpropagation
+
+- [1a: Neuroanatomy and Perceptrons](week1/1a:%20Neuroanatomy%20and%20Perceptrons.md)
