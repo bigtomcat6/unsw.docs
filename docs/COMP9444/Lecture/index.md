@@ -1,5 +1,6 @@
 ---
 title: Lecture
+icon: mdi:lecture
 createTime: 2024/09/10 13:58:49
 permalink: /COMP9444/Lecture/
 ---

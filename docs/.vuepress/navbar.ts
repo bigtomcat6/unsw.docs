@@ -15,10 +15,11 @@ export const navbar: NavItem[] = [
     ]
   },
   { text: 'Links', link: '/useful/', icon: 'fa6-solid:link' },
-  { text: 'Help', icon: 'mi:circle-help',
+  // { text: 'Help', link: '/help/terms/about', icon: 'mi:circle-help'},
+  { text: 'More', icon: 'mdi:more-circle-outline',
     items: [
-      { text: 'About', link: '/help/about' },
-      { text: 'Copyright', link: '/help/copyright' }
+      { text: 'Tools', link: '/help/tools/', icon: 'carbon:tool-box' },
+      { text: 'About', link: '/help/terms/about', icon: 'mdi:about-circle-outline' },
     ]
-  },
+  }
 ];
