@@ -23,6 +23,7 @@ permalink: /COMP2511/2w4thyko/
         - java
             - staff
                 - StaffTest.java
+- blog.md
 :::
 
 ::: details 🔱 Core Exercise: Staff
