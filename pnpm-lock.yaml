@@ -21,21 +21,18 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.15
         version: 2.0.0-rc.15(@types/node@22.5.5)(sass@1.79.3)(typescript@5.6.2)
+      '@vueuse/integrations':
+        specifier: ^11.1.0
+        version: 11.1.0(axios@1.7.7)(focus-trap@7.6.0)(vue@3.5.8(typescript@5.6.2))
       axios:
         specifier: ^1.7.7
         version: 1.7.7
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
-      mark.js:
-        specifier: ^8.11.1
-        version: 8.11.1
-      minisearch:
-        specifier: ^7.1.0
-        version: 7.1.0
       rollup-plugin-visualizer:
         specifier: ^5.12.0
-        version: 5.12.0(rollup@4.21.3)
+        version: 5.12.0(rollup@4.22.4)
       vue:
         specifier: ^3.5.8
         version: 3.5.8(typescript@5.6.2)
@@ -2297,6 +2294,16 @@ packages:
 
   robust-predicates@3.0.2:
     resolution: {integrity: sha512-IXgzBWvWQwE6PrDI05OvmXUIruQTcoMDzRsOd5CDvHCVLcLHMTSYvOK5Cm46kWqlV3yAbuSpBZdJ5oP5OUoStg==}
+
+  rollup-plugin-visualizer@5.12.0:
+    resolution: {integrity: sha512-8/NU9jXcHRs7Nnj07PF2o4gjxmm9lXIrZ8r175bT9dK8qoLlvKTwRMArRCMgpMGlq8CTLugRvEmyMeMXIU2pNQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    peerDependencies:
+      rollup: 2.x || 3.x || 4.x
+    peerDependenciesMeta:
+      rollup:
+        optional: true
 
   rollup@4.22.4:
     resolution: {integrity: sha512-vD8HJ5raRcWOyymsR6Z3o6+RzfEPCnVLMFJ6vRslO1jt4LO6dUo5Qnpg7y4RkZFM2DMe3WUirkI5c16onjrc6A==}
@@ -5288,6 +5295,15 @@ snapshots:
   reusify@1.0.4: {}
 
   robust-predicates@3.0.2: {}
+
+  rollup-plugin-visualizer@5.12.0(rollup@4.22.4):
+    dependencies:
+      open: 8.4.2
+      picomatch: 2.3.1
+      source-map: 0.7.4
+      yargs: 17.7.2
+    optionalDependencies:
+      rollup: 4.22.4
 
   rollup@4.22.4:
     dependencies:
