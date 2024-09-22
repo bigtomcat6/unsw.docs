@@ -739,3 +739,106 @@ public class PenthouseRoom extends Room {
 ```
 
 :::
+
+::: details Blog
+
+Task 1
+
+Q1: Why is this approach considered good design? What principles does it makes use of?
+
+The approach illustrated in the diagram and described for the hotel booking system is considered good design primarily due to its adherence to key principles of software engineering: abstraction, encapsulation, and modularization.
+
+- Abstraction: Abstraction allows the system to hide the complex underlying implementations and expose only the necessary components to the user.
+
+- Encapsulation: The internal state of the objects can only be changed by an object’s methods (controlled access). It enhances security and robustness, reducing the chance of unintended interference and bugs.
+
+- Modularization: This separation allows for easier maintenance and scalability as the system grows. Each module can be developed, tested, and debugged independently before integrating into the larger system.
+
+---
+
+Q2: What is meant by the term "black-box"? How are the tests inside BookingSystemTest black-box?
+
+- The term “black-box” in the context of software engineering refers to a system or component where the internal workings are hidden from the user or client. The focus is solely on the input and output of the system, not on how the input is transformed into the output. This concept aligns with the principle of abstraction, allowing users to interact with a system without needing to understand its inner mechanics.
+
+- The tests inside BookingSystemTest are black-box tests because they focus on the external behavior of the BookingSystem class. The tests interact with the public methods of the BookingSystem class and verify the expected outputs based on specific inputs. The tests do not concern themselves with the internal implementation details of the BookingSystem class, treating it as a black box.
+
+---
+
+Task 2
+
+Q3: What does this method do? What does it return, and what side effects does it have?
+
+The makeBooking method in the Hotel class plays a critical role in managing room bookings based on client preferences for room types (standard, ensuite, penthouse).
+
+It iterates through the list of rooms in the hotel. For each room, it checks if the room matches the desired type (standard, ensuite, penthouse) through the roomDesired method. If a room matches and can be booked for the specified dates (checked by calling book on the room object), it immediately returns true.
+
+Returns false if no rooms meet the criteria or if all suitable rooms are already booked for the requested date range.
+
+- Side Effects: The primary side effect of this method is modifying the state of a `Room` object by marking it as booked for certain dates. This state change affects the availability of the room for other potential bookings.
+ 
+---
+
+Q4: In your opinion, which is better quality code, Code A or B? Justify your answer.
+
+Code B would typically be the preferable choice for its straightforwardness and efficiency in executing the desired functionality.
+
+- Code A: 
+  * Easy to debugging
+  * Flexibility to modifications
+  * But uses an extra variable and more lines
+
+- Code B: 
+  * Efficiency in Simplicity
+  * But reduced readability and maintainability
+
+---
+
+Task 3
+
+Q5: What are some code smells (features of the code that make it poor quality) present in this method?
+
+- The structure of the checks is repeated for each type of room. This repetition can lead to errors if modifications are needed in the future and changes are not consistently applied across all conditions.
+- Using instanceof tightly couples the method to specific room types, making it less flexible and harder to extend with new room types without modifying this method.
+
+
+---
+
+Task 4
+
+Q6: Note down all of the code smells you can see.
+
+- Repetitive Code: If there are common methods or properties across the three room types, having them implemented repeatedly in each subclass can be a sign of redundant code. This not only makes maintenance harder but also increases the risk of inconsistencies.
+
+- Overuse of interfaces when common implementation exists.
+
+---
+
+Q7: Reflect on your thought process, the steps you took to refactor and how you have improved the design of the system.
+
+1. I started by assessing the existing design, identifying repetitive and redundant code, and areas lacking encapsulation.
+
+2. I decided to use an abstract class to share common functionality.
+
+3. I implemented shared methods in the abstract class and allowed for specialized behaviors via abstract methods, ensuring each room type could handle specifics on its own.
+
+4. After refactoring, I ensured that the RefactoringRegressionTests still passed, confirming that my changes preserved existing functionalities.
+
+Improvements Made: The new design is easier to maintain and modify as most shared logic is now centralized.
+
+---
+
+Reflections
+
+This extensive lab exercise involved building, refactoring, and extending a hotel booking system in Java. The activity required applying key software engineering principles such as object-oriented programming, abstraction, encapsulation, and more. It also involved implementing JSON serialization to prepare the system for real-world applications like web services.
+
+Learned
+- Abstraction and Encapsulation
+- Code Refactoring
+- JSON Serialization
+
+Challenges Faced
+- Understanding Inheritance and Interfaces
+- Ensuring Test Coverage
+- Design Decision Trade-offs
+
+:::
