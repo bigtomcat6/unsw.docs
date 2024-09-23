@@ -18,3 +18,4 @@ permalink: /COMP9444/Ed/
 
 - [1a: Neuroanatomy and Perceptrons](week1/1a:%20Neuroanatomy%20and%20Perceptrons.md)
 - [1b: Multi Layer Networks and Backpropagation](week1/1b:%20Multi%20Layer%20Networks%20and%20Backpropagation.md)
+- [1c: Tensors](week1/1c:%20Tensors.md)
