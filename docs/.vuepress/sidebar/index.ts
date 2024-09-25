@@ -9,7 +9,7 @@ const Help: NoteItem = {
     {
       text: 'Tools',
       link: '/help/tools/',
-      collapsed: false,
+      // collapsed: false,
       items: [
         '/help/tools/useful',
         '/help/tools/cseLabs'
@@ -17,7 +17,7 @@ const Help: NoteItem = {
     },
     {
       text: 'Terms',
-      collapsed: false,
+      // collapsed: false,
       items: [
         '/help/terms/about',
         '/help/terms/copyright'

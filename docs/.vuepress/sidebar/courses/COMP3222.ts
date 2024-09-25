@@ -8,14 +8,10 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: 'COMP3222',
+      link: '/COMP3222/',
       icon: icons.current,
-      collapsed: false,
+      // collapsed: false,
       items: [
-        {
-          text: 'Overview',
-          dir: '',
-          link: '/COMP3222/',
-        },
         {
           text: 'Note',
           dir: 'Note',

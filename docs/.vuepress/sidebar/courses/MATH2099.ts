@@ -6,14 +6,9 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: 'MATH2099',
-      collapsed: false,
+      link: '/MATH2099/',
+      // collapsed: false,
       items: [
-        {
-          text: 'Overview',
-          dir: '',
-          link: '/MATH2099/',
-          items: []
-        },
         {
           text: 'Linear Algebra',
           dir: 'Algebra',

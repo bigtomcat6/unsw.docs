@@ -7,14 +7,8 @@ export default defineNoteConfig({
     {
       text: 'DESN2000',
       link: '/DESN2000/',
-      collapsed: false,
+      // collapsed: false,
       items: [
-        {
-          text: 'Overview',
-          dir: '',
-          link: '/DESN2000/',
-          items: []
-        },
         {
           text: 'Design',
           dir: 'Design',

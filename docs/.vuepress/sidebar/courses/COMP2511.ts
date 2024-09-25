@@ -6,14 +6,9 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: 'COMP2511',
-      collapsed: false,
+      link: '/COMP2511/',
+      // collapsed: false,
       items: [
-        {
-          text: 'Note',
-          dir: 'Note',
-          link: '/COMP2511/',
-          items: []
-        },
         {
           text: 'Lecture',
           dir: 'Lecture',
