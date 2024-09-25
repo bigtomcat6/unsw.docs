@@ -3,7 +3,7 @@
 import { plumeTheme } from 'vuepress-theme-plume'
 // import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 
-import { notes } from './sidebar'
+import notes from './sidebar'
 import { navbar } from './navbar'
 
 const COPYRIGHT = 'Subdocument of <a href="https://docs.bigtomcat.com/" target="_blank">How\'s Docs</a> &nbsp; <br>\
