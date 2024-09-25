@@ -233,3 +233,30 @@ Please get started early!
 
 </div>
 
+
+<div class="how_qb">
+
+### Lecture 9
+
+<MobiusTitle title="9.1 Linear regression model" src="Lecture 9/9.1 Linear regression model" />
+
+<MobiusTitle title="9.2 Least squares estimators" src="Lecture 9/9.2 Least squares estimators" />
+
+<MobiusTitle title="9.3 Assumptions" src="Lecture 9/9.3 Assumptions" />
+
+<MobiusTitle title="9.4 Inference About Slope" src="Lecture 9/9.4 Inference About Slope" />
+
+<MobiusTitle title="9.5 Inference About Intercept" src="Lecture 9/9.5 Inference About Intercept" />
+
+<MobiusTitle title="
+9.6 Confidence Interval for Mean" src="Lecture 9/9.6 Confidence Interval for Mean" />
+
+<MobiusTitle title="9.7 New Observations" src="Lecture 9/9.7 New Observations" />
+
+<MobiusTitle title="9.8 Variability decomposition" src="Lecture 9/9.8 Variability decomposition" />
+
+<p>
+    <MobiusTitle title="Lecture 9 Quiz" src="Lecture 9/Lecture 9 Quiz" />
+</p>
+
+</div>
