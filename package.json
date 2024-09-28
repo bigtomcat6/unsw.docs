@@ -15,8 +15,6 @@
   "devDependencies": {
     "@iconify/json": "^2.2.252",
     "@iconify/vue": "^4.1.2",
-    "@volar/language-server": "2.4.0-alpha.18",
-    "@vue/language-server": "2.0.28",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vueuse/integrations": "^11.1.0",
     "axios": "^1.7.7",
