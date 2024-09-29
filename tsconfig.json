@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./docs",
+        "paths": {
+            "@MobiusTitleCard": ["docs/.vuepress/components/MobiusTitleCard.vue"],
+            "@unswUpdating": ["docs/.vuepress/components/unswUpdating.vue"],
+            "@HSelect": ["docs/.vuepress/components/HSelect.vue"],
+            "@HMoodleLink": ["docs/.vuepress/components/HMoodleLink.vue"],
+        }
+    },
+    "include": [
+        "**/.vuepress/**/*",
+        "**/.vuepress/**/*.ts"
+    ],
+    "exclude": ["node_modules", ".temp", "lib", "dist"]
+}
