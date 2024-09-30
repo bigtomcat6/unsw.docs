@@ -1,5 +1,6 @@
 ---
 title: Circuits and Signals
+icon: material-symbols:overview-key-outline-rounded
 permalink: /ELEC2134/
 createTime: 2024/09/06 13:07:09
 ---
