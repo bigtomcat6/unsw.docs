@@ -323,10 +323,20 @@ links:
     src: /ELEC2134/Moodle/ELEC2134_Circuits3_ACCircuitTheorems_solutions_to_examples_in_class.pdf
 
   # Laboratory
+    # Lab 1
   - title: ELEC2134 Laboratory 1
     type: pdf
     md5: 5c19156438f2a51a4bcaa4e64acadf7c
     src: /ELEC2134/Laboratory/ELEC2134 Laboratory 1.pdf
+    # Lab 2
+  - title: ELEC2134 Laboratory 2
+    type: pdf
+    md5: 32591e82a9eefa26277fd475f0c17921
+    src: /ELEC2134/Laboratory/ELEC2134 Laboratory 2.pdf
+  - title: Fourier series LTspice model
+    type: asc
+    md5: 13bfa9b8fd7158f26d9724377e7613cc
+    src: /ELEC2134/Laboratory/Fourier series LTspice model.asc
   
   # Lecture
     # Week 1
@@ -355,7 +365,32 @@ links:
     type: pdf
     md5: 4b13ef58f806c430ba56646ee0536e8f
     src: /ELEC2134/Lecture/ELEC2134_Fourier Series.pdf
-  
+  - title: ELEC2134_Transfer Function_Solutions in-class examples
+    type: pdf
+    md5: a261a26596f854b3579474397919cd7b
+    src: /ELEC2134/Lecture/ELEC2134_Transfer Function_Solutions in-class examples.pdf
+  - title: ELEC2134_Fourier Series_Solutions in-class examples
+    type: pdf
+    md5: a793cfa787da0027533fb1f1f04a8fb3
+    src: /ELEC2134/Lecture/ELEC2134_Fourier Series_Solutions in-class examples.pdf
+    # Week 3
+  - title: ELEC2134_AC Resonance
+    type: pdf
+    md5: 4def1e98e72657adde0c5636319f6c30
+    src: /ELEC2134/Lecture/ELEC2134_AC Resonance.pdf
+  - title: ELEC2134_Magnetically Coupled Circuits
+    type: pdf
+    md5: bafd08b9a28ac33234a882c487bb48f2
+    src: /ELEC2134/Lecture/ELEC2134_Magnetically Coupled Circuits.pdf
+  - title: ELEC2134_AC Resonance_Solutions in-class examples
+    type: pdf
+    md5: 7c85973121693d29e801139683329e50
+    src: /ELEC2134/Lecture/ELEC2134_AC Resonance_Solutions in-class examples.pdf
+  - title: ELEC2134_Magnetically Coupled Circuits_Solutions in-class examples (up to transformers)
+    type: pdf
+    md5: cdeb607ef148cdd05693b4086eda724b
+    src: /ELEC2134/Lecture/ELEC2134_Magnetically Coupled Circuits_Solutions in-class examples (up to transformers).pdf
+
   # Supplementary Material
     # Week 1
   - title: Week1_RevisionSimulationProblems
@@ -391,6 +426,23 @@ links:
     type: pdf
     md5: caf14ef931525dfdd61436bc69806f6d
     src: /ELEC2134/Supplementary/Week2_RevisionProblems_solutions.pdf
+    # Week 3
+  - title: Week3_RevisionProblems
+    type: pdf
+    md5: 2b7826ba1fa0937ff9917b03e5d34fa1
+    src: /ELEC2134/Supplementary/Week3_RevisionProblems.pdf
+  - title: Week3_RevisionProblems_solutions
+    type: pdf
+    md5: 9915f02b420e65f7db656846dc161b30
+    src: /ELEC2134/Supplementary/Week3_RevisionProblems_solutions.pdf
+  - title: Week5_RevisionProblems
+    type: pdf
+    md5: 59aabd3ac6168060f1313e177bce237d
+    src: /ELEC2134/Supplementary/Week5_RevisionProblems.pdf
+  - title: Week5_RevisionProblems_solutions
+    type: pdf
+    md5: b2668ed352ec0cfa74a96ab9aff799de
+    src: /ELEC2134/Supplementary/Week5_RevisionProblems_solutions.pdf
 
 # COMP3222
   # Lecture
