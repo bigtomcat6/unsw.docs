@@ -1,5 +1,6 @@
 ---
 title: Circuits and Signals
+icon: material-symbols:overview-key-outline-rounded
 permalink: /ELEC2134/
 createTime: 2024/09/06 13:07:09
 ---
@@ -324,8 +325,10 @@ Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
 
 <img src="/elec/Lectures.png" alt="Lectures" style="zoom:50%;" />
 
-- <HMoodleLink type='pdf' md5='1c499f4cfe85133ca86a4d18dff1dd88'></HMoodleLink>
-- <HMoodleLink type='pdf' md5='4b13ef58f806c430ba56646ee0536e8f'></HMoodleLink>
+- <HMoodleLink type='pdf' md5='1c499f4cfe85133ca86a4d18dff1dd88'>Transfer Function</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='a261a26596f854b3579474397919cd7b'>Transfer Function - Solutions to in-class examples</HMoodleLink>
+- <HMoodleLink type='pdf' md5='4b13ef58f806c430ba56646ee0536e8f'>Fourier Series</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='a793cfa787da0027533fb1f1f04a8fb3'>Fourier Series - Solutions to in-class examples</HMoodleLink>
 
 **Laboratory**
 
@@ -361,10 +364,72 @@ Circuits pre-reading: AC review from ELEC1111 (3 sets of slides provided below)
 - <HMoodleLink type='pdf' md5='dd0e9ef214608de160e6ada6a68eb5bc'>Week2 - Fourier Series Problem Sheet</HMoodleLink>
     - <HMoodleLink type='pdf' md5='caf14ef931525dfdd61436bc69806f6d'>Week2 - Fourier Series Problem Sheet - Worked Solutions</HMoodleLink>
 
-- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041819&triggerview=0'>Week 2 – Fourier Series</HMoodleLink>
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041817&triggerview=0'>Week 2 – Fourier Series</HMoodleLink>
 
 <img src="/elec/ProgressQuiz.png" alt="Progress Quiz" style="zoom:50%;" />
 
-- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041817&triggerview=0'>Weekly Quiz 2</HMoodleLink>
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041819&triggerview=0'>Weekly Quiz 2</HMoodleLink>
+
+</div>
+
+<div class="moodle_section">
+
+## Week 3
+
+<img src="/elec/Lectures.png" alt="Lectures" style="zoom:50%;" />
+
+- <HMoodleLink type='pdf' md5='4def1e98e72657adde0c5636319f6c30'>AC Resonance</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='7c85973121693d29e801139683329e50'>AC Resonance_Solutions in-class examples</HMoodleLink>
+- <HMoodleLink type='pdf' md5='bafd08b9a28ac33234a882c487bb48f2'>ELEC2134_Magnetically Coupled Circuits</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='cdeb607ef148cdd05693b4086eda724b'>Magnetically Coupled Circuits_Solutions in-class examples (up to transformers)</HMoodleLink>
+
+**Laboratory**
+
+<HMoodleLink type='pdf' md5='32591e82a9eefa26277fd475f0c17921'>Laboratory 2 (weeks 3 & 4)</HMoodleLink>
+
+>Please note that this is a long laboratory, so please allow time to prepare ahead of your first Lab 2 session in Week 3, and bring your questions to class.
+>
+>**NOTE: File updated on 19/09/2024 @ 8:30pm.**
+>Slight change in the wording of Section 4, Question 1, parts (i) and (v) to improve clarity.
+>If you downloaded/revised the file before 19/09/2024 @ 8:30pm, please download/revise it again. Sorry for the inconvenience.
+
+<HMoodleLink type='asc' md5='13bfa9b8fd7158f26d9724377e7613cc'>Simulation File for Laboratory 2 Section 3 Q1(i)</HMoodleLink>
+
+> NOTE: Do not click on the LTspice file below directly, since it will appear as a .txt file and you will not be able to use it. Instead, right click on the link and "save as" - the file should be saved as "Fourier series LTspice model.asc"
+
+<img src="/elec/SupplementaryMaterial.png" alt="Supplementary Material" style="zoom:50%;" />
+
+**AC Resonance**
+
+- Examples and exercises in the lecture slides
+- Week3 - AC Resonance Problem Sheet (below)
+- Practice problems 14.7, 14.8, 14.9
+- Problems 14.25, 14.29, 14.33, 14.35, 14.37, 14.39, 14.43, 14.45, 14.48 (Problems with fully worked solutions accessible via McGraw Hill Connect - link below. To see step-by-step solutions, click 'Submit' and 'Show correct answer' - you do not need to enter any value to submit and you do not need to worry about the mark, since these problems are only to practice).
+
+---
+
+- <HMoodleLink type='pdf' md5='2b7826ba1fa0937ff9917b03e5d34fa1'>Week3 - AC Resonance Problem Sheet</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='9915f02b420e65f7db656846dc161b30'>Week3 - AC Resonance Problem Sheet - Worked Solutions</HMoodleLink>
+
+**Magnetically Coupled Circuits**
+
+- Examples and exercises in the lecture slides
+- Week 3 - Magnetically Coupled Circuits Problem Sheet (below)
+- Practice problems 13.1, 13.2, 13.3, 13.4, 13.7, 13.8
+- Problems 13.1, 13.3, 13.5, 13.7, 13.9, 13.11, 13.13, 13.15, 13.17, 13.23, 13.25, 13.33, 13.37, 13.39, 13.41, 13.43, 13.45, 13.51, 13.53, 13.55, 13.57, 13.61, 13.63 (Problems with fully worked solutions accessible via McGraw Hill Connect - link below. To see step-by-step solutions, click 'Submit' and 'Show correct answer' - you do not need to enter any value to submit and you do not need to worry about the mark, since these problems are only to practice).
+  - NOTE: You might not be able to complete all suggested problems until we cover all the material in Week 5 (i.e., if there is any problem that you do not know how to do yet, wait until Week 5 to do it).
+
+---
+
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7070295&triggerview=0'>Week 3 - AC Resonance</HMoodleLink>
+
+
+- <HMoodleLink type='pdf' md5='59aabd3ac6168060f1313e177bce237d'>Week 3 - Magnetically Coupled Circuits Problem Sheet</HMoodleLink>
+    - <HMoodleLink type='pdf' md5='b2668ed352ec0cfa74a96ab9aff799de'>Week 3 - Magnetically Coupled Circuits Problem Sheet - Worked Solutions</HMoodleLink>
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041837&triggerview=0'>Week 3+5 - Magnetically Coupled Circuits</HMoodleLink>
+
+<img src="/elec/ProgressQuiz.png" alt="Progress Quiz" style="zoom:50%;" />
+
+- <HMoodleLink type='McGrawHill' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=7041839&triggerview=0'>Weekly Quiz 3</HMoodleLink>
 
 </div>

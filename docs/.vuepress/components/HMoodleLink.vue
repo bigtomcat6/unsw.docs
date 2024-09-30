@@ -75,6 +75,7 @@ export default defineComponent({
         case 'avi':         return '/moodleIcon/avi-24.png'
         case 'McGrawHill':  return '/moodleIcon/mhe-logo.svg'
         case 'edstem':      return '/moodleIcon/edstemstrfavicon-64x64.e314354e.png'
+        case 'asc':         return '/moodleIcon/sourcecode-24.png'
       }
       return null
     },
