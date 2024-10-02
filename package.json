@@ -13,9 +13,9 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@iconify/json": "^2.2.254",
+    "@iconify/json": "^2.2.255",
     "@iconify/vue": "^4.1.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/bundler-vite": "2.0.0-rc.17",
     "@vueuse/integrations": "^11.1.0",
     "axios": "^1.7.7",
     "js-yaml": "^4.1.0",
@@ -23,10 +23,10 @@
     "minisearch": "^7.1.0",
     "rollup-plugin-visualizer": "^5.12.0",
     "vue": "^3.5.10",
-    "vuepress": "2.0.0-rc.15",
-    "vuepress-plugin-md-power": "1.0.0-rc.104",
-    "vuepress-plugin-remove-html-extension": "1.13.0",
-    "vuepress-theme-plume": "1.0.0-rc.104"
+    "vuepress": "2.0.0-rc.17",
+    "vuepress-plugin-md-power": "1.0.0-rc.105",
+    "vuepress-plugin-remove-html-extension": "1.15.0",
+    "vuepress-theme-plume": "1.0.0-rc.105"
   },
   "dependencies": {
     "mermaid": "^11.2.1"
