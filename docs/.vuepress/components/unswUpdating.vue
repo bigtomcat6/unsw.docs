@@ -46,8 +46,16 @@ export default defineComponent({
 function getWeeks(StartDate: Date, EndDate: Date): number {
   const date1 = new Date(StartDate);
   const date2 = new Date(EndDate);
-  const date3 = date2.getTime() - date1.getTime();
-  const days = Math.floor(date3 / (24 * 3600 * 1000));
+
+  // 获取时区偏移量，包括考虑夏令时
+  const getTimezoneOffsetInMs = (date: Date) => date.getTimezoneOffset() * 60 * 1000;
+
+  // 计算日期的毫秒时间
+  const time1 = date1.getTime() - getTimezoneOffsetInMs(date1); // 校正为 UTC 时间
+  const time2 = date2.getTime() - getTimezoneOffsetInMs(date2); // 校正为 UTC 时间
+
+  const dateDiff = time2 - time1;
+  const days = Math.floor(dateDiff / (24 * 3600 * 1000));
   const weeks = Math.ceil(days / 7);
   return weeks;
 }
