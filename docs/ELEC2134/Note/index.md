@@ -11,3 +11,5 @@ index: false
 <LinkCard title="AC Power" href="./1.2 AC Power"></LinkCard>
 
 <LinkCard title="Transfer Function" href="./2.1 Transfer Function"></LinkCard>
+
+<LinkCard title="Fourier Series" href="./2.2 Fourier Series"></LinkCard>
