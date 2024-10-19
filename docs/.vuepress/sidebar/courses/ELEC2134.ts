@@ -17,6 +17,8 @@ export default defineNoteConfig({
           text: 'Note',
           dir: 'Note',
           link: 'Note/',
+          collapsed: true,
+          items: 'auto'
         },
       ],
     },
