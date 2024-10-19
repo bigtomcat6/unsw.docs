@@ -99,7 +99,8 @@
     padding: 5px;
 }
 
-.dark {
+.dark,
+html[data-theme="dark"] {
 
     .mobius-slideb-block,
     .moodle_section,
