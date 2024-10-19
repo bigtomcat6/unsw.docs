@@ -13,22 +13,22 @@
   "keywords": [],
   "author": "",
   "devDependencies": {
-    "@iconify/json": "^2.2.255",
+    "@iconify/json": "^2.2.261",
     "@iconify/vue": "^4.1.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.17",
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
     "@vueuse/integrations": "^11.1.0",
     "axios": "^1.7.7",
     "js-yaml": "^4.1.0",
     "mark.js": "^8.11.1",
     "minisearch": "^7.1.0",
     "rollup-plugin-visualizer": "^5.12.0",
-    "vue": "^3.5.10",
-    "vuepress": "2.0.0-rc.17",
-    "vuepress-plugin-md-power": "1.0.0-rc.105",
+    "vue": "^3.5.12",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-plugin-md-power": "1.0.0-rc.111",
     "vuepress-plugin-remove-html-extension": "1.15.0",
-    "vuepress-theme-plume": "1.0.0-rc.105"
+    "vuepress-theme-plume": "1.0.0-rc.111"
   },
   "dependencies": {
-    "mermaid": "^11.2.1"
+    "mermaid": "^11.3.0"
   }
 }

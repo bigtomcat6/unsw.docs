@@ -40,7 +40,11 @@ export default plumeTheme({
     markdownPower: {
       icons: true,
       imageSize: true, // 图片优化 (rc.98试验性)
+    },
+    shiki: {
+      languages: ["mermaid","java","bash","json","c","markdown","python","asm","matlab"],
     }
+
   },
   
 });
