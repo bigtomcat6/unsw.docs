@@ -5,5 +5,6 @@ export default {
   tutorial: 'streamline:group-meeting-call',
   project: 'fluent-mdl2:assessment-group',
   lab: 'icomoon-free:lab',
-  ed: 'mdi:book-open'
+  ed: 'mdi:book-open',
+  note: 'tabler:notes',
 }
