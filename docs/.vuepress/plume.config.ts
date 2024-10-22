@@ -42,7 +42,18 @@ export default plumeTheme({
       imageSize: true, // 图片优化 (rc.98试验性)
     },
     shiki: {
-      languages: ["mermaid","java","bash","json","c","markdown","python","asm","matlab"],
+      languages: [
+        'mermaid',
+        'java',
+        'bash',
+        'json',
+        'c',
+        'markdown',
+        'python',
+        'asm',
+        'matlab',
+        'vhdl',
+      ],
     }
 
   },
