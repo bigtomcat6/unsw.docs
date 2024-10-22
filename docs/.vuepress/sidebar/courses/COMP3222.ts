@@ -1,4 +1,4 @@
-import icons from "../icons";
+import icons from "../icons.js";
 
 import { defineNoteConfig } from "vuepress-theme-plume";
 
@@ -9,23 +9,26 @@ export default defineNoteConfig({
     {
       text: 'COMP3222',
       link: '/COMP3222/',
+      prefix: '/COMP3222/',
       icon: icons.current,
       // collapsed: false,
       items: [
         {
           text: 'Note',
           dir: 'Note',
-          link: '/COMP3222/Note/',
+          link: 'Note/',
+          collapsed: true,
+          items: 'auto'
         },
         {
           text: 'Lecture',
           dir: 'Lecture',
-          link: '/COMP3222/Lecture/',
+          link: 'Lecture/',
         },
         {
           text: 'Lab',
           dir: 'Lab',
-          link: '/COMP3222/Lab/',
+          link: 'Lab/',
         }
       ]
     }

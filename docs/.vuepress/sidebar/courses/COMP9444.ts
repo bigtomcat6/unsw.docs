@@ -1,4 +1,4 @@
-import icons from "../icons";
+import icons from "../icons.js";
 
 import { defineNoteConfig } from "vuepress-theme-plume";
 
