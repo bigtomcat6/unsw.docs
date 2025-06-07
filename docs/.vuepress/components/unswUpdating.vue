@@ -34,7 +34,7 @@ export default defineComponent({
     }
   },
   created() {
-    const weeks: string = formatWeeks(getWeeks(new Date('2024/09/08'), new Date()));
+    const weeks: string = formatWeeks(getWeeks(new Date('2025/06/02'), new Date()));
       if (weeks ==  '') this.showBadge = false;
       else              this.showBadge = true;
     
@@ -57,6 +57,7 @@ function getWeeks(StartDate: Date, EndDate: Date): number {
   const dateDiff = time2 - time1;
   const days = Math.floor(dateDiff / (24 * 3600 * 1000));
   const weeks = Math.ceil(days / 7);
+  console.log(`Start Date: ${date1.toISOString()}, End Date: ${date2.toISOString()}, Weeks: ${weeks}`);
   return weeks;
 }
 
