@@ -3,8 +3,8 @@
 import { plumeTheme } from 'vuepress-theme-plume'
 // import { markdownPowerPlugin } from 'vuepress-plugin-md-power'
 
-import notes from './sidebar'
-import { navbar } from './navbar'
+import notes from './sidebar/index.js'
+import { navbar } from './navbar.js'
 
 const COPYRIGHT = 'Subdocument of <a href="https://docs.bigtomcat.com/" target="_blank">How\'s Docs</a> &nbsp; <br>\
 Copyright ©2022 - 2024 <a href="https://www.bigtomcat.com/" target="_blank">How</a> <br>';
@@ -42,7 +42,18 @@ export default plumeTheme({
       imageSize: true, // 图片优化 (rc.98试验性)
     },
     shiki: {
-      languages: ["mermaid","java","bash","json","c","markdown","python","asm","matlab"],
+      languages: [
+        'mermaid',
+        'java',
+        'bash',
+        'json',
+        'c',
+        'markdown',
+        'python',
+        'asm',
+        'matlab',
+        'vhdl',
+      ],
     }
 
   },

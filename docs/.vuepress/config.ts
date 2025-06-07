@@ -8,7 +8,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 // VuePress default theme
 // import { defaultTheme } from '@vuepress/theme-default' 
 
-import theme from './plume.config'
+import theme from './plume.config.js'
 
 /**********/
 

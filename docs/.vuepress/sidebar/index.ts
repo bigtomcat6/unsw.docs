@@ -1,6 +1,6 @@
 import { defineNotesConfig, NoteItem } from 'vuepress-theme-plume';
 
-import courses from './courses';
+import courses from './courses/index.js';
 
 const Help: NoteItem = {
   dir: 'Help',
