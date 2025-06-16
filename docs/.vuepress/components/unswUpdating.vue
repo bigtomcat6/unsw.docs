@@ -54,7 +54,7 @@ function getWeeks(StartDate: Date, EndDate: Date): number {
   const time1 = date1.getTime() - getTimezoneOffsetInMs(date1); // 校正为 UTC 时间
   const time2 = date2.getTime() - getTimezoneOffsetInMs(date2); // 校正为 UTC 时间
 
-  const dateDiff = time2 - time1;
+  const dateDiff = time2 - time1 + (24 * 3600 * 1000); // +1天
   const days = Math.floor(dateDiff / (24 * 3600 * 1000));
   const weeks = Math.ceil(days / 7);
   console.log(`Start Date: ${date1.toISOString()}, End Date: ${date2.toISOString()}, Weeks: ${weeks}`);
