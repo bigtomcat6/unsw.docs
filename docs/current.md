@@ -17,7 +17,11 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='mdi:lecture' title='cgi.cse' src='https://cgi.cse.unsw.edu.au/~cs3231/'/>
 
 <HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
+
+<HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP3231/25T2'/>
 </p>
+
+- Ass1: 4pm (16:00), Jun 30 (Mon, Week 5)
 
 ## COMP3211
 
@@ -36,3 +40,5 @@ import unswUpdating from '@unswUpdating'
 <p>
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91971'/>
 </p>
+
+- Quiz1: Friday Week 3
