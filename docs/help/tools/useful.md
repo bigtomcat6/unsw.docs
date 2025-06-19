@@ -42,6 +42,11 @@ aside: false
         title="Class Timetable"
         href="https://timetable.unsw.edu.au/">
     </LinkCard>
+    <LinkCard 
+        icon="arcticons:citrix-workspace"
+        title="MyAccess"
+        href="https://myaccessunsw.cloud.com/">
+    </LinkCard>
 </CardGrid>
 
 ## UNSW Handbook 2025
