@@ -30,7 +30,7 @@ import unswUpdating from '@unswUpdating'
 
 <HButton icon='cib:discourse' title='Discourse' src='https://discourse02.cse.unsw.edu.au/25T2/COMP3211/'/>
 
-<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/mod/quiz/view.php?id=7764927'/>
+<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91896'/>
 </p>
 
 - Quizzes: Tuesday 5:00 PM
