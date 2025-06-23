@@ -18,7 +18,11 @@ import unswUpdating from '@unswUpdating'
 
 <HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
 
+<HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
+
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP3231/25T2'/>
+
+<HButton icon='tabler:circle-letter-m-filled' title='Wiki' src='https://wiki.cse.unsw.edu.au/cs3231cgi/FrontPage'/>
 </p>
 
 - Ass1: 4pm (16:00), Jun 30 (Mon, Week 5)
