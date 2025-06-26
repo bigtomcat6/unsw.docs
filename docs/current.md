@@ -18,14 +18,12 @@ import unswUpdating from '@unswUpdating'
 
 <HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
 
-<HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
-
 <HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP3231/25T2'/>
 
 <HButton icon='tabler:circle-letter-m-filled' title='Wiki' src='https://wiki.cse.unsw.edu.au/cs3231cgi/FrontPage'/>
 </p>
 
-- Ass1: 4pm (16:00), Jun 30 (Mon, Week 5)
+- Assignment 1: 4pm (16:00), Jun 30 (Mon, Week 5)
 
 ## COMP3211
 
@@ -45,4 +43,26 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91971'/>
 </p>
 
-- Quiz1: Friday Week 3
+- Quiz: Friday 	Week 3, 5, 7, 9, 11
+- Assignment 1: Thursday, July 17, 2025, by 9:00 AM (Week 7)
+
+| **Week** | **Start On** | **Finish ( Marked)**       | **Type**                |
+| -------- | ------------ | -------------------------- | ----------------------- |
+| 3        |              | 1.1                        | Preliminary Preparation |
+|          | 1.2          |                            | Experiment              |
+| 4        |              | 1.2                        | Experiment              |
+|          | 1.3          |                            | Experiment              |
+| 5        |              | 1.3                        | Experiment              |
+|          |              | 2.1                        | Preliminary Preparation |
+|          | 2.2          |                            | Experiment              |
+| 6        |              | Catch-up labs upon request |                         |
+| 7        |              | 2.2                        | Experiment              |
+|          |              | 2.3                        | Preliminary Preparation |
+|          |              | 2.3                        | Experiment              |
+| 8        |              | 2.4                        | Preliminary Preparation |
+|          |              | 2.4                        | Experiment              |
+|          |              | 2.5                        | Experiment              |
+| 9        |              | 3.1                        | Preliminary Preparation |
+|          |              | 3.2 (a)                    | Experiment              |
+| 10       |              | 3.2 (b)                    | Experiment              |
+|          |              | 3.3                        | Experiment              |
