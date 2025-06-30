@@ -23,7 +23,8 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='tabler:circle-letter-m-filled' title='Wiki' src='https://wiki.cse.unsw.edu.au/cs3231cgi/FrontPage'/>
 </p>
 
-- Assignment 1: 4pm (16:00), Jun 30 (Mon, Week 5)
+- ~~Assignment 1: 4pm (16:00), Jun 30 (Mon, Week 5)~~
+- **Assignment 2: 4pm (16:00), Jul 21 (Mon, Week 8)**
 
 ## COMP3211
 
@@ -35,7 +36,8 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91896'/>
 </p>
 
-- Quizzes: Tuesday 5:00 PM
+- **Quizzes: Tuesday 5:00 PM**
+- **Group Project: TLB class in Week 10**
 
 ## ELEC2133
 
@@ -43,8 +45,8 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91971'/>
 </p>
 
-- Quiz: Friday Week 3, 5, 7, 9, 11
-- Assignment 1: Thursday, July 17, 2025, by 9:00 AM (Week 7)
+- **Quiz: Friday Week ~~3~~, 5, 7, 9, 11**
+- **Assignment 1: Thursday, July 17, 2025, by 9:00 AM (Week 7)**
 
 | **Week** | **Start On** | **Finish (Marked)**        | **Type**                |
 | -------- | ------------ | -------------------------- | ----------------------- |
