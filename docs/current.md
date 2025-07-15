@@ -45,8 +45,8 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91971'/>
 </p>
 
-- **Quiz: Friday Week ~~3~~, 5, 7, 9, 11**
-- **Assignment 1: Thursday, July 17, 2025, by 9:00 AM (Week 7)**
+- **Quiz: Friday Week ~~3, 5~~, 7, 9, 11**
+- **Assignment 1: ~~Thursday, July 17, 2025, by 9:00 AM (Week 7)~~ Monday, July 21 at 9:00 AM (Week 8)**
 
 | **Week** | **Start On** | **Finish (Marked)**        | **Type**                |
 | -------- | ------------ | -------------------------- | ----------------------- |

@@ -47,6 +47,11 @@ aside: false
         title="MyAccess"
         href="https://myaccessunsw.cloud.com/">
     </LinkCard>
+    <LinkCard 
+        icon="/unsw.ico"
+        title="CSE VLAB Gateway"
+        href="https://vlabgateway.cse.unsw.edu.au/">
+    </LinkCard>
 </CardGrid>
 
 ## UNSW Handbook 2025
