@@ -11,62 +11,34 @@ import unswUpdating from '@unswUpdating'
 
 <unswUpdating />
 
-## COMP3231
+## MATH1081
 
 <p>
-<HButton icon='mdi:lecture' title='cgi.cse' src='https://cgi.cse.unsw.edu.au/~cs3231/'/>
+<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=93116'/>
 
-<HButton icon='cib:discourse' title='Discourse' src='https://discourse01.cse.unsw.edu.au/25T2/COMP3231'/>
+<HButton icon='mdi:lecture' title='Lecture' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082058&triggerview=0'/>
 
-<HButton icon='vscode-icons:file-type-gitlab' title='GitLab' src='https://nw-syd-gitlab.cseunsw.tech/COMP3231/25T2'/>
+- **[Week 1 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082158&triggerview=0) (Due Wednesday 5pm Week2)**
 
-<HButton icon='tabler:circle-letter-m-filled' title='Wiki' src='https://wiki.cse.unsw.edu.au/cs3231cgi/FrontPage'/>
 </p>
 
-- ~~Assignment 1: 4pm (16:00), Jun 30 (Mon, Week 5)~~
-- ~~Assignment 2: 4pm (16:00), Jul 21 (Mon, Week 8)~~
-- **Assignment 3: 4pm (16:00), Aug 11 (Mon, Week 11)**
-
-## COMP3211
+## COMP4920
 
 <p>
-<HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/COMP3211/25T2/resources/111424'/>
+<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=94334'/>
 
-<HButton icon='cib:discourse' title='Discourse' src='https://discourse02.cse.unsw.edu.au/25T2/COMP3211/'/>
+<HButton img='/webcms3.ico' title='WebCMS3' src='https://webcms3.cse.unsw.edu.au/COMP4920/25T3/'/>
 
-<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91896'/>
+<HButton icon='cib:discourse' title='Discourse' src='https://discourse02.cse.unsw.edu.au/25T3/COMP4920/'/>
+
 </p>
 
-- **Quizzes: Tuesday 5:00 PM**
-- **Group Project: TLB class in Week 10**
+- **[First Essay](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=8072521) - Due 3 Oct 2025 - 17:00 (Week3 Friday)**
 
-## ELEC2133
+## COMP3421
 
 <p>
-<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=91971'/>
+<HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=94326'/>
 </p>
 
-- **Quiz: Friday Week ~~3, 5, 7~~, 9, 11**
-- ~~Assignment 1:~~ ~~Thursday, July 17, 2025, by 9:00 AM (Week 7)~~ ~~Monday, July 21 at 9:00 AM (Week 8)~~
-- **Assignment 2: Monday, August 11, 2025, by 9:00 AM (Week 11)**
-
-| **Week** | **Start On** | **Finish (Marked)**        | **Type**                |
-| -------- | ------------ | -------------------------- | ----------------------- |
-| 3        |              | ~~1.1~~                       | Preliminary Preparation |
-|          | 1.2          |                            | Experiment              |
-| 4        |              | ~~1.2~~                        | Experiment              |
-|          | 1.3          |                            | Experiment              |
-| 5        |              | ~~1.3~~                        | Experiment              |
-|          |              | ~~2.1~~                        | Preliminary Preparation |
-|          | 2.2          |                            | Experiment              |
-| 6        |              | ~~Catch-up labs upon request~~ |                         |
-| 7        |              | ~~2.2~~                        | Experiment              |
-|          |              | ~~2.3~~                        | Preliminary Preparation |
-|          |              | ~~2.3~~                        | Experiment              |
-| 8        |              | ~~2.4~~                        | Preliminary Preparation |
-|          |              | ~~2.4~~                        | Experiment              |
-|          |              | ~~2.5~~                        | Experiment              |
-| 9        |              | 3.1                        | Preliminary Preparation |
-|          |              | 3.2 (a)                    | Experiment              |
-| 10       |              | 3.2 (b)                    | Experiment              |
-|          |              | 3.3                        | Experiment              |
+- **Proposal - Group - Due 10 October @ 23:59 (Week 4 Friday)**

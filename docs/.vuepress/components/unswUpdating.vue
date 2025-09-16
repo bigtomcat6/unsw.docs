@@ -34,7 +34,7 @@ export default defineComponent({
     }
   },
   created() {
-    const weeks: string = formatWeeks(getWeeks(new Date('2025/06/02'), new Date()));
+    const weeks: string = formatWeeks(getWeeks(new Date('2025/09/15'), new Date()));
       if (weeks ==  '') this.showBadge = false;
       else              this.showBadge = true;
     
