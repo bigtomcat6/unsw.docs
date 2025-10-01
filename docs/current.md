@@ -20,7 +20,8 @@ import unswUpdating from '@unswUpdating'
 </p>
 
 - ~~[Week 1 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082158&triggerview=0) (Due Wednesday 5pm Week2)~~
-- **[Week 2 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082159&triggerview=0) (Due Wednesday 5pm Week3)**
+- ~~[Week 2 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082159&triggerview=0) (Due Wednesday 5pm Week3)~~
+- **[Week 3 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082160&triggerview=0) (Due Wednesday 5pm Week4)**
 
 ## COMP4920
 
