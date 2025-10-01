@@ -17,6 +17,8 @@ import unswUpdating from '@unswUpdating'
 <HButton icon='devicon:moodle' title='Moodle' src='https://moodle.telt.unsw.edu.au/course/view.php?id=93116'/>
 
 <HButton icon='mdi:lecture' title='Lecture' src='https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082058&triggerview=0'/>
+
+<HButton  title='Desmos' src='https://desmos.com/scientific'/>
 </p>
 
 - ~~[Week 1 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082158&triggerview=0) (Due Wednesday 5pm Week2)~~
