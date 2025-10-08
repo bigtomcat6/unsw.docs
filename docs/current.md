@@ -23,7 +23,9 @@ import unswUpdating from '@unswUpdating'
 
 - ~~[Week 1 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082158&triggerview=0) (Due Wednesday 5pm Week2)~~
 - ~~[Week 2 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082159&triggerview=0) (Due Wednesday 5pm Week3)~~
-- **[Week 3 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082160&triggerview=0) (Due Wednesday 5pm Week4)**
+- ~~[Week 3 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082160&triggerview=0) (Due Wednesday 5pm Week4)~~
+- **[Week 4 Numbas Lesson](https://moodle.telt.unsw.edu.au/mod/lti/launch.php?id=8082161&triggerview=0) (Due Wednesday 5pm Week5)**
+- **[Assignment 1 Draft](https://moodle.telt.unsw.edu.au/mod/lti/view.php?id=8082177) - Due 16 October @ 5pm (Week 5 Thursday)**
 
 ## COMP4920
 
@@ -36,7 +38,9 @@ import unswUpdating from '@unswUpdating'
 
 </p>
 
-- **[First Essay](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=8072521) - Due 3 Oct 2025 - 17:00 (Week3 Friday)**
+- ~~[First Essay](https://moodle.telt.unsw.edu.au/mod/turnitintooltwo/view.php?id=8072521) - Due 3 Oct 2025 - 17:00 (Week3 Friday)~~
+- **Oral Presentation - Week 7 - Monday (27/10/2025 09:00)**
+- Written Report - Week 8 - Friday (7/11/2025 17:00)
 
 ## COMP3421
 
